@@ -1,6 +1,6 @@
 # Brazilian Portuguese (português do Brasil) Magento2 Language Pack (pt_BR)
 This is a Language Pack generated from the [official Magento2 translations project](https://crowdin.com/project/magento-2) at [Crowdin](https://crowdin.com).
-The Brazilian Portuguese (português do Brasil) translations used can be found [here](https://crowdin.com/project/magento-2/pt).
+The Brazilian Portuguese (português do Brasil) translations used can be found [here](https://crowdin.com/project/magento-2/pt-BR).
 This translation is usefull for people living in the Brazil (Brasil).
 
 For our other language packs look at the [Magento2Translations](http://magento2translations.github.io/) page.
@@ -25,3 +25,8 @@ To use this language pack login to your admin panel and goto `Stores -> Configur
 
 # Contribute
 To help push the '*Brazilian Portuguese (português do Brasil) Magento2 Language Pack (pt_BR)*' forward please goto [this](https://crowdin.com/project/magento-2/pt) crowdin page and translate the lines.
+
+# Authors
+The translations are done by the [official Magento2 translations project](https://crowdin.com/project/magento-2).
+
+Code generation is sponsored by [Wijzijn.Guru](http://www.wijzijn.guru/).
