@@ -2875,6 +2875,7 @@ None,Nenhum,module,Magento_Usps
 "Add Tax","Adicionar Imposto",module,Magento_Weee
 "Delete Tax","Remover Imposto",module,Magento_Weee
 "All Websites","Todos os sites",module,Magento_Weee
+"We found a duplicate of website, country and state fields for a fixed product tax","Nós encontramos uma duplicata nos campos de website, país e estado para a taxa de produto fixada",module,Magento_Weee
 Tax,Taxa,module,Magento_Weee
 Action,Ação,module,Magento_Weee
 "Widget Insertion","Inserção de Widget",module,Magento_Widget
