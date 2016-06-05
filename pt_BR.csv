@@ -3617,7 +3617,7 @@ Role,Função,module,Magento_User
 "Please specify the correct account and try again.","Por favor, especifique a conta correta e tente novamente.",module,Magento_User
 "Your password reset link has expired.","Seu link de redefinição de senha expirou.",module,Magento_User
 "Please correct this email address:","Por favor, corrija este endereço de e-mail:",module,Magento_User
-"Please enter an email address.","Por favor, preencha um endereço de e-mail.",module,Magento_User
+"Please enter an email address.","Por favor insira um endereço de e-mail.",module,Magento_User
 "You updated your password.","Você atualizou sua senha.",module,Magento_User
 "Locked Users","Usuários Bloqueados",module,Magento_User
 "Unlocked %1 user(s).","%1 usuario(s) desbloqueado(s).",module,Magento_User
