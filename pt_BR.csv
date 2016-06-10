@@ -2205,6 +2205,7 @@ Continue,Próximo,module,Magento_ImportExport
 "Indexer Management","Gerenciador de Índices",module,Magento_Indexer
 "Update by Schedule","Atualizar por Agenda",module,Magento_Indexer
 "Update on Save","Atualizar ao salvar",module,Magento_Indexer
+"Reindex required","Reindexação necessária",module,Magento_Indexer
 Ready,Pronto,module,Magento_Indexer
 Processing,Processando,module,Magento_Indexer
 Never,Nunca,module,Magento_Indexer
@@ -3905,6 +3906,7 @@ Done,Concluir,module,Magento_ConfigurableProduct
 "Are you sure you want to do this?","Você tem que deseja fazer isso?",module,Magento_Customer
 "Are you sure you want to delete this address?","Você tem certeza que deseja excluir este endereço?",module,Magento_Customer
 "We could not detect a size.","Não foi possível detectar o tamanho.",module,Magento_Downloadable
+"Add Products to Group","Adicionar Produtos ao Grupo",module,Magento_GroupedProduct
 Allow,Permitir,module,Magento_Integration
 Done,Concluir,module,Magento_Integration
 "Please choose a payment method.","Por favor, escolha um método de pagamento.",module,Magento_Multishipping
@@ -4242,6 +4244,7 @@ Debug,Depurar/Debug,module,Magento_Fedex
 Enable,Habilitado,module,Magento_GoogleAdwords
 "Conversion ID","ID de conversão",module,Magento_GoogleAdwords
 Enable,Habilitado,module,Magento_GoogleAnalytics
+"Account Number","Número da Conta",module,Magento_GoogleAnalytics
 User,Usuário,module,Magento_ImportExport
 "Error File","Arquivo de erro",module,Magento_ImportExport
 "Execution Time","Tempo de execução",module,Magento_ImportExport
@@ -4410,6 +4413,8 @@ Configuration,Configuração,module,Magento_Store
 "Catalog Prices","Catálogo de preços",module,Magento_Tax
 "Apply Tax On","Aplicar o imposto sobre",module,Magento_Tax
 "Default State","Estado padrão",module,Magento_Tax
+"Price Display Settings","Configurações de exibição do preço",module,Magento_Tax
+"Shopping Cart Display Settings","Definições de visualização do carrinho de compras",module,Magento_Tax
 "Display Prices","Exibir preços",module,Magento_Tax
 "Display Subtotal","Exibir o Subtotal",module,Magento_Tax
 State/Region,Estado/região,module,Magento_Tax
