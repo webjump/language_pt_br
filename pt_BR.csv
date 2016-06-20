@@ -3556,18 +3556,32 @@ Themes,Temas,module,Magento_Theme
 "Are you sure you want to delete this theme?","Você tem certeza que deseja excluir este tema?",module,Magento_Theme
 "Theme: %1","Tema: %1",module,Magento_Theme
 "New Theme","Novo tema",module,Magento_Theme
+"Theme CSS","Tema CSS",module,Magento_Theme
+"Theme CSS Assets","Arquivos CSS do Tema",module,Magento_Theme
 "Custom CSS","CSS personalizado",module,Magento_Theme
+"Select CSS File to Upload","Selecionar Arquivo CSS para Upload",module,Magento_Theme
+"Upload CSS File","Upload de arquivo CSS",module,Magento_Theme
+"Download CSS File","Baixar arquivo CSS",module,Magento_Theme
 Manage,Gerenciar,module,Magento_Theme
 "Upload Images","Carregar Imagens",module,Magento_Theme
+"Images Assets","Arquivos de Imagem",module,Magento_Theme
 "Upload Fonts","Carregar fontes",module,Magento_Theme
+"Fonts Assets","Arquivos de fontes",module,Magento_Theme
 "Edit custom.css","Editar custom.css",module,Magento_Theme
 "Allowed file types *.css.","Permitido os tipos de arquivo *.css.",module,Magento_Theme
+"Max file size to upload %1M","Tamanho máximo do arquivo para upload %1M",module,Magento_Theme
+"Something is wrong with the file upload settings.","Algo está errado com as configurações de upload de arquivo.",module,Magento_Theme
 "CSS Editor","Editor de CSS",module,Magento_Theme
 "Theme Settings","Configurações de tema",module,Magento_Theme
+"Parent Theme","Tema Principal",module,Magento_Theme
 "Theme Path","Caminho do tema",module,Magento_Theme
 "Theme Title","Título do tema",module,Magento_Theme
+"Theme Preview Image","Imagem de Pré-visualização do Tema",module,Magento_Theme
 General,Geral,module,Magento_Theme
 "Copy of %1","Cópia de %1",module,Magento_Theme
+"Max image size %1M","Tamanho máx de imagem %1M",module,Magento_Theme
+"Theme JavaScript","Tema JavaScript",module,Magento_Theme
+"Select JS Files to Upload","Selecione arquivos JS para Upload",module,Magento_Theme
 Theme,Tema,module,Magento_Theme
 "Media Storage","Armazenamento de Mídia",module,Magento_Theme
 "Delete Folder","Apagar Pasta",module,Magento_Theme
@@ -3604,6 +3618,8 @@ Minute,Minuto,module,Magento_Theme
 Next,Próximo,module,Magento_Ui
 Back,Voltar,module,Magento_Ui
 Cancel,Cancelar,module,Magento_Ui
+"UPS Next Day Air","UPS Proximo Dia Aéreo",module,Magento_Ups
+"UPS Second Day Air","UPS Dois Dias Aéreo",module,Magento_Ups
 Ground,Terreno,module,Magento_Ups
 Pounds,Libras,module,Magento_Ups
 Kilograms,Quilogramas,module,Magento_Ups
@@ -3612,6 +3628,7 @@ Kilograms,Quilogramas,module,Magento_Ups
 None,Nenhum,module,Magento_Ups
 label,rótulo,module,Magento_Ups
 "Edit URL Rewrite for a Category","Editar Reescrita de URL para uma Categoria",module,Magento_UrlRewrite
+"Add URL Rewrite for a Category","Adicionar Reescrita de URL para uma Categoria",module,Magento_UrlRewrite
 Category:,Categoria:,module,Magento_UrlRewrite
 Name,Nome,module,Magento_UrlRewrite
 Title,Título,module,Magento_UrlRewrite
@@ -3726,6 +3743,8 @@ All,Todos,module,Magento_User
 Resources,Recursos,module,Magento_User
 "Warning!\r\nThis action will remove this user from already assigned role\r\nAre you sure?","Aviso! \r\nEsta ação irá remover permissões já atribuídas a este usuário.\r\nTem certeza?",module,Magento_User
 "Warning!\r\nThis action will remove those users from already assigned roles\r\nAre you sure?","Aviso! \r\nEsta ação irá remover permissões já atribuídas a estes usuários.\r\nTem certeza?",module,Magento_User
+"First-Class Mail Large Envelope","Correio por Primeira Classe Envelope Grande",module,Magento_Usps
+"First-Class Mail Letter","Carta de Correio tipo Primeira Classe",module,Magento_Usps
 "First-Class Mail Parcel","Parcela de First-Class Mail",module,Magento_Usps
 Variable,Variável,module,Magento_Usps
 Yes,Sim,module,Magento_Usps
@@ -4543,6 +4562,7 @@ Debug,Depurar/Debug,module,Magento_Usps
 "Sort Order",Ordernação,module,Magento_Usps
 "Variable ID","Variável ID",module,Magento_Variable
 Name,Nome,module,Magento_Variable
+"Web API Security","Segurança de Web API",module,Magento_WebapiSecurity
 "Orders and Returns","Pedidos e Devoluções",module,Magento_Widget
 Product,Produto,module,Magento_Widget
 Conditions,Condições,module,Magento_Widget
