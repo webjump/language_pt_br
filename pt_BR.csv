@@ -3990,19 +3990,33 @@ Themes,Temas,module,Magento_Theme
 "Are you sure you want to delete this theme?","Você tem certeza que deseja excluir este tema?",module,Magento_Theme
 "Theme: %1","Tema: %1",module,Magento_Theme
 "New Theme","Novo tema",module,Magento_Theme
+"Theme CSS","Tema CSS",module,Magento_Theme
+"Theme CSS Assets","Arquivos CSS do Tema",module,Magento_Theme
 "Custom CSS","CSS personalizado",module,Magento_Theme
+"Select CSS File to Upload","Selecionar Arquivo CSS para Upload",module,Magento_Theme
+"Upload CSS File","Upload de arquivo CSS",module,Magento_Theme
+"Download CSS File","Baixar arquivo CSS",module,Magento_Theme
 Manage,Gerenciar,module,Magento_Theme
 "Upload Images","Carregar Imagens",module,Magento_Theme
+"Images Assets","Arquivos de Imagem",module,Magento_Theme
 "Upload Fonts","Carregar fontes",module,Magento_Theme
+"Fonts Assets","Arquivos de fontes",module,Magento_Theme
 "Edit custom.css","Editar custom.css",module,Magento_Theme
 "Allowed file types *.css.","Permitido os tipos de arquivo *.css.",module,Magento_Theme
 "This file will replace the current custom.css file and can't be more than 2 MB.","Esse arquivo vai substituir o arquivo custom.css atual e não pode ser maior que 2 MB.",module,Magento_Theme
+"Max file size to upload %1M","Tamanho máximo do arquivo para upload %1M",module,Magento_Theme
+"Something is wrong with the file upload settings.","Algo está errado com as configurações de upload de arquivo.",module,Magento_Theme
 "CSS Editor","Editor de CSS",module,Magento_Theme
 "Theme Settings","Configurações de tema",module,Magento_Theme
+"Parent Theme","Tema Principal",module,Magento_Theme
 "Theme Path","Caminho do tema",module,Magento_Theme
 "Theme Title","Título do tema",module,Magento_Theme
+"Theme Preview Image","Imagem de Pré-visualização do Tema",module,Magento_Theme
 General,Geral,module,Magento_Theme
 "Copy of %1","Cópia de %1",module,Magento_Theme
+"Max image size %1M","Tamanho máx de imagem %1M",module,Magento_Theme
+"Theme JavaScript","Tema JavaScript",module,Magento_Theme
+"Select JS Files to Upload","Selecione arquivos JS para Upload",module,Magento_Theme
 Theme,Tema,module,Magento_Theme
 "Media Storage","Armazenamento de Mídia",module,Magento_Theme
 "Delete Folder","Apagar Pasta",module,Magento_Theme
@@ -4032,6 +4046,7 @@ Remove,Remover,module,Magento_Theme
 "Report All Bugs","Reportar todos os Bugs",module,Magento_Theme
 Page,Página,module,Magento_Theme
 Previous,Anterior,module,Magento_Theme
+"You're currently reading page","Você esta lendo a pagina",module,Magento_Theme
 Next,Próximo,module,Magento_Theme
 Show,Mostrar,module,Magento_Theme
 "per page","por página",module,Magento_Theme
@@ -4051,15 +4066,20 @@ Minute,Minuto,module,Magento_Theme
 Next,Próximo,module,Magento_Ui
 Back,Voltar,module,Magento_Ui
 Cancel,Cancelar,module,Magento_Ui
+"UPS Next Day Air","UPS Proximo Dia Aéreo",module,Magento_Ups
+"UPS Second Day Air","UPS Dois Dias Aéreo",module,Magento_Ups
 Ground,Terreno,module,Magento_Ups
 Pounds,Libras,module,Magento_Ups
 Kilograms,Quilogramas,module,Magento_Ups
+"Sorry, something went wrong. Please try again or contact us and we'll try to help.","Desculpe, Algo deu errado. Por favor tente novamente ou entre em contato conosco e tentaremos ajudar.",module,Magento_Ups
 "Empty response","Nenhuma resposta",module,Magento_Ups
 "Not Required","Não é necessário",module,Magento_Ups
 None,Nenhum,module,Magento_Ups
 label,rótulo,module,Magento_Ups
 "Edit URL Rewrite for a Category","Editar Reescrita de URL para uma Categoria",module,Magento_UrlRewrite
+"Add URL Rewrite for a Category","Adicionar Reescrita de URL para uma Categoria",module,Magento_UrlRewrite
 Category:,Categoria:,module,Magento_UrlRewrite
+"We can't set up a URL rewrite because the product you chose is not associated with a website.","Não foi possível configurar a reescrita de URL porque o produto que você escolheu não está associado à um website.",module,Magento_UrlRewrite
 Name,Nome,module,Magento_UrlRewrite
 Title,Título,module,Magento_UrlRewrite
 "URL Key","Chave URL",module,Magento_UrlRewrite
@@ -4073,6 +4093,7 @@ Save,Salvar,module,Magento_UrlRewrite
 Description,Descrição,module,Magento_UrlRewrite
 Store,Loja,module,Magento_UrlRewrite
 Custom,Personalizado,module,Magento_UrlRewrite
+"We can't delete URL Rewrite right now.","Nós não é possível excluir a URL Reescrita agora.",module,Magento_UrlRewrite
 No,Não,module,Magento_UrlRewrite
 "URL key for specified store already exists.","A chave de URL para loja especificada já existe.",module,Magento_UrlRewrite
 "Select Category","Selecionar categoria",module,Magento_UrlRewrite
@@ -4178,6 +4199,8 @@ All,Todos,module,Magento_User
 Resources,Recursos,module,Magento_User
 "Warning!\r\nThis action will remove this user from already assigned role\r\nAre you sure?","Aviso! \r\nEsta ação irá remover permissões já atribuídas a este usuário.\r\nTem certeza?",module,Magento_User
 "Warning!\r\nThis action will remove those users from already assigned roles\r\nAre you sure?","Aviso! \r\nEsta ação irá remover permissões já atribuídas a estes usuários.\r\nTem certeza?",module,Magento_User
+"First-Class Mail Large Envelope","Correio por Primeira Classe Envelope Grande",module,Magento_Usps
+"First-Class Mail Letter","Carta de Correio tipo Primeira Classe",module,Magento_Usps
 "First-Class Mail Parcel","Parcela de First-Class Mail",module,Magento_Usps
 Variable,Variável,module,Magento_Usps
 Yes,Sim,module,Magento_Usps
@@ -4185,6 +4208,7 @@ No,Não,module,Magento_Usps
 "Not Required","Não é necessário",module,Magento_Usps
 Required,Obrigatório,module,Magento_Usps
 "For some reason we can't retrieve tracking info right now.","Por alguma razão não é possível recuperar informação de rastreamento agora.",module,Magento_Usps
+"Sorry, something went wrong. Please try again or contact us and we'll try to help.","Desculpa, algo deu errado. Por favor tente novamente ou contato conosco e nós tentaremos ajudar.",module,Magento_Usps
 "Empty response","Nenhuma resposta",module,Magento_Usps
 Sample,Exemplo,module,Magento_Usps
 Documents,Documentos,module,Magento_Usps
@@ -4209,7 +4233,10 @@ Yes,Sim,module,Magento_Variable
 "Validation has failed.","Ocorreu uma falha na validação.",module,Magento_Variable
 "Insert Variable...","Inserir variável...",module,Magento_Variable
 "Operation allowed only in HTTPS","Operação permitida somente em HTTPS",module,Magento_Webapi
+"Cannot perform GET operation with store code 'all'","Não é possível executar o pedido GET com o código de loja 'all'",module,Magento_Webapi
 "Request does not match any route.","O pedido não corresponde a nenhuma rota. (URL inválido)",module,Magento_Webapi
+"Authentication header format is invalid.","O formato do cabeçalho de autenticação é inválido.",module,Magento_Webapi
+"Authentication header is absent.","O Cabeçalho de autenticação está ausente.",module,Magento_Webapi
 message,mensagem,module,Magento_Webapi
 Message,Mensagem,module,Magento_Webapi
 "Add Tax","Adicionar Imposto",module,Magento_Weee
@@ -5026,6 +5053,7 @@ Empty,Vazio,module,Magento_Theme
 "1 column","1 coluna",module,Magento_Theme
 "HTML Head","Cabeçalho HTML",module,Magento_Theme
 "Favicon Icon","Ícone Favicon",module,Magento_Theme
+"Allowed file types: ICO, PNG, GIF, JPG, JPEG, APNG, SVG. Not all browsers support all these formats!","Tipos de arquivos permitidos: ICO, PNG, GIF, JPG, JPEG, APNG, SVG. Nem todos os navegadores suportam todos estes formatos!",module,Magento_Theme
 "Default Title","Título padrão",module,Magento_Theme
 "Title Prefix","Prefixo do título",module,Magento_Theme
 "Title Suffix","Sufixo do título",module,Magento_Theme
@@ -5046,6 +5074,7 @@ Header,Cabeçalho,module,Magento_Theme
 Footer,Rodapé,module,Magento_Theme
 Copyright,"Direitos autorais",module,Magento_Theme
 "Miscellaneous HTML","HTML Diversos",module,Magento_Theme
+"This will be displayed just before body closing tag.","Isto será exibido antes do fechamento da etiqueta.",module,Magento_Theme
 "Default welcome msg!","Mensagem padrão de boas-vindas!",module,Magento_Theme
 "Copyright © 2015 Magento. All rights reserved.","Copyright © Magento 2015. Todos os direitos reservados.",module,Magento_Theme
 "Admin empty","Admin vazio",module,Magento_Theme
@@ -5063,6 +5092,7 @@ Action,Ação,module,Magento_Ui
 Password,Senha,module,Magento_Ups
 "Sort Order",Ordernação,module,Magento_Ups
 Title,Título,module,Magento_Ups
+"Live account","Conta Live",module,Magento_Ups
 "User ID","ID de Usuário",module,Magento_Ups
 "Shipper Number","Número do remetente",module,Magento_Ups
 Mode,Modo,module,Magento_Ups
@@ -5093,6 +5123,7 @@ Debug,Depurar/Debug,module,Magento_Usps
 "Sort Order",Ordernação,module,Magento_Usps
 "Variable ID","Variável ID",module,Magento_Variable
 Name,Nome,module,Magento_Variable
+"REST and SOAP configurations, generated WSDL file.","Configurações REST e SOAP, ficheiro WSDL gerado.",module,Magento_Webapi
 "Orders and Returns","Pedidos e Devoluções",module,Magento_Widget
 Product,Produto,module,Magento_Widget
 Conditions,Condições,module,Magento_Widget
