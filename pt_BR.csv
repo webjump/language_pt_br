@@ -2840,7 +2840,7 @@ No,Não,module,Magento_UrlRewrite
 Back,Voltar,module,Magento_User
 Reset,Reiniciar,module,Magento_User
 "Delete Role","Apagar Permissão",module,Magento_User
-"Are you sure you want to do this?","Você tem que deseja fazer isso?",module,Magento_User
+"Are you sure you want to do this?","Você tem certeza que deseja fazer isso?",module,Magento_User
 "Save Role","Salvar Permissão",module,Magento_User
 Roles,Permissões,module,Magento_User
 "Add New Role","Adicionar Nova Permissão",module,Magento_User
