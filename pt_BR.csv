@@ -4100,7 +4100,7 @@ No,Não,module,Magento_UrlRewrite
 Back,Voltar,module,Magento_User
 Reset,Reiniciar,module,Magento_User
 "Delete Role","Apagar Permissão",module,Magento_User
-"Are you sure you want to do this?","Você tem que deseja fazer isso?",module,Magento_User
+"Are you sure you want to do this?","Você tem certeza que deseja fazer isso?",module,Magento_User
 "Save Role","Salvar Permissão",module,Magento_User
 Roles,Permissões,module,Magento_User
 "Add New Role","Adicionar Nova Permissão",module,Magento_User
@@ -4813,7 +4813,7 @@ Addresses,Endereços,module,Magento_Customer
 "Edit Account Information","Editar informações da conta",module,Magento_Customer
 "Password forgotten","Esqueci a senha",module,Magento_Customer
 "My Dashboard","Meu painel de controle",module,Magento_Customer
-"You are signed out.","Você esta desconectado.",module,Magento_Customer
+"You are signed out.","Você está desconectado.",module,Magento_Customer
 "Front-end development workflow","Fluxo de trabalho de desenvolvimento de front-end",module,Magento_Developer
 "Not available in production mode","Não disponível em modo de produção",module,Magento_Developer
 "Allowed IPs (comma separated)","IPs Permitidos (separados por vírgula)",module,Magento_Developer
