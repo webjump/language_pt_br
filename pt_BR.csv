@@ -574,6 +574,7 @@ label,rótulo,module,Magento_Catalog
 "Product Attributes","Atributos de Produto",module,Magento_Catalog
 "Add New Attribute","Adicionar Novo Atributo",module,Magento_Catalog
 "Save in New Attribute Set","Salvar no novo atributo",module,Magento_Catalog
+"Enter Name for New Attribute Set","Insira o Nome para o Novo Conjunto de Atributos",module,Magento_Catalog
 "Save and Continue Edit","Salvar e Continuar a Editar",module,Magento_Catalog
 "Save Attribute","Salvar Atributo",module,Magento_Catalog
 "Delete Attribute","Excluir Atributo",module,Magento_Catalog
@@ -618,12 +619,15 @@ Back,Voltar,module,Magento_Catalog
 Delete,Excluir,module,Magento_Catalog
 Save,Salvar,module,Magento_Catalog
 "New Set Name","Novo Nome do Conjunto",module,Magento_Catalog
+"Edit Attribute Set '%1'","Editar Conjunto de Atributos '%1'",module,Magento_Catalog
 Empty,Vazio,module,Magento_Catalog
 "Add Attribute","Adicionar Atributo",module,Magento_Catalog
 "Add New Group","Adicionar Novo Grupo",module,Magento_Catalog
 "Add Group","Adicionar Grupo",module,Magento_Catalog
 "For internal use","Para uso interno",module,Magento_Catalog
 "Based On","Com Base Na",module,Magento_Catalog
+"Add New Attribute Set","Adicionar Novo Conjunto de Atributos",module,Magento_Catalog
+"Attribute Sets","Conjuntos de Atributo",module,Magento_Catalog
 "Close Window","Fechar Janela",module,Magento_Catalog
 "New Product","Novo Produto",module,Magento_Catalog
 "Save & Edit","Salvar e Editar",module,Magento_Catalog
@@ -659,6 +663,7 @@ Import,Importar,module,Magento_Catalog
 "Default Price","Preço Padrão",module,Magento_Catalog
 "All Websites","Todos os sites",module,Magento_Catalog
 "ALL GROUPS","TODOS OS GRUPOS",module,Magento_Catalog
+"Add Price","Adicionar Preço",module,Magento_Catalog
 "Default Values","Valor Padrão",module,Magento_Catalog
 "Related Products","Produtos Relacionados",module,Magento_Catalog
 "Size for %1","Tamanho de %1",module,Magento_Catalog
@@ -678,6 +683,7 @@ Hidden,Oculto,module,Magento_Catalog
 "Images (.gif, .jpg, .png)","Imagens (. gif,. jpg,. png)",module,Magento_Catalog
 "Add New Images","Adicionar Nova Imagem",module,Magento_Catalog
 "Inc. Tax","Inc. Impostos",module,Magento_Catalog
+"Does this have a weight?","Este artigo tem um peso associado?",module,Magento_Catalog
 Product,Produto,module,Magento_Catalog
 "Notify Low Stock RSS","Notificar baixo estoque via RSS",module,Magento_Catalog
 "Go to Home Page","Ir para a página inicial",module,Magento_Catalog
@@ -717,8 +723,13 @@ Products,Produtos,module,Magento_Catalog
 "Unable to save product","Não foi possível salvar o produto",module,Magento_Catalog
 "You saved the product.","Você salvou o produto.",module,Magento_Catalog
 "SKU for product %1 has been changed to %2.","SKU do produto %1 foi alterado para %2.",module,Magento_Catalog
+"New Attribute Set","Novo Conjunto de Atributos",module,Magento_Catalog
+"The attribute set has been removed.","O conjunto de atributos foi removido.",module,Magento_Catalog
 "New Set","Novo Conjunto",module,Magento_Catalog
 "Manage Product Sets","Gerenciar Conjuntos de Produtos",module,Magento_Catalog
+"Manage Attribute Sets","Gerenciar Conjuntos de Atributos",module,Magento_Catalog
+"This attribute set no longer exists.","Este conjunto de atributos não existe mais.",module,Magento_Catalog
+"You saved the attribute set.","Conjunto de atributos salvo.",module,Magento_Catalog
 "You added product %1 to the comparison list.","Você adicionou o produto %1 à lista de comparação.",module,Magento_Catalog
 "You cleared the comparison list.","Você limpou a lista de comparação.",module,Magento_Catalog
 "Something went wrong  clearing the comparison list.","Algo deu errado ao limpar a lista de comparação.",module,Magento_Catalog
@@ -789,6 +800,7 @@ Disabled,Desabilitado,module,Magento_Catalog
 "The file '%1' for '%2' has an invalid extension.","O arquivo '%1' para '%2' tem uma extensão inválida.",module,Magento_Catalog
 "The file '%1' you uploaded is larger than the %2 megabytes allowed by our server.","O arquivo '%1' você carregou é maior do que o %2 megabytes permitidos pelo nosso servidor.",module,Magento_Catalog
 "The file you uploaded is larger than %1 Megabytes allowed by server","O arquivo que você carregou é maior do que %1 Megabytes permitidos pelo servidor",module,Magento_Catalog
+"The file is empty. Please choose another one","O arquivo está vazio. Por favor escolha outro",module,Magento_Catalog
 "Some of the selected item options are not currently available.","Opções de itens selecionados não estão disponíveis atualmente.",module,Magento_Catalog
 "The text is too long.","O texto é muito longo.",module,Magento_Catalog
 "The file upload failed.","O carregamento do arquivo falhou.",module,Magento_Catalog
@@ -3124,16 +3136,32 @@ Rule,Regra,module,Magento_CatalogRule
 "Rebuild Catalog product fulltext search index","Reconstruir o índice de pesquisa para texto do produto",module,Magento_CatalogSearch
 "Mask for SKU","Máscara para SKU",module,Magento_Catalog
 "Use {{name}} as Product Name placeholder","Usar {{name}} como espaço reservado para o nome do produto",module,Magento_Catalog
+Storefront,"Frente de Loja",module,Magento_Catalog
 "List Mode","Modo de lista",module,Magento_Catalog
+"Products per Page on Grid Allowed Values","Valores Permitidos para o Número de Produtos por Página quando Visualizados em Grade",module,Magento_Catalog
 Comma-separated.,"Separados por vírgula.",module,Magento_Catalog
+"Products per Page on Grid Default Value","Valor pré-definido para Produtos por Página quando visto em Grade",module,Magento_Catalog
 "Must be in the allowed values list","Deve estar na lista de valores permitidos",module,Magento_Catalog
+"Products per Page on List Allowed Values","Valores Permitidos para o Número de Produtos por Página quando Visualizados em Lista",module,Magento_Catalog
+"Products per Page on List Default Value","Valor pré-definido para Produtos por Página quando visto em Lista",module,Magento_Catalog
+"Use Flat Catalog Category","Usar Categoria do Catálogo Flat",module,Magento_Catalog
+"Use Flat Catalog Product","Usar Produto do Catálogo Flat",module,Magento_Catalog
 "Product Listing Sort by","Listagem de produto, ordenar por",module,Magento_Catalog
 "Allow All Products per Page","Permitir todos os produtos por página",module,Magento_Catalog
+"Whether to show ""All"" option in the ""Show X Per Page"" dropdown","Se deve aparecer a opção ""Todos"" no menu 'mostrar X por página'",module,Magento_Catalog
+"Allow Dynamic Media URLs in Products and Categories","Permitir URLs Dinâmicas de Arquivos de Mídia em Categorias e Produtos",module,Magento_Catalog
+"E.g. {{media url=""path/to/image.jpg""}} {{skin url=""path/to/picture.gif""}}. Dynamic directives parsing impacts catalog performance.","Por exemplo, {{media url=""caminho/para/imagem""}} {{skin url=""caminho/para/imagem""}}. A análise dinâmica de diretivas têm impacto no desempenho do catálogo.",module,Magento_Catalog
 "Product Image Placeholders","Espaços reservados da imagem de produto",module,Magento_Catalog
 "Search Engine Optimization","Otimização de busca (SEO)",module,Magento_Catalog
 "Page Title Separator","Separador do título da página",module,Magento_Catalog
+"Use Canonical Link Meta Tag For Categories","Usar o Link Meta Tag Canônico para Categorias",module,Magento_Catalog
+"Use Canonical Link Meta Tag For Products","Usar o Link Meta Tag Canônico para Produtos",module,Magento_Catalog
+"Catalog Price Scope","Escopo do Preço de Catálogo",module,Magento_Catalog
+"This defines the base currency scope (""Currency Setup"" > ""Currency Options"" > ""Base Currency"").","Isto define o escopo de moeda base (""Definições de Moeda"" > ""Opções de Moeda"" > ""Moeda-Base"").",module,Magento_Catalog
 "Maximal Depth","Profundidade máxima",module,Magento_Catalog
+"Date & Time Custom Options","Opções Personalizadas de Data e Hora",module,Magento_Catalog
 "Use JavaScript Calendar","Usar calendário JavaScript",module,Magento_Catalog
+"Date Fields Order","Ordem dos Campos de Data",module,Magento_Catalog
 "Time Format","Formato de hora",module,Magento_Catalog
 "Year Range","Intervalo de ano",module,Magento_Catalog
 "Please use a four-digit year format.","Por favor, use o formato de quatro dígitos no ano.",module,Magento_Catalog
@@ -3141,17 +3169,22 @@ Comma-separated.,"Separados por vírgula.",module,Magento_Catalog
 "Watermark Opacity, Percent","Watermark opacidade, porcento",module,Magento_Catalog
 Watermark,"Marca d'água",module,Magento_Catalog
 "Watermark Position","Posição da marca d'água",module,Magento_Catalog
+"Use Static URLs for Media Content in WYSIWYG for Catalog","Usar URLs estáticas para o Conteúdo de Media no editor WYSIWYG do Catálogo",module,Magento_Catalog
+"This applies only to catalog products and categories. Media content will be inserted into the editor as a static URL. Media content is not updated if the system configuration base URL changes.","Isto aplica-se apenas às categorias e a produtos de catálogo. O conteúdo de mídia será inserido no editor como URL estática. O conteúdo de mídia não é atualizado se a URL base da configuração do sistema se alterar.",module,Magento_Catalog
 "Product Categories","Categorias de Produto",module,Magento_Catalog
 "Product Price","Preço do Produto",module,Magento_Catalog
+"Catalog New Products List","Lista de Novos Produtos do Catálogo",module,Magento_Catalog
 "List of Products that are set as New","Lista de produtos definidos como novo",module,Magento_Catalog
 "Display Type","Tipo de Exibição",module,Magento_Catalog
 "All products - recently added products, New products - products marked as new","Todos os produtos - produtos recentemente adicionados, novos produtos - produtos marcados como novo",module,Magento_Catalog
+"All products","Todos os produtos",module,Magento_Catalog
 "New products","Novos Produtos",module,Magento_Catalog
 "Display Page Control","Exibir controle de página",module,Magento_Catalog
 "Number of Products per Page","Número de produtos por página",module,Magento_Catalog
 "Number of Products to Display","Número de produtos para exibir",module,Magento_Catalog
 "New Products Grid Template","Novo modelo de grade de produtos",module,Magento_Catalog
 "New Products List Template","Novo modelo de lista de produtos",module,Magento_Catalog
+"Cache Lifetime (Seconds)","Tempo de Vida da Cache (Segundos)",module,Magento_Catalog
 "Link to a Specified Product","Link para um produto especifico",module,Magento_Catalog
 Set,Definir,module,Magento_Catalog
 "Change status","Alterar status",module,Magento_Catalog
