@@ -3166,7 +3166,7 @@ Comma-separated.,"Separados por vírgula.",module,Magento_Catalog
 "Year Range","Intervalo de ano",module,Magento_Catalog
 "Please use a four-digit year format.","Por favor, use o formato de quatro dígitos no ano.",module,Magento_Catalog
 "Watermark Default Size","Tamanho Watermark Padrão",module,Magento_Catalog
-"Watermark Opacity, Percent","Watermark opacidade, porcento",module,Magento_Catalog
+"Watermark Opacity, Percent","Opacidade da Marca D'água, porcento",module,Magento_Catalog
 Watermark,"Marca d'água",module,Magento_Catalog
 "Watermark Position","Posição da marca d'água",module,Magento_Catalog
 "Use Static URLs for Media Content in WYSIWYG for Catalog","Usar URLs estáticas para o Conteúdo de Media no editor WYSIWYG do Catálogo",module,Magento_Catalog
