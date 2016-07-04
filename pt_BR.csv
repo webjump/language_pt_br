@@ -4090,6 +4090,8 @@ Debug,Depurar/Debug,module,Magento_Backend
 "CSS Settings","Configurações de CSS",module,Magento_Backend
 "Merge CSS Files","Mesclar arquivos CSS",module,Magento_Backend
 "Minify CSS Files","Reduzir Dimensão dos Ficheiros CSS",module,Magento_Backend
+"Image Processing Settings","Definições de Processamento de Imagem",module,Magento_Backend
+"Image Adapter","Adaptador de Imagem",module,Magento_Backend
 "Locale Options","Opções de localidade",module,Magento_Backend
 Timezone,"Fuso horário",module,Magento_Backend
 Locale,Localidade,module,Magento_Backend
