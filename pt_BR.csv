@@ -3839,15 +3839,26 @@ Action,Ação,module,Magento_Weee
 "Widget Insertion","Inserção de Widget",module,Magento_Widget
 "Insert Widget","Inserir Widget",module,Magento_Widget
 label,rótulo,module,Magento_Widget
+Choose...,Escolha...,module,Magento_Widget
 Close,Fechar,module,Magento_Widget
 "Not Selected","Não selecionado",module,Magento_Widget
+"Widget Type","Tipo de Widget",module,Magento_Widget
 "-- Please Select --","-- Selecione uma opção --",module,Magento_Widget
+"Add Widget","Adicionar Widget",module,Magento_Widget
 "Save and Continue Edit","Salvar e Continuar a Editar",module,Magento_Widget
+"Page Layouts","Layout da página",module,Magento_Widget
+"Please Select Container First","Por favor, selecione o container primeiro",module,Magento_Widget
 "Storefront Properties","Propriedades da Loja",module,Magento_Widget
 Type,Tipo,module,Magento_Widget
+"Design Package/Theme","Design Tema",module,Magento_Widget
 "Sort Order",Ordernação,module,Magento_Widget
+"Layout Updates","Atualizações de Layout",module,Magento_Widget
 Categories,Categorias,module,Magento_Widget
+"Anchor Categories","Categorias âncora",module,Magento_Widget
+"Non-Anchor Categories","Categorias não âncora",module,Magento_Widget
+"All Product Types","Todos os tipos de produto",module,Magento_Widget
 Products,Produtos,module,Magento_Widget
+"Generic Pages","Páginas genéricas",module,Magento_Widget
 Settings,Configurações,module,Magento_Widget
 "Design Theme","Design do Tema",module,Magento_Widget
 Continue,Próximo,module,Magento_Widget
@@ -4692,6 +4703,7 @@ Debug,Depurar/Debug,module,Magento_Usps
 "Variable ID","Variável ID",module,Magento_Variable
 Name,Nome,module,Magento_Variable
 "Web API Security","Segurança de Web API",module,Magento_WebapiSecurity
+"Display Prices On Product View Page","Mostrar preços na página de visualização do produto",module,Magento_Weee
 "Orders and Returns","Pedidos e Devoluções",module,Magento_Widget
 Product,Produto,module,Magento_Widget
 Conditions,Condições,module,Magento_Widget
