@@ -38,6 +38,7 @@ Close,Fechar,module,Magento_AdminNotification
 "See All (","Ver Todos (",module,Magento_AdminNotification
 "Please correct the data sent.","Por favor, corrija os dados enviados.",module,Magento_AdvancedPricingImportExport
 "Entity type model '%1' is not found","Model do tipo de entidade '%1' não foi encontrado",module,Magento_AdvancedPricingImportExport
+"Entity type model must be an instance of \Magento\CatalogImportExport\Model\Export\Product\Type\AbstractType","O modelo do tipo de entidade deve ser uma instância de \Magento\CatalogImportExport\Model\Export\Product\Type\AbstractType",module,Magento_AdvancedPricingImportExport
 "There are no product types available for export","Nenhum tipo de produto está disponível para exportação",module,Magento_AdvancedPricingImportExport
 "We can't find the role for the user you wanted.","Não conseguimos encontrar a regra para o usuário que você queria.",module,Magento_Authorization
 "Something went wrong while compiling a list of allowed resources. You can find out more in the exceptions log.","Algo deu errado durante a compilação de uma lista de recursos permitidos. ' 'Você pode encontrar mais detalhes no log de exceções.",module,Magento_Authorization
@@ -2450,6 +2451,7 @@ Kilograms,Quilogramas,module,Magento_Fedex
 None,Nenhum,module,Magento_Fedex
 "Gift Messages is not applicable for empty cart","Cartões de Presentes não estão disponíveis para carrinhos vazios",module,Magento_GiftMessage
 "Gift Messages is not applicable for virtual products","Mensagens emGIfs não é aplicável para produtos virtuais",module,Magento_GiftMessage
+"Gift Message is not available","Não está disponível a Mensagem de Presente",module,Magento_GiftMessage
 "There is no item with provided id in the order or gift message isn't allowed","Não há nenhum artigo com id fornecidas na ordem ou mensagem em Gifs não é permitido",module,Magento_GiftMessage
 "There is no order with provided id or gift message isn't allowed","Não há nenhuma ordem com id fornecido ou mensagem em .Gifs não é permitido",module,Magento_GiftMessage
 "Gift Messages is not applicable for empty order","Mensagens em .Gifs não é aplicável para a ordem vazia",module,Magento_GiftMessage
@@ -2473,6 +2475,7 @@ Cancel,Cancelar,module,Magento_GiftMessage
 "You can leave this box blank if you don't want to add a gift message for the item.","Você pode deixar esta caixa vazia se você não quer adicionar uma mensagem de presente para o item.",module,Magento_GiftMessage
 Dynamic,Dinâmico,module,Magento_GoogleAdwords
 Constant,Constante,module,Magento_GoogleAdwords
+"Conversion Color value is not valid ""%1"". Please set hexadecimal 6-digit value.","O valor da Cor de Conversão ""%1"" não é válido. Por favor defina um valor de 6 dígitos hexadecimal.",module,Magento_GoogleAdwords
 "Product View Optimization","Otimização da exibição do produto",module,Magento_GoogleOptimizer
 "Page View Optimization","Otimização de exibição de página",module,Magento_GoogleOptimizer
 "Experiment Code","Código experimental",module,Magento_GoogleOptimizer
@@ -2617,6 +2620,7 @@ Database,"Banco de dados",module,Magento_MediaStorage
 "Unable to save file: %1","Não foi possível salvar o arquivo: %1",module,Magento_MediaStorage
 "To see product price, add this item to your cart. You can always remove it later.","Para ver o preço do produto, o adicione no seu carrinho. Você poderá removê-lo depois se desejar.",module,Magento_Msrp
 "See price before order confirmation.","Ver preço antes de confirmar pedido.",module,Magento_Msrp
+"On Gesture","Ao Gesto",module,Magento_Msrp
 "In Cart","No carrinho",module,Magento_Msrp
 "Use config","Usar o config",module,Magento_Msrp
 "Click for price","Clique para precificar",module,Magento_Msrp
@@ -2625,6 +2629,7 @@ Price,Preço,module,Magento_Msrp
 "Add to Cart","Adicionar ao Carrinho",module,Magento_Msrp
 "Change Billing Address","Alterar endereço de cobrança",module,Magento_Multishipping
 "Ship to Multiple Addresses","Enviar para vários endereços",module,Magento_Multishipping
+"Billing Information - %1","Informações de faturamento - %1",module,Magento_Multishipping
 "Shipping Methods","Métodos de envio",module,Magento_Multishipping
 "Edit Address","Editar o Endereço",module,Magento_Multishipping
 "Please check shipping address information.","Por favor, verifique as informações do endereço de envio.",module,Magento_Multishipping
@@ -2742,6 +2747,7 @@ Paused,Pausado,module,Magento_Newsletter
 Subscribe,Assinar,module,Magento_Newsletter
 "Make Check payable to:","Passe o cheque à ordem de:",module,Magento_OfflinePayments
 "Send Check to:","Enviar cheque para:",module,Magento_OfflinePayments
+"Purchase Order Number","Número do Pedido de Compra",module,Magento_OfflinePayments
 "Send Check to","Enviar cheque para",module,Magento_OfflinePayments
 Country,País,module,Magento_OfflineShipping
 Region/State,Região/estado,module,Magento_OfflineShipping
