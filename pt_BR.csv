@@ -1626,6 +1626,7 @@ Cancel,Cancelar,module,Magento_GiftMessage
 "Add gift options for Individual Items","Adicionar opções de presente para itens individuais",module,Magento_GiftMessage
 Dynamic,Dinâmico,module,Magento_GoogleAdwords
 Constant,Constante,module,Magento_GoogleAdwords
+"Conversion Color value is not valid ""%1"". Please set hexadecimal 6-digit value.","O valor da Cor de Conversão ""%1"" não é válido. Por favor defina um valor de 6 dígitos hexadecimal.",module,Magento_GoogleAdwords
 "Product View Optimization","Otimização da exibição do produto",module,Magento_GoogleOptimizer
 "Page View Optimization","Otimização de exibição de página",module,Magento_GoogleOptimizer
 "Experiment Code","Código experimental",module,Magento_GoogleOptimizer
@@ -1721,6 +1722,7 @@ Previous,Anterior,module,Magento_LayeredNavigation
 "Unable to save file: %1","Não foi possível salvar o arquivo: %1",module,Magento_MediaStorage
 "Change Billing Address","Alterar endereço de cobrança",module,Magento_Multishipping
 "Ship to Multiple Addresses","Enviar para vários endereços",module,Magento_Multishipping
+"Billing Information - %1","Informações de faturamento - %1",module,Magento_Multishipping
 "Shipping Methods","Métodos de envio",module,Magento_Multishipping
 "Edit Address","Editar o Endereço",module,Magento_Multishipping
 "Please check shipping address information.","Por favor, verifique as informações do endereço de envio.",module,Magento_Multishipping
@@ -1820,6 +1822,7 @@ Paused,Pausado,module,Magento_Newsletter
 Subscribe,Assinar,module,Magento_Newsletter
 "Make Check payable to:","Passe o cheque à ordem de:",module,Magento_OfflinePayments
 "Send Check to:","Enviar cheque para:",module,Magento_OfflinePayments
+"Purchase Order Number","Número do Pedido de Compra",module,Magento_OfflinePayments
 "Send Check to","Enviar cheque para",module,Magento_OfflinePayments
 Country,País,module,Magento_OfflineShipping
 Region/State,Região/estado,module,Magento_OfflineShipping
