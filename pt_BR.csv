@@ -4075,6 +4075,8 @@ Actions,Ações,module,Magento_AdminNotification
 Enabled,Habilitado,module,Magento_Authorizenet
 Title,Título,module,Magento_Authorizenet
 Debug,Depurar/Debug,module,Magento_Authorizenet
+"Credit Card Verification","Verificação do cartão de crédito",module,Magento_Authorizenet
+"Payment from Specific Countries","Pagamento a partir de Países Específicos",module,Magento_Authorizenet
 "Sort Order",Ordernação,module,Magento_Authorizenet
 Services,Serviços,module,Magento_Backend
 Advanced,Avançado,module,Magento_Backend
