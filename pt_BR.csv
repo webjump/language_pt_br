@@ -3171,11 +3171,14 @@ Close,Fechar,module,Magento_Widget
 "Manage Widget Instances","Gerir Instâncias de Widgets",module,Magento_Widget
 "Save and Continue Edit","Salvar e Continuar a Editar",module,Magento_Widget
 "New Widget Instance","Nova Instância de Widget",module,Magento_Widget
+"Custom Layouts","Layouts Personalizados",module,Magento_Widget
 "Page Layouts","Layout da página",module,Magento_Widget
 "Please Select Container First","Por favor, selecione o container primeiro",module,Magento_Widget
 Type,Tipo,module,Magento_Widget
 "Design Package/Theme","Design Tema",module,Magento_Widget
+"Assign to Store Views","Atribuir à Frentes de Loja",module,Magento_Widget
 "Sort Order",Ordernação,module,Magento_Widget
+"Sort Order of widget instances in the same container","Ordenação de instâncias de widget no mesmo container",module,Magento_Widget
 "Layout Updates","Atualizações de Layout",module,Magento_Widget
 Categories,Categorias,module,Magento_Widget
 "Anchor Categories","Categorias âncora",module,Magento_Widget
@@ -3184,14 +3187,23 @@ Categories,Categorias,module,Magento_Widget
 Products,Produtos,module,Magento_Widget
 "Generic Pages","Páginas genéricas",module,Magento_Widget
 "All Pages","Todas as Páginas",module,Magento_Widget
+"Specified Page","Página Especificada",module,Magento_Widget
+"Add Layout Update","Adicionar Atualização de Layout",module,Magento_Widget
 "Remove Layout Update","Remover Atualização de Layout",module,Magento_Widget
+"Widget Options","Opções do Widget",module,Magento_Widget
 Settings,Configurações,module,Magento_Widget
 "Design Theme","Design do Tema",module,Magento_Widget
 Continue,Próximo,module,Magento_Widget
+"Please specify a Widget Type.","Por favor especifique um Tipo de Widget.",module,Magento_Widget
 "Please specify a correct widget.","Por favor especifique um widget correto.",module,Magento_Widget
+"The widget instance has been deleted.","A instância do widget foi removida.",module,Magento_Widget
 "New Widget","Novo Widget",module,Magento_Widget
+"The widget instance has been saved.","A instância do widget foi gravada.",module,Magento_Widget
 name,nome,module,Magento_Widget
+description,descrição,module,Magento_Widget
+"We cannot create the widget instance because it is missing required information.","Não conseguimos criar a instância do widget porque estão faltando informações obrigatórias.",module,Magento_Widget
 All,Todos,module,Magento_Widget
+"Specific %1","Específico %1",module,Magento_Widget
 "Open Chooser","Abrir Seletor",module,Magento_Widget
 Apply,Aplicar,module,Magento_Widget
 Page,Página,module,Magento_Widget
@@ -3909,6 +3921,7 @@ Debug,Depurar/Debug,module,Magento_Usps
 "Display Prices On Product View Page","Mostrar preços na página de visualização do produto",module,Magento_Weee
 "Display Prices In Emails","Mostrar Preços em Emails",module,Magento_Weee
 "Include FPT In Subtotal","Incluir IFP no Subtotal",module,Magento_Weee
+"Widget ID","ID do Widget",module,Magento_Widget
 "Share Options","Opções de compartilhamento",module,Magento_Wishlist
 "Email Sender","Remetente do e-mail",module,Magento_Wishlist
 "Email Template","Template de E-mail",module,Magento_Wishlist
