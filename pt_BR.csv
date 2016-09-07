@@ -3283,6 +3283,7 @@ Enabled,Habilitado,module,Magento_Authorizenet
 "Payment Action","Ação de Pagamento",module,Magento_Authorizenet
 Title,Título,module,Magento_Authorizenet
 "Merchant MD5","MD5 do Comerciante",module,Magento_Authorizenet
+"Test Mode","Modo de Teste",module,Magento_Authorizenet
 "Gateway URL","URL do Gateway",module,Magento_Authorizenet
 "Accepted Currency","Moedas Aceitas",module,Magento_Authorizenet
 Debug,Depurar/Debug,module,Magento_Authorizenet
@@ -3329,6 +3330,13 @@ Debug,Depurar/Debug,module,Magento_Backend
 "Minify CSS Files","Reduzir Dimensão dos Ficheiros CSS",module,Magento_Backend
 "Image Processing Settings","Definições de Processamento de Imagem",module,Magento_Backend
 "Image Adapter","Adaptador de Imagem",module,Magento_Backend
+"Static Files Settings","Configurações de arquivos estáticos.",module,Magento_Backend
+"Sign Static Files","Assinar Arquivos Estáticos",module,Magento_Backend
+"Country Options","Opções de Países",module,Magento_Backend
+"Allow Countries","Permitir Países",module,Magento_Backend
+"Default Country","País Padrão",module,Magento_Backend
+"European Union Countries","Países da União Europeia",module,Magento_Backend
+"Top destinations","Principais destinos",module,Magento_Backend
 "Locale Options","Opções de localidade",module,Magento_Backend
 Timezone,"Fuso horário",module,Magento_Backend
 Locale,Localidade,module,Magento_Backend
@@ -3342,7 +3350,10 @@ Region/State,Região/estado,module,Magento_Backend
 "ZIP/Postal Code","CEP/Código Postal",module,Magento_Backend
 City,Cidade,module,Magento_Backend
 "Street Address",Endereço,module,Magento_Backend
+"Street Address Line 2","Endereço 2",module,Magento_Backend
 "VAT Number","Número VAT",module,Magento_Backend
+"Single-Store Mode","Modo de Loja Única",module,Magento_Backend
+"Enable Single-Store Mode","Habilitar Modo Loja Única",module,Magento_Backend
 "Email template chosen based on theme fallback when ""Default"" option is selected.","O modelo de e-mail escolhido baseado no tema ""fallback"" quando a opção ""Padrão"" é selecionada.",module,Magento_Backend
 "Recovery Link Expiration Period (days)","Período de Expiração de Link de Recuperação (dias)",module,Magento_Backend
 "Please enter a number 1 or greater in this field.","Por favor, insira um número maior ou igual a 1 neste campo.",module,Magento_Backend
