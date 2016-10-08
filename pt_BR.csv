@@ -5067,8 +5067,31 @@ City,Cidade,module,Magento_Backend
 "VAT Number","Número VAT",module,Magento_Backend
 "Single-Store Mode","Modo de Loja Única",module,Magento_Backend
 "Enable Single-Store Mode","Habilitar Modo Loja Única",module,Magento_Backend
+"This setting will not be taken into account if system has more than one store view.","Esta configuração não será levada em conta se o sistema tem mais de uma visão de loja.",module,Magento_Backend
+"Mail Sending Settings","Configurações de Envio de E-mail",module,Magento_Backend
+"Disable Email Communications","Desabilitar Comunicações de E-mail",module,Magento_Backend
+Host,Servidor,module,Magento_Backend
+"Port (25)","Porta (25)",module,Magento_Backend
+"Set Return-Path","Definir Caminho de Retorno",module,Magento_Backend
+"Return-Path Email","E-mail para Caminho de Retorno",module,Magento_Backend
+"Admin User Emails","Emails de Usuários Administrativos",module,Magento_Backend
+"Forgot Password Email Template","Modelo de E-mail de Esqueci Minha Senha",module,Magento_Backend
 "Email template chosen based on theme fallback when ""Default"" option is selected.","O modelo de e-mail escolhido baseado no tema ""fallback"" quando a opção ""Padrão"" é selecionada.",module,Magento_Backend
+"Forgot and Reset Email Sender","Remetente de E-mail de Recuperação e Redefinição de Senha",module,Magento_Backend
+"Startup Page","Página Inicial",module,Magento_Backend
+"Admin Base URL","URL Base do Admin",module,Magento_Backend
+"Use Custom Admin URL","Utilizar URL Personalizada para o Admin",module,Magento_Backend
+"Custom Admin URL","URL Personalizada do Admin",module,Magento_Backend
+"Make sure that base URL ends with '/' (slash), e.g. http://yourdomain/magento/","Certifique-se que a URL base termine com '/' (barra), ex. http://yourdomain/magento/",module,Magento_Backend
+"Use Custom Admin Path","Utilizar Caminho de Admin Personalizado",module,Magento_Backend
+"Custom Admin Path","Caminho de Admin Personalizado",module,Magento_Backend
+"You will have to sign in after you save your custom admin path.","Você terá que se logar após salvar seu caminho de admin personalizado.",module,Magento_Backend
+Security,Segurança,module,Magento_Backend
+"Recovery Link Expiration Period (hours)","Período de Expiração do Link de Recuperação (em horas)",module,Magento_Backend
 "Please enter a number 1 or greater in this field.","Por favor, insira um número maior ou igual a 1 neste campo.",module,Magento_Backend
+"Add Secret Key to URLs","Adicionar Chaves Secretas às URLs",module,Magento_Backend
+"Login is Case Sensitive","O Login é Case Sensitive",module,Magento_Backend
+"Admin Session Lifetime (seconds)","Tempo de Sessão do Admin (em segundos)",module,Magento_Backend
 "Enable Charts","Habilitar gráficos",module,Magento_Backend
 "Search Engine Optimization","Otimização de busca (SEO)",module,Magento_Backend
 "Cache Type","Tipo de cache",module,Magento_Backend
