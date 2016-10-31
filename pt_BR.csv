@@ -2928,6 +2928,7 @@ Sales,Vendas,module,Magento_Paypal
 "We couldn't finish the billing agreement wizard.","Não conseguimos  terminar o assistente de acordo faturamento.",module,Magento_Paypal
 "We can't start the billing agreement wizard.","Nós Não podemos iniciar o assistente de acordo faturamento.",module,Magento_Paypal
 "We can't initialize Express Checkout.","Não foi possível inicializar Express Checkout.",module,Magento_Paypal
+"PayPal Express Checkout Token does not exist.","O Token do PayPal Checkout Express não existe.",module,Magento_Paypal
 "Please agree to all the terms and conditions before placing the order.","Por favor concorde com todos os termos e condições antes de fazer o pedido.",module,Magento_Paypal
 "We can't place the order.","Não foi possível fazer o pedido.",module,Magento_Paypal
 "We can't process Express Checkout approval.","Não podemos processar o pedido de aprovação Express Checkout.",module,Magento_Paypal
@@ -5475,6 +5476,7 @@ Addresses,Endereços,module,Magento_Customer
 "Not available in production mode","Não disponível em modo de produção",module,Magento_Developer
 "Allowed IPs (comma separated)","IPs Permitidos (separados por vírgula)",module,Magento_Developer
 "Leave empty for access from any location.","Deixe em branco para acessar a partir de qualquer lugar.",module,Magento_Developer
+"Enabled for Checkout","Ativado para Finalizar Compra",module,Magento_Dhl
 Title,Título,module,Magento_Dhl
 Password,Senha,module,Magento_Dhl
 Size,Tamanho,module,Magento_Dhl
