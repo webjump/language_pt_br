@@ -1541,6 +1541,7 @@ Stores,Lojas,module,Magento_Config
 "New attribute set name","Nome de novo atributo",module,Magento_ConfigurableProduct
 "Add configurable attributes to the existing Attribute Set","Adicionar atributos configuráveis ao Conjunto de Atributos existente",module,Magento_ConfigurableProduct
 "Choose existing Attribute Set","Escolher Conjunto de Atributos existente",module,Magento_ConfigurableProduct
+Save,Salvar,module,Magento_ConfigurableProduct
 "Save & New","Salvar e Novo",module,Magento_ConfigurableProduct
 "Save & Duplicate","Salvar e Duplicar",module,Magento_ConfigurableProduct
 Configurations,Configurações,module,Magento_ConfigurableProduct
