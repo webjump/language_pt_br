@@ -3058,6 +3058,7 @@ Description,Descrição,module,Magento_ProductVideo
 "Hide from Product Page","Ocultar da Página de Produtos",module,Magento_ProductVideo
 Role,Função,module,Magento_ProductVideo
 "YouTube and Vimeo supported.","YouTube e Vimeo suportados.",module,Magento_ProductVideo
+"Vimeo supported.<br />To add YouTube video, please <a href=""%1"">enter YouTube API Key</a> first.","É suportado o serviço Vimeo.<br />Para adicionar um vídeo do YouTube, por favor <a href=""%1""> Insira primeiro a chave de API do YouTube</a>.",module,Magento_ProductVideo
 "Click here to add videos.","Clique aqui para adicionar vídeos.",module,Magento_ProductVideo
 "New Video","Novo vídeo",module,Magento_ProductVideo
 "Add Video","Adicionar vídeo",module,Magento_ProductVideo
@@ -4524,6 +4525,7 @@ Resources,Recursos,module,Magento_User
 "First-Class Mail Parcel","Parcela de First-Class Mail",module,Magento_Usps
 "First-Class Mail Postcards","Carta de First-Class Mail",module,Magento_Usps
 "Priority Mail","E-mail Prioritário",module,Magento_Usps
+"Priority Mail Express Hold For Pickup","Priority Mail Express espera para Pickup",module,Magento_Usps
 "First-Class Mail Large Postcards","Postais de First-Class Mail",module,Magento_Usps
 "Priority Mail Medium Flat Rate Box","Caixa postal prioridade fixa em Médio",module,Magento_Usps
 "Priority Mail Express Sunday/Holiday Delivery","Priority Mail Express entrega de domingo/feriado",module,Magento_Usps
@@ -4578,6 +4580,7 @@ FPT,"IFP (FPT)",module,Magento_Weee
 "We found a duplicate of website, country and state fields for a fixed product tax","Nós encontramos uma duplicata nos campos de website, país e estado para a taxa de produto fixada",module,Magento_Weee
 "Including FPT only","Incluindo apenas FPT",module,Magento_Weee
 "Excluding FPT. Including FPT description and final price","Excluindo IFP. Incluindo a descrição IFP e o preço final",module,Magento_Weee
+"Excluding FPT","Excluir FPT",module,Magento_Weee
 frontend_label,rótulo_frontend,module,Magento_Weee
 "Fixed Product Tax","Imposto Fixo do Produto",module,Magento_Weee
 "Excl. Tax","Excl. Impostos",module,Magento_Weee
@@ -5367,6 +5370,7 @@ Contacts,Contatos,module,Magento_Contact
 "Group for Invalid VAT ID","Grupo de CPF/CNPJ Inválido",module,Magento_Customer
 "Validation Error Group","Validar Erro de Grupo",module,Magento_Customer
 "Validate on Each Transaction","Validar em Cada Transação",module,Magento_Customer
+"Default Value for Disable Automatic Group Changes Based on VAT ID","Valor Pré-definido para Desativar Mudanças de Grupo Automáticas Baseadas em NIF",module,Magento_Customer
 "Show VAT Number on Storefront","Mostrar CNPJ na Frente de Loja",module,Magento_Customer
 "To show VAT number on Storefront, set Show VAT Number on Storefront option to Yes.","Para mostrar o CNPJ na Frente de Loja, configure o Mostrar CNPJ na Frente de Loja como Sim.",module,Magento_Customer
 "Default Email Domain","Domínio de E-mail Padrão",module,Magento_Customer
@@ -5444,6 +5448,7 @@ Addresses,Endereços,module,Magento_Customer
 "Front-end development workflow","Fluxo de trabalho de desenvolvimento de front-end",module,Magento_Developer
 "Workflow type","Tipo de workflow",module,Magento_Developer
 "Not available in production mode","Não disponível em modo de produção",module,Magento_Developer
+"Developer Client Restrictions","Restrições de desenvolvimento para Clientes",module,Magento_Developer
 "Allowed IPs (comma separated)","IPs Permitidos (separados por vírgula)",module,Magento_Developer
 "Leave empty for access from any location.","Deixe em branco para acessar a partir de qualquer lugar.",module,Magento_Developer
 "Enabled for Checkout","Ativado para Finalizar Compra",module,Magento_Dhl
