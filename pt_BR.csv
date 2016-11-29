@@ -58,7 +58,7 @@ void,anular,module,Magento_Authorizenet
 "Credit Card Number","Número do Cartão de Crédito",module,Magento_Authorizenet
 "Expiration Date","Data de Validade",module,Magento_Authorizenet
 "Card Verification Number","Código de Verificação do Cartão",module,Magento_Authorizenet
-"Invalid Form Key. Please refresh the page.","Salvar Conta",module,Magento_Backend
+"Invalid Form Key. Please refresh the page.","Chave de forma inválida. Por favor, atualize a página.",module,Magento_Backend
 "You entered an invalid Secret Key. Please refresh the page.","Você inseriu uma Chave Secreta inválida. Por favor, atualize a página.",module,Magento_Backend
 "Cache Storage Management","Gerenciamento de Cache",module,Magento_Backend
 "Flush Magento Cache","Liberar Cache do Magento",module,Magento_Backend
@@ -1376,7 +1376,7 @@ Documents,Documentos,module,Magento_Dhl
 "No packages for request","Não há pacotes para solicitação",module,Magento_Dhl
 "Non documents","Nenhuma documentação",module,Magento_Dhl
 None,Nenhum,module,Magento_Dhl
-State/Province,Estado/Província,module,Magento_Directory
+State/Province,Estado,module,Magento_Directory
 "--Please Select--","--Por Favor Selecione--",module,Magento_Directory
 "Please correct the target currency.","Por favor, corrija a moeda de destino.",module,Magento_Directory
 "Undefined rate from ""%1-%2"".","Taxa indefinida de ""%1-%2"".",module,Magento_Directory
@@ -2058,7 +2058,7 @@ Shipping,Frete,module,Magento_Quote
 "Store Credit","Loja de Crédito",module,Magento_Quote
 Discount,Desconto,module,Magento_Quote
 Tax,Taxa,module,Magento_Quote
-"New Accounts","Novas contas",module,Magento_Reports
+"New Accounts","Nova Conta",module,Magento_Reports
 "Customers by number of orders","Clientes por número de encomendas",module,Magento_Reports
 "Customers by Orders Total","Clientes por Total de Pedidos",module,Magento_Reports
 Filter,Filtro,module,Magento_Reports
