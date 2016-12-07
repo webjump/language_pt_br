@@ -3118,6 +3118,7 @@ Title:,Título:,module,Magento_ProductVideo
 "Could not apply coupon code","Não foi possivel aplicar o código do cupom",module,Magento_Quote
 "Coupon code is not valid","O código do cupom não é válido",module,Magento_Quote
 "Could not delete coupon code","Não foi possível excluir o código do cupom",module,Magento_Quote
+"Cannot assign customer to the given cart. You don't have permission for this operation.","Não é possível atribuir o carrinho de determinado cliente. Você não tem permissão para esta operação.",module,Magento_Quote
 "Shipping address is not set","Endereço de envio não está definido",module,Magento_Quote
 "The requested Payment Method is not available.","O método de pagamento solicitado não está disponível.",module,Magento_Quote
 "We found an invalid request for adding product to quote.","Encontramos uma solicitação inválida para adicionar o produto para cotação.",module,Magento_Quote
@@ -4640,6 +4641,7 @@ Yes,Sim,module,Magento_Variable
 "Deletion failure. Please try again.","Falha de exclusão. Por favor, tente novamente.",module,Magento_Vault
 "Credit Card was successfully removed","Cartão de Crédito foi removido com êxito",module,Magento_Vault
 "My Credit Cards","Meus Cartões de crédito",module,Magento_Vault
+"Card Number","Numero do cartao",module,Magento_Vault
 "Expiration Date","Data de Validade",module,Magento_Vault
 Type,Tipo,module,Magento_Vault
 "You have no credit cards.","Você não tem nenhum cartão de crédito.",module,Magento_Vault
