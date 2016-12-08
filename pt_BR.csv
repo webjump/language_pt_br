@@ -2156,6 +2156,7 @@ lbs,libras,module,Magento_Directory
 "Undefined rate from ""%1-%2"".","Taxa indefinida de ""%1-%2"".",module,Magento_Directory
 "Please correct the target currency.","Por favor, corrija a moeda de destino.",module,Magento_Directory
 label,rótulo,module,Magento_Directory
+"We can't retrieve a rate from %1 for %2.","Não é possível obter uma taxa de %1 para %2.",module,Magento_Directory
 "We can't retrieve a rate from %1.","Não foi possível recuperar a taxa de %1.",module,Magento_Directory
 "FATAL ERROR:","ERRO FATAL:",module,Magento_Directory
 "We can't initialize the import model.","Nós não é possível inicializar o modelo de importação.",module,Magento_Directory
@@ -2660,34 +2661,58 @@ Save,Salvar,module,Magento_Integration
 General,Geral,module,Magento_Integration
 Name,Nome,module,Magento_Integration
 Email,E-mail,module,Magento_Integration
+"Callback URL","URL de retrocesso",module,Magento_Integration
 "Enter URL where Oauth credentials can be sent when using Oauth for token exchange. We strongly recommend using https://.","Insira o URL por onde as credenciais OAuth podem ser enviadas para troca de tokens. Recomendamos fortemente o uso do protocolo https://.",module,Magento_Integration
+"Identity link URL","URL do link de identidade",module,Magento_Integration
 "URL to redirect user to link their 3rd party account with this Magento integration credentials.","URL para redirecionar o usuário para ligar sua conta de terceiros com estas credenciais de integração do Magento.",module,Magento_Integration
 "Current User Identity Verification","Verificação de identidade do usuário atual",module,Magento_Integration
+"Your Password","Sua Senha",module,Magento_Integration
+"Integration Details","Detalhes de Integração",module,Magento_Integration
 "Basic Settings","Configurações Básicas",module,Magento_Integration
+"Integration Tokens for Extensions","Integração de Tokens para Extensões",module,Magento_Integration
 "Consumer Key","Chave do Consumidor",module,Magento_Integration
+"Consumer Secret","Segredo do Consumidor",module,Magento_Integration
 "Access Token","Token de acesso",module,Magento_Integration
+"Access Token Secret","Segredo do Token de Acesso",module,Magento_Integration
 "Uninstall the extension to remove this integration","Desinstale a extensão para remover esta integração",module,Magento_Integration
 Remove,Remover,module,Magento_Integration
 View,Visualizar,module,Magento_Integration
 Edit,Editar,module,Magento_Integration
 Activate,Ativar,module,Magento_Integration
 Reauthorize,Reautorizar,module,Magento_Integration
+"Uninstall the extension to remove integration '%1'.","Desinstale a extensão para remover esta integração '%1'.",module,Magento_Integration
+"This integration no longer exists.","Esta integração já não existe.",module,Magento_Integration
 "The integration '%1' has been deleted.","A integração '%1' foi eliminada.",module,Magento_Integration
+"Integration ID is not specified or is invalid.","O ID da Integração não está especificado ou é inválido.",module,Magento_Integration
 "Internal error. Check exception log for details.","Erro interno. Consulte o log de exceções para obter detalhes.",module,Magento_Integration
+"View ""%1"" Integration","Ver Integração ""%1""",module,Magento_Integration
 "Edit ""%1"" Integration","Editar Integração ""%1""",module,Magento_Integration
+"Warning! Integrations not using HTTPS are insecure and potentially expose private or personally identifiable information","Aviso! Integrações que não usem HTTPS são inseguras e podem colocar em risco informação privada ou pessoalmente identificável",module,Magento_Integration
+"Cannot edit integrations created via config file.","Não é possível editar integrações criadas por meio do arquivo de configuração.",module,Magento_Integration
 "The integration '%1' has been saved.","A integração '%1' foi salva.",module,Magento_Integration
+"The integration was not saved.","A integração não foi salvo.",module,Magento_Integration
 "The integration '%1' has been re-authorized.","A integração '%1' foi re-autorizada.",module,Magento_Integration
+"The integration '%1' has been activated.","A integração '%1' foi ativada.",module,Magento_Integration
+"Integration '%1' has been sent for re-authorization.","Foi enviada para re-autorização de integração '%1'.",module,Magento_Integration
 "Integration '%1' has been sent for activation.","A Integração '%1' foi enviada para ativação.",module,Magento_Integration
+"A consumer with ID %1 does not exist","Não existe um consumidor com ID %1",module,Magento_Integration
 "You did not sign in correctly or your account is temporarily disabled.","Você não digitou os dados corretamente ou a sua conta está temporariamente desativada.",module,Magento_Integration
 "This user has no tokens.","Este cliente não possui tokens.",module,Magento_Integration
 "The tokens could not be revoked.","Os tokens não poderiam ser revogados.",module,Magento_Integration
+"Sorry, something went wrong granting permissions. You can find out more in the exceptions log.","Desculpa, algo deu errado, concedendo permissões. Você pode encontrar mais no log de exceções.",module,Magento_Integration
 "Something went wrong while deleting roles and permissions. You can find out more in the exceptions log.","Ocorreu algum erro ao eliminar funções e permissões. Pode descobrir mais detalhes no log de exceções.",module,Magento_Integration
+"%fieldName is a required field.","%fieldName é um campo obrigatório.",module,Magento_Integration
 "This customer has no tokens.","Este cliente não possui tokens.",module,Magento_Integration
 Inactive,Inativo,module,Magento_Integration
 Active,Ativo,module,Magento_Integration
 Reset,Reiniciar,module,Magento_Integration
 "Integration with name '%1' exists.","Integração com o nome '%1' existe.",module,Magento_Integration
 "Integration with ID '%1' does not exist.","Integração com o  ID '%1' não existe.",module,Magento_Integration
+"One or more <a href=""%1"">integrations</a> have been reset because of a change to their xml configs.","Uma ou mais <a href=""%1"">integrações</a> foram repostas devido a um erro nas suas configurações xml.",module,Magento_Integration
+"Invalid Callback URL","URL de Callback inválido",module,Magento_Integration
+"Invalid Rejected Callback URL","URL de Callback Inválido Rejeitado",module,Magento_Integration
+"Incorrect timestamp value in the oauth_timestamp parameter","O valor do timestamp no parâmetro oauth_timestamp está incorreto",module,Magento_Integration
+"The nonce is already being used by the consumer with ID %1","O nonce já está a ser usado pelo consumidor com o ID %1",module,Magento_Integration
 "Token is already being used","Token já está sendo usado",module,Magento_Integration
 "Consumer with ID '%1' does not exist.","Cliente com o ID '%1' não existe.",module,Magento_Integration
 "Are you sure ?","Você tem certeza ?",module,Magento_Integration
@@ -4922,6 +4947,7 @@ Password:,Senha:,module,Magento_Customer
 "Check out faster","Compra rápida",module,Magento_Customer
 "Checkout out using your account","Efetue a compra usando sua conta",module,Magento_Customer
 "Email Address","Endereço de e-mail",module,Magento_Customer
+"Currency Update Warnings","Avisos de Atualização de Moeda",module,Magento_Directory
 "Gift Message (optional)","Mensagem de Presente (opcional)",module,Magento_GiftMessage
 To:,Para:,module,Magento_GiftMessage
 From:,De:,module,Magento_GiftMessage
@@ -5805,19 +5831,26 @@ Size,Tamanho,module,Magento_Dhl
 "Sort Order",Ordernação,module,Magento_Dhl
 Debug,Depurar/Debug,module,Magento_Dhl
 "Currency Setup","Configuração de Moeda",module,Magento_Directory
+"Currency Options","Opções de Moeda",module,Magento_Directory
 "Base Currency","Moeda base",module,Magento_Directory
+"Default Display Currency","Moeda de Exibição Pré-definida",module,Magento_Directory
 "Allowed Currencies","Moedas Permitidas",module,Magento_Directory
 "Connection Timeout in Seconds","Tempo Limite da Ligação em Segundos",module,Magento_Directory
+Fixer.io,Fixer.Io,module,Magento_Directory
 "Scheduled Import Settings","Definições de Importação Agendada",module,Magento_Directory
 Enabled,Habilitado,module,Magento_Directory
 "Error Email Recipient","Erro de Destinatário de E-mail",module,Magento_Directory
+"Error Email Sender","Erro de Remetente de Email",module,Magento_Directory
 "Error Email Template","Erro de Template de Email",module,Magento_Directory
 "Email template chosen based on theme fallback when ""Default"" option is selected.","O modelo de e-mail escolhido baseado no tema ""fallback"" quando a opção ""Padrão"" é selecionada.",module,Magento_Directory
 Frequency,Frequência,module,Magento_Directory
 Service,Serviço,module,Magento_Directory
 "Start Time","Hora de Início",module,Magento_Directory
 "Installed Currencies","Moedas Instaladas",module,Magento_Directory
+"Zip/Postal Code is Optional for","CEP/Código Postal é opcional para",module,Magento_Directory
+"State Options","Opções de estado",module,Magento_Directory
 "State is Required for","Estado é necessário para",module,Magento_Directory
+"Allow to Choose State if It is Optional for Country","Permitir a opção Escolher Estado se for Opcional para o País",module,Magento_Directory
 "Weight Unit","Unidade de Peso",module,Magento_Directory
 "EAV types and attributes","Tipos EAV e atributos",module,Magento_Eav
 "Entity types declaration cache","Cache de declaração de tipos de entidade",module,Magento_Eav
