@@ -2190,6 +2190,7 @@ Unlimited,Ilimitado,module,Magento_Downloadable
 "Something went wrong while saving the file(s).","Ocorreu algum problema ao salvar o(s) arquivo(s).",module,Magento_Downloadable
 "Provided content must be valid base64 encoded data.","O conteúdo fornecido deve ser codificado utilizado dados base64 válidos.",module,Magento_Downloadable
 "Provided file name contains forbidden characters.","O nome de arquivo fornecido contém caracteres proibidos.",module,Magento_Downloadable
+"Link file not provided","Arquivo de link não fornecido",module,Magento_Downloadable
 "Link price must have numeric positive value.","O preço do link deve ter valor numérico positivo.",module,Magento_Downloadable
 "Number of downloads must be a positive integer.","O número de downloads deve ser um inteiro positivo.",module,Magento_Downloadable
 "Sort order must be a positive integer.","A ordem de classificação deve ser um inteiro positivo.",module,Magento_Downloadable
@@ -2198,11 +2199,13 @@ Unlimited,Ilimitado,module,Magento_Downloadable
 "Sample URL must have valid format.","A URL de Amostra precisa ter um formato válido.",module,Magento_Downloadable
 "Order id cannot be null","Id de ordem não pode ser nulo",module,Magento_Downloadable
 "Order item id cannot be null","Item do Id do pedido não pode ser nulo",module,Magento_Downloadable
+"Provided product must be type 'downloadable'.","Produto fornecido deve ser tipo 'download'.",module,Magento_Downloadable
 "Provided link information is invalid.","A informação do link fornecido é inválida.",module,Magento_Downloadable
 "Invalid link type.","Tipo de link inválido.",module,Magento_Downloadable
 "Link title cannot be empty.","Titulo do link não pode ser vazio.",module,Magento_Downloadable
 "There is no downloadable link with provided ID.","Não há um link de download com o ID fornecido.",module,Magento_Downloadable
 "Provided downloadable link is not related to given product.","O link de download fornecido não está relacionado com o produto.",module,Magento_Downloadable
+"Cannot delete link with id %1","Não foi possível excluir o link com id %1",module,Magento_Downloadable
 "Please specify product link(s).","Por favor, especifique o(s) link(s) do produto.",module,Magento_Downloadable
 "Sample file not provided","Arquivo de exemplo não fornecido",module,Magento_Downloadable
 "Provided sample information is invalid.","Informações de exemplo fornecidas são inválidas.",module,Magento_Downloadable
@@ -2214,12 +2217,16 @@ Unlimited,Ilimitado,module,Magento_Downloadable
 Yes,Sim,module,Magento_Downloadable
 No,Não,module,Magento_Downloadable
 "Use config","Usar o config",module,Magento_Downloadable
+"Upload File","Enviar Arquivo",module,Magento_Downloadable
 attachment,anexo,module,Magento_Downloadable
 Pending,Pendente,module,Magento_Downloadable
 Invoiced,Faturado,module,Magento_Downloadable
+"To enable the option set the weight to no","Para ativar a opção defina o peso para ""não""",module,Magento_Downloadable
+"Is this downloadable Product?","Este é o produto para download?",module,Magento_Downloadable
 Title,Título,module,Magento_Downloadable
 "Links can be purchased separately","Links podem ser comprados separadamente",module,Magento_Downloadable
 "Alphanumeric, dash and underscore characters are recommended for filenames. Improper characters are replaced with '_'.","Alfanuméricos, caracteres de traço e sublinhado são recomendadas para nomes de arquivo. Caracteres impróprios são substituídos por '_'.",module,Magento_Downloadable
+"Add Link","Adicionar Link",module,Magento_Downloadable
 Price,Preço,module,Magento_Downloadable
 File,Arquivo,module,Magento_Downloadable
 Sample,Exemplo,module,Magento_Downloadable
@@ -2227,11 +2234,14 @@ Shareable,Compartilhável,module,Magento_Downloadable
 Samples,Exemplos,module,Magento_Downloadable
 "Use Default Value","Usar o Valor Padrão",module,Magento_Downloadable
 sample,amostra,module,Magento_Downloadable
+"Add links to your product files here.","Adicione links para seus arquivos de produto aqui.",module,Magento_Downloadable
 "[STORE VIEW]","[VISÃO DE LOJA]",module,Magento_Downloadable
 "Sort Order",Ordernação,module,Magento_Downloadable
+"Attach File or Enter Link","Anexar arquivo ou Inserir Link",module,Magento_Downloadable
 "Sort Variations","Variações de Ordenação",module,Magento_Downloadable
 "Browse Files...","Procurar Arquivos...",module,Magento_Downloadable
 Delete,Excluir,module,Magento_Downloadable
+"Add product preview files here.","Adicione arquivos de visualização do produto aqui.",module,Magento_Downloadable
 "Select all","Selecionar tudo",module,Magento_Downloadable
 "Unselect all","Desmarcar todos",module,Magento_Downloadable
 Availability,Disponibilidade,module,Magento_Downloadable
@@ -2522,6 +2532,7 @@ None,Nenhum,module,Magento_Fedex
 "Could not add gift message to shopping cart","Não foi possível adicionar uma mensagem de presente ao carrinho de compras",module,Magento_GiftMessage
 "There is no item with provided id in the cart","Não existe nenhum item com o id fornecido no carrinho de compras",module,Magento_GiftMessage
 "There is no product with provided  itemId: %1 in the cart","Não existe nenhum produto com o itemId fornecido: %1 no carrinho de compras",module,Magento_GiftMessage
+"There is no item with provided id in the order","Não existe nenhum item com o id fornecido na encomenda",module,Magento_GiftMessage
 "There is no item with provided id in the order or gift message isn't allowed","Não há nenhum artigo com id fornecidas na ordem ou mensagem em Gifs não é permitido",module,Magento_GiftMessage
 "Could not add gift message to order: ""%1""","Não foi possível adicionar uma mensagem de presente ao item do pedido: ""%1""",module,Magento_GiftMessage
 "There is no order with provided id or gift message isn't allowed","Não há nenhuma ordem com id fornecido ou mensagem em .Gifs não é permitido",module,Magento_GiftMessage
@@ -2729,6 +2740,7 @@ No,Não,module,Magento_LayeredNavigation
 "Use in Layered Navigation","Utilizar em Navegação por Camadas",module,Magento_LayeredNavigation
 "Can be used only with catalog input type Dropdown, Multiple Select and Price","Pode ser usado somente com um dos tipos de campo de catálogo: Menu Suspenso, Selecione múltipla ou Preço",module,Magento_LayeredNavigation
 "Can be used only with catalog input type Dropdown, Multiple Select and Price.","Pode ser usado somente com um dos tipos de campo de catálogo: Menu Suspenso, Selecione múltipla ou Preço.",module,Magento_LayeredNavigation
+"Use in Search Results Layered Navigation","Usar nos Resultados de Pesquisa na Navegação por Camadas",module,Magento_LayeredNavigation
 Position,Posição,module,Magento_LayeredNavigation
 "Position in Layered Navigation","Posição na Navegação em Camadas",module,Magento_LayeredNavigation
 items,itens,module,Magento_LayeredNavigation
@@ -2745,6 +2757,7 @@ Partners,Parceiros,module,Magento_Marketplace
 "Representing Magento's highest level of partner engagement, Magento Platinum Partners have established themselves as leaders and innovators of key products and services designed to help merchants and brands grow their business. Magento reserves the Platinum level for select trusted partners that are committed to offering integrations of commerce features, functions, and tools, as well as back-end systems and operations, to extend and enhance the power of the Magento commerce platform.","Representando Magento no mais alto nível de engajamento de parceiros, Magento Platinum Partners se estabeleceram como líderes e inovadores de produtos e serviços essenciais destinados a ajudar os comerciantes e marcas a crescer  o seu negócio. Magento reserva-se o nível Platinum para parceiros confiáveis selecionados que estão comprometidas em oferecer integrações de recursos commerce, funções e ferramentas, bem como sistemas de back-end e operações, prolongar e melhorar o poder da plataforma de comércio Magento.",module,Magento_Marketplace
 "Featured Platinum Partners","Parceiros Platina em Destaque",module,Magento_Marketplace
 "Partner search","Busca de parceiro",module,Magento_Marketplace
+"Magento has a thriving ecosystem of technology partners to help merchants and brands deliver the best possible customer experiences. They are recognized as experts in eCommerce, search, email marketing, payments, tax, fraud, optimization and analytics, fulfillment, and more. Visit the Magento Partner Directory to see all of our trusted partners.","O Magento tem um ecossistema próspero de parceiros tecnológicos para ajudar comerciantes e marcas a fornecer a melhor experiência possível ao cliente. A empresa é reconhecida como perita em comércio virtual (eCommerce), pesquisas, marketing por e-mail, pagamentos, impostos, fraude, optimização e análise, cumprimento de obejctivos e muito mais. Visite o Directório de Parceiros do Magento para ver todos os nossos parceiros de confiança.",module,Magento_Marketplace
 "More Partners","Mais parceiros",module,Magento_Marketplace
 "Extensions and Themes are an essential component of the Magento Ecosystem. Please visit the Magento Marketplace to see the latest innovations that developers have created to enhance your Magento Store.","As Extensões e Temas são componentes essenciais do Ecossistema Magento. Por favor visite o Magento Marketplace para ver as últimas inovações que os desenvolvedores criaram para melhorar a sua Loja Magento.",module,Magento_Marketplace
 "Read More","Leia mais",module,Magento_Marketplace
@@ -2756,6 +2769,7 @@ Synchronizing...,Sincronizando...,module,Magento_MediaStorage
 "The timeout limit for response from synchronize process was reached.","O tempo limite para a resposta do processo de sincronização foi atingido.",module,Magento_MediaStorage
 "File %1 does not exist","O arquivo %1 não existe",module,Magento_MediaStorage
 "File %1 is not readable","Arquivo %1 não é legível",module,Magento_MediaStorage
+"File System","Sistema de arquivos",module,Magento_MediaStorage
 Database,"Banco de dados",module,Magento_MediaStorage
 "database ""%1""","banco de dados ""%1""",module,Magento_MediaStorage
 "File system","Sistema de arquivos",module,Magento_MediaStorage
@@ -3109,6 +3123,7 @@ Continue,Próximo,module,Magento_Paypal
 "We cannot load the configuration from file %1.","Não conseguimos carregar a configuração do ficheiro %1.",module,Magento_Persistent
 "Method ""%1"" is not defined in ""%2""","O método ""%1"" não está definido em ""%2""",module,Magento_Persistent
 "To check out, please sign in using your email address.","Para efetuar o checkout, por favor inicie a sessão usando seu endereço de e-mail.",module,Magento_Persistent
+"Remember Me","Permanecer logado",module,Magento_Persistent
 "What's this?","O que é isto?",module,Magento_Persistent
 "Check &quot;Remember Me&quot; to access your shopping cart on this computer even if you are not signed in.","Marque &quot;Me Lembrar&quot; para acessar seu carrinho de compras nesse computador quando você estiver desconectado.",module,Magento_Persistent
 "You saved the alert subscription.","Você salvou a inscrição de alerta.",module,Magento_ProductAlert
@@ -3117,6 +3132,7 @@ Continue,Próximo,module,Magento_Paypal
 "Alert subscription has been saved.","A subscrição de alerta foi gravada.",module,Magento_ProductAlert
 "You deleted the alert subscription.","Você excluiu a inscrição de alerta.",module,Magento_ProductAlert
 "We can't find the product.","Produto não encontrado.",module,Magento_ProductAlert
+"You will no longer receive price alerts for this product.","Você não receberá mais alertas de preço para este produto.",module,Magento_ProductAlert
 "Unable to update the alert subscription.","Não foi possível atualizar a inscrição de alerta.",module,Magento_ProductAlert
 "You will no longer receive stock alerts for this product.","Irá deixar de receber alertas de stock para este produto.",module,Magento_ProductAlert
 "You will no longer receive stock alerts.","Irá deixar de receber alertas de estoque.",module,Magento_ProductAlert
@@ -3404,6 +3420,7 @@ Apply,Aplicar,module,Magento_Rule
 "Please specify a website.","Por favor, especifique um site.",module,Magento_Rule
 "Please specify Customer Groups.","Por favor, especifique os grupos de clientes.",module,Magento_Rule
 to,para,module,Magento_Rule
+by,por,module,Magento_Rule
 "Please choose an action to add.","Por favor, escolha uma ação para adicionar.",module,Magento_Rule
 "Perform following actions","Executar a sequência de ações",module,Magento_Rule
 is,é,module,Magento_Rule
@@ -4054,6 +4071,7 @@ None,Nenhum,module,Magento_Security
 "We found some problems with the data.","Encontrámos alguns problemas com os dados.",module,Magento_SendFriend
 "Some emails were not sent.","Alguns e-mails não foram enviados.",module,Magento_SendFriend
 "You've met your limit of %1 sends in an hour.","Você excedeu o seu limite de %1 envios por hora.",module,Magento_SendFriend
+"Please enter a sender name.","Por favor insira um nome de remetente.",module,Magento_SendFriend
 "Invalid Sender Email","E-mail do remetente inválido",module,Magento_SendFriend
 "Please enter a message.","Por favor escreva uma mensagem.",module,Magento_SendFriend
 "Please enter a correct recipient email address.","Por favor, digite pelo menos um endereço de e-mail.",module,Magento_SendFriend
@@ -4270,6 +4288,7 @@ Language,Idioma,module,Magento_Store
 "Use Product Image for Swatch if Possible","Usar a imagem do produto para Swatch se possível",module,Magento_Swatches
 "Allows use fallback logic for replacing swatch image with product swatch or base image","Permite o uso de lógica de fallback para substituir a imagem de amostra de acordo com a imagem de amostra ou padrão do produto",module,Magento_Swatches
 "Visual Swatch","Swatch Visual",module,Magento_Swatches
+"Text Swatch","Amostra de Texto",module,Magento_Swatches
 "Manage Swatch (Values of Your Attribute)","Gerir Amostra (valores do seu atributo)",module,Magento_Swatches
 "Is Default","É o Padrão",module,Magento_Swatches
 "Sort Option","Opção de Ordenação",module,Magento_Swatches
@@ -4292,6 +4311,7 @@ State,Estado,module,Magento_TaxImportExport
 "Zip/Post Code",Cep,module,Magento_TaxImportExport
 Rate,Avaliação,module,Magento_TaxImportExport
 "Zip/Post is Range","Cep está no Intervalo",module,Magento_TaxImportExport
+"Range From","Intervalo De",module,Magento_TaxImportExport
 "Range To","Intervalo Até",module,Magento_TaxImportExport
 "Tax Zones and Rates","Zonas de Impostos e Tarifas",module,Magento_TaxImportExport
 "Invalid file upload attempt","Tentativa de carregamento de arquivo inválido",module,Magento_TaxImportExport
@@ -4303,6 +4323,7 @@ Rate,Avaliação,module,Magento_TaxImportExport
 "Zip/Post Code",Cep,module,Magento_Tax
 "'*' - matches any; 'xyz*' - matches any that begins on 'xyz' and are not longer than %1.","' *' - corresponde a qualquer; 'xyz*' - corresponde a qualquer que comece com 'xyz' e não mais do que %1.",module,Magento_Tax
 "Range From","Intervalo De",module,Magento_Tax
+"Range To","Intervalo Até",module,Magento_Tax
 State,Estado,module,Magento_Tax
 Country,País,module,Magento_Tax
 "Add New Tax Rate","Adicionar Nova Taxa de Imposto",module,Magento_Tax
@@ -4440,6 +4461,7 @@ Minute,Minuto,module,Magento_Theme
 "Add New %1","Adicionar Novo %1",module,Magento_Ui
 "New %1","Novo %1",module,Magento_Ui
 "Please select item(s).","Por favor, selecione o(s) item(s).",module,Magento_Ui
+"Unsupported bookmark action.","Ação de marcador não suportada.",module,Magento_Ui
 "Parameter ""class"" must be present.","Parâmetro ""classe"" deve estar presente.",module,Magento_Ui
 "Parameter ""sortOrder"" must be present.","O parâmetro ""sortOrder"" deve estar presente.",module,Magento_Ui
 "Invalid UI Component element name: '%1'","Nome de Elemento de UI inválido: '%1'",module,Magento_Ui
@@ -4451,6 +4473,7 @@ Next,Próximo,module,Magento_Ui
 "UPS Second Day Air","UPS Dois Dias Aéreo",module,Magento_Ups
 "UPS Worldwide Expedited","Expedido por UPS Worldwide",module,Magento_Ups
 "UPS Standard","UPS Padrão",module,Magento_Ups
+"UPS Three-Day Select","Selecionar UPS Três Dias",module,Magento_Ups
 "UPS Next Day Air Saver","UPS Proximo Dia Aéreo",module,Magento_Ups
 "UPS Today Standard","Hoje UPS Standard",module,Magento_Ups
 "UPS Today Express","Hoje UPS Express",module,Magento_Ups
@@ -4475,6 +4498,7 @@ Category:,Categoria:,module,Magento_UrlRewrite
 "We can't set up a URL rewrite because the product you chose is not associated with a website.","Não foi possível configurar a reescrita de URL porque o produto que você escolheu não está associado à um website.",module,Magento_UrlRewrite
 "Please assign a website to the selected category.","Por favor, atribua um site da Web para a categoria selecionada.",module,Magento_UrlRewrite
 "Edit URL Rewrite for a Product","Editar Reescrita de URL para um Produto",module,Magento_UrlRewrite
+"Add URL Rewrite for a Product","Adicionar Reescrita de URL para um Produto",module,Magento_UrlRewrite
 Product:,Produto:,module,Magento_UrlRewrite
 "Skip Category Selection","Pular Seleção de Categoria",module,Magento_UrlRewrite
 Name,Nome,module,Magento_UrlRewrite
@@ -5852,6 +5876,17 @@ Service,Serviço,module,Magento_Directory
 "State is Required for","Estado é necessário para",module,Magento_Directory
 "Allow to Choose State if It is Optional for Country","Permitir a opção Escolher Estado se for Opcional para o País",module,Magento_Directory
 "Weight Unit","Unidade de Peso",module,Magento_Directory
+"Downloadable Product Section","Seção de produtos para download",module,Magento_Downloadable
+Downloads,Transferências,module,Magento_Downloadable
+"Downloadable Product Options","Opções de produtos para download",module,Magento_Downloadable
+"Order Item Status to Enable Downloads","Status do Item pedido para permitir Downloads",module,Magento_Downloadable
+"Default Maximum Number of Downloads","Número máximo padrão de Downloads",module,Magento_Downloadable
+"Default Sample Title","Título de Amostra Pré-definido",module,Magento_Downloadable
+"Default Link Title","Título do Link padrão",module,Magento_Downloadable
+"Open Links in New Window","Abrir Links em nova janela",module,Magento_Downloadable
+"Use Content-Disposition","Usar Disposição de Conteúdo",module,Magento_Downloadable
+"Disable Guest Checkout if Cart Contains Downloadable Items","Desativar Checkout para Utilizadores Não Registados se o Carrinho Contiver Itens com Download",module,Magento_Downloadable
+"Guest checkout will only work with shareable.","O checkout para utilizadores não registados apenas funcionará com conteúdo partilhável.",module,Magento_Downloadable
 "EAV types and attributes","Tipos EAV e atributos",module,Magento_Eav
 "Entity types declaration cache","Cache de declaração de tipos de entidade",module,Magento_Eav
 "No Templates Found","Nenhum modelo foi encontrado",module,Magento_Email
@@ -5881,6 +5916,7 @@ Enable,Habilitado,module,Magento_GoogleAdwords
 "Conversion Value","Taxa de Conversão",module,Magento_GoogleAdwords
 Enable,Habilitado,module,Magento_GoogleAnalytics
 "Account Number","Número da Conta",module,Magento_GoogleAnalytics
+"Enable Content Experiments","Ativar Experiências de Conteúdo",module,Magento_GoogleOptimizer
 "Category View Optimization","Otimização da Visuação da Categoria",module,Magento_GoogleOptimizer
 "Grouped Product Image","Imagem de Produto Agrupado",module,Magento_GroupedProduct
 Type,Tipo,module,Magento_GroupedProduct
@@ -5918,6 +5954,7 @@ Options,Opções,module,Magento_Multishipping
 "New Relic Reporting","Relatórios New Relic",module,Magento_NewRelicReporting
 General,Geral,module,Magento_NewRelicReporting
 "Enable New Relic Integration","Ativar Integração New Relic",module,Magento_NewRelicReporting
+"New Relic API URL","URL da API New Relic",module,Magento_NewRelicReporting
 "Insights API URL","URL da API Insights",module,Magento_NewRelicReporting
 "Use %s to replace the account ID in the URL","Utilize %s para substituir o ID da conta no URL",module,Magento_NewRelicReporting
 "New Relic API Key","Chave da API New Relic",module,Magento_NewRelicReporting
@@ -5976,6 +6013,7 @@ Import,Importar,module,Magento_OfflineShipping
 "Minimum Order Amount","Quantidade mínima do Pedido",module,Magento_OfflineShipping
 "Full Page Cache","Cache de página inteira",module,Magento_PageCache
 "Caching Application","Cache da Aplicação",module,Magento_PageCache
+"Varnish Configuration","Configuração Varnish",module,Magento_PageCache
 "Access list","Lista de acesso",module,Magento_PageCache
 "IPs access list separated with ',' that can purge Varnish configuration for config file generation.
                             If field is empty default value localhost will be saved.","Lista de IPs de acesso separados com ',' que pode purgar configuração Varnish para a geração de arquivo de configuração.
