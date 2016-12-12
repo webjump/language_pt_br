@@ -1712,24 +1712,41 @@ Save,Salvar,module,Magento_Integration
 General,Geral,module,Magento_Integration
 Name,Nome,module,Magento_Integration
 Email,E-mail,module,Magento_Integration
+"Callback URL","URL de retrocesso",module,Magento_Integration
 "Enter URL where Oauth credentials can be sent when using Oauth for token exchange. We strongly recommend using https://.","Insira o URL por onde as credenciais OAuth podem ser enviadas para troca de tokens. Recomendamos fortemente o uso do protocolo https://.",module,Magento_Integration
+"Identity link URL","URL do link de identidade",module,Magento_Integration
 "URL to redirect user to link their 3rd party account with this Magento integration credentials.","URL para redirecionar o usuário para ligar sua conta de terceiros com estas credenciais de integração do Magento.",module,Magento_Integration
+"Integration Details","Detalhes de Integração",module,Magento_Integration
 "Basic Settings","Configurações Básicas",module,Magento_Integration
+"Integration Tokens for Extensions","Integração de Tokens para Extensões",module,Magento_Integration
 "Consumer Key","Chave do Consumidor",module,Magento_Integration
+"Consumer Secret","Segredo do Consumidor",module,Magento_Integration
 "Access Token","Token de acesso",module,Magento_Integration
+"Access Token Secret","Segredo do Token de Acesso",module,Magento_Integration
 "Uninstall the extension to remove this integration","Desinstale a extensão para remover esta integração",module,Magento_Integration
 Remove,Remover,module,Magento_Integration
 View,Visualizar,module,Magento_Integration
 Edit,Editar,module,Magento_Integration
 Activate,Ativar,module,Magento_Integration
 Reauthorize,Reautorizar,module,Magento_Integration
+"Uninstall the extension to remove integration '%1'.","Desinstale a extensão para remover esta integração '%1'.",module,Magento_Integration
+"This integration no longer exists.","Esta integração já não existe.",module,Magento_Integration
 "The integration '%1' has been deleted.","A integração '%1' foi eliminada.",module,Magento_Integration
+"Integration ID is not specified or is invalid.","O ID da Integração não está especificado ou é inválido.",module,Magento_Integration
 "Internal error. Check exception log for details.","Erro interno. Consulte o log de exceções para obter detalhes.",module,Magento_Integration
+"View ""%1"" Integration","Ver Integração ""%1""",module,Magento_Integration
 "Edit ""%1"" Integration","Editar Integração ""%1""",module,Magento_Integration
+"Warning! Integrations not using HTTPS are insecure and potentially expose private or personally identifiable information","Aviso! Integrações que não usem HTTPS são inseguras e podem colocar em risco informação privada ou pessoalmente identificável",module,Magento_Integration
+"The integration was not saved.","A integração não foi salvo.",module,Magento_Integration
 "The integration '%1' has been re-authorized.","A integração '%1' foi re-autorizada.",module,Magento_Integration
+"The integration '%1' has been activated.","A integração '%1' foi ativada.",module,Magento_Integration
+"Integration '%1' has been sent for re-authorization.","Foi enviada para re-autorização de integração '%1'.",module,Magento_Integration
 "Integration '%1' has been sent for activation.","A Integração '%1' foi enviada para ativação.",module,Magento_Integration
 Inactive,Inativo,module,Magento_Integration
 Active,Ativo,module,Magento_Integration
+"Invalid Callback URL","URL de Callback inválido",module,Magento_Integration
+"Invalid Rejected Callback URL","URL de Callback Inválido Rejeitado",module,Magento_Integration
+"A consumer with ID %1 does not exist","Não existe um consumidor com ID %1",module,Magento_Integration
 "Are you sure ?","Você tem certeza ?",module,Magento_Integration
 "Are you sure you want to delete this integration? You can't undo this action.","Você tem certeza que deseja excluir esta integração? Esta ação não pode ser desfeita.",module,Magento_Integration
 "Please setup or sign in into your 3rd party account to complete setup of this integration.","Por favor, configure ou entrar em sua conta ""3rd party"" para concluir a instalação desta integração.",module,Magento_Integration
@@ -1750,6 +1767,7 @@ Previous,Anterior,module,Magento_LayeredNavigation
 "Platinum Partners","Parceiros Platina",module,Magento_Marketplace
 "Featured Platinum Partners","Parceiros Platina em Destaque",module,Magento_Marketplace
 "Partner search","Busca de parceiro",module,Magento_Marketplace
+"Magento has a thriving ecosystem of technology partners to help merchants and brands deliver the best possible customer experiences. They are recognized as experts in eCommerce, search, email marketing, payments, tax, fraud, optimization and analytics, fulfillment, and more. Visit the Magento Partner Directory to see all of our trusted partners.","O Magento tem um ecossistema próspero de parceiros tecnológicos para ajudar comerciantes e marcas a fornecer a melhor experiência possível ao cliente. A empresa é reconhecida como perita em comércio virtual (eCommerce), pesquisas, marketing por e-mail, pagamentos, impostos, fraude, optimização e análise, cumprimento de obejctivos e muito mais. Visite o Directório de Parceiros do Magento para ver todos os nossos parceiros de confiança.",module,Magento_Marketplace
 "More Partners","Mais parceiros",module,Magento_Marketplace
 "Extensions and Themes are an essential component of the Magento Ecosystem. Please visit the Magento Marketplace to see the latest innovations that developers have created to enhance your Magento Store.","As Extensões e Temas são componentes essenciais do Ecossistema Magento. Por favor visite o Magento Marketplace para ver as últimas inovações que os desenvolvedores criaram para melhorar a sua Loja Magento.",module,Magento_Marketplace
 "Read More","Leia mais",module,Magento_Marketplace
@@ -2025,10 +2043,12 @@ Continue,Próximo,module,Magento_Paypal
 "Your shopping cart has been updated with new prices.","O seu carrinho de compras foi atualizado com novos preços.",module,Magento_Persistent
 "Welcome, %1!","Bem-vindo, %1!",module,Magento_Persistent
 "We cannot load the configuration from file %1.","Não conseguimos carregar a configuração do ficheiro %1.",module,Magento_Persistent
+"Remember Me","Permanecer logado",module,Magento_Persistent
 "You saved the alert subscription.","Você salvou a inscrição de alerta.",module,Magento_ProductAlert
 "There are not enough parameters.","Não existem parâmetros suficientes.",module,Magento_ProductAlert
 "Alert subscription has been saved.","A subscrição de alerta foi gravada.",module,Magento_ProductAlert
 "You deleted the alert subscription.","Você excluiu a inscrição de alerta.",module,Magento_ProductAlert
+"You will no longer receive price alerts for this product.","Você não receberá mais alertas de preço para este produto.",module,Magento_ProductAlert
 "Unable to update the alert subscription.","Não foi possível atualizar a inscrição de alerta.",module,Magento_ProductAlert
 "You will no longer receive stock alerts for this product.","Irá deixar de receber alertas de stock para este produto.",module,Magento_ProductAlert
 "You will no longer receive stock alerts.","Irá deixar de receber alertas de estoque.",module,Magento_ProductAlert
@@ -2251,6 +2271,7 @@ Summary,Resumo,module,Magento_Review
 Apply,Aplicar,module,Magento_Rule
 "End Date must follow Start Date.","Data final deve ser posterior à data de início.",module,Magento_Rule
 to,para,module,Magento_Rule
+by,por,module,Magento_Rule
 "Please choose an action to add.","Por favor, escolha uma ação para adicionar.",module,Magento_Rule
 "Perform following actions","Executar a sequência de ações",module,Magento_Rule
 is,é,module,Magento_Rule
@@ -2884,6 +2905,7 @@ Language,Idioma,module,Magento_Store
 "Zip/Post Code",Cep,module,Magento_Tax
 "'*' - matches any; 'xyz*' - matches any that begins on 'xyz' and are not longer than %1.","' *' - corresponde a qualquer; 'xyz*' - corresponde a qualquer que comece com 'xyz' e não mais do que %1.",module,Magento_Tax
 "Range From","Intervalo De",module,Magento_Tax
+"Range To","Intervalo Até",module,Magento_Tax
 State,Estado,module,Magento_Tax
 Country,País,module,Magento_Tax
 "Add New Tax Rate","Adicionar Nova Taxa de Imposto",module,Magento_Tax
@@ -2991,6 +3013,7 @@ Minute,Minuto,module,Magento_Theme
 "UPS Second Day Air","UPS Dois Dias Aéreo",module,Magento_Ups
 "UPS Worldwide Expedited","Expedido por UPS Worldwide",module,Magento_Ups
 "UPS Standard","UPS Padrão",module,Magento_Ups
+"UPS Three-Day Select","Selecionar UPS Três Dias",module,Magento_Ups
 "UPS Next Day Air Saver","UPS Proximo Dia Aéreo",module,Magento_Ups
 "UPS Today Standard","Hoje UPS Standard",module,Magento_Ups
 "UPS Today Express","Hoje UPS Express",module,Magento_Ups
@@ -3012,6 +3035,7 @@ label,rótulo,module,Magento_Ups
 "Add URL Rewrite for a Category","Adicionar Reescrita de URL para uma Categoria",module,Magento_UrlRewrite
 Category:,Categoria:,module,Magento_UrlRewrite
 "Edit URL Rewrite for a Product","Editar Reescrita de URL para um Produto",module,Magento_UrlRewrite
+"Add URL Rewrite for a Product","Adicionar Reescrita de URL para um Produto",module,Magento_UrlRewrite
 Product:,Produto:,module,Magento_UrlRewrite
 "Skip Category Selection","Pular Seleção de Categoria",module,Magento_UrlRewrite
 Name,Nome,module,Magento_UrlRewrite
@@ -3749,18 +3773,33 @@ Size,Tamanho,module,Magento_Dhl
 "Sort Order",Ordernação,module,Magento_Dhl
 Debug,Depurar/Debug,module,Magento_Dhl
 "Currency Setup","Configuração de Moeda",module,Magento_Directory
+"Currency Options","Opções de Moeda",module,Magento_Directory
 "Base Currency","Moeda base",module,Magento_Directory
+"Default Display Currency","Moeda de Exibição Pré-definida",module,Magento_Directory
 "Allowed Currencies","Moedas Permitidas",module,Magento_Directory
 "Connection Timeout in Seconds","Tempo Limite da Ligação em Segundos",module,Magento_Directory
 "Scheduled Import Settings","Definições de Importação Agendada",module,Magento_Directory
 Enabled,Habilitado,module,Magento_Directory
 "Error Email Recipient","Erro de Destinatário de E-mail",module,Magento_Directory
+"Error Email Sender","Erro de Remetente de Email",module,Magento_Directory
 "Error Email Template","Erro de Template de Email",module,Magento_Directory
 Frequency,Frequência,module,Magento_Directory
 Service,Serviço,module,Magento_Directory
 "Start Time","Hora de Início",module,Magento_Directory
 "Installed Currencies","Moedas Instaladas",module,Magento_Directory
+"Zip/Postal Code is Optional for","CEP/Código Postal é opcional para",module,Magento_Directory
+"State Options","Opções de estado",module,Magento_Directory
 "State is Required for","Estado é necessário para",module,Magento_Directory
+"Allow to Choose State if It is Optional for Country","Permitir a opção Escolher Estado se for Opcional para o País",module,Magento_Directory
+"Downloadable Product Options","Opções de produtos para download",module,Magento_Downloadable
+"Order Item Status to Enable Downloads","Status do Item pedido para permitir Downloads",module,Magento_Downloadable
+"Default Maximum Number of Downloads","Número máximo padrão de Downloads",module,Magento_Downloadable
+"Default Sample Title","Título de Amostra Pré-definido",module,Magento_Downloadable
+"Default Link Title","Título do Link padrão",module,Magento_Downloadable
+"Open Links in New Window","Abrir Links em nova janela",module,Magento_Downloadable
+"Use Content-Disposition","Usar Disposição de Conteúdo",module,Magento_Downloadable
+"Disable Guest Checkout if Cart Contains Downloadable Items","Desativar Checkout para Utilizadores Não Registados se o Carrinho Contiver Itens com Download",module,Magento_Downloadable
+"Guest checkout will only work with shareable.","O checkout para utilizadores não registados apenas funcionará com conteúdo partilhável.",module,Magento_Downloadable
 "EAV types and attributes","Tipos EAV e atributos",module,Magento_Eav
 "Entity types declaration cache.","Declarações de cache dos tipos de entidade.",module,Magento_Eav
 "No Templates Found","Nenhum modelo foi encontrado",module,Magento_Email
@@ -3787,6 +3826,7 @@ Enable,Habilitado,module,Magento_GoogleAdwords
 "Conversion Value","Taxa de Conversão",module,Magento_GoogleAdwords
 Enable,Habilitado,module,Magento_GoogleAnalytics
 "Account Number","Número da Conta",module,Magento_GoogleAnalytics
+"Enable Content Experiments","Ativar Experiências de Conteúdo",module,Magento_GoogleOptimizer
 "Grouped Product Image","Imagem de Produto Agrupado",module,Magento_GroupedProduct
 "Error File","Arquivo de erro",module,Magento_ImportExport
 "Execution Time","Tempo de execução",module,Magento_ImportExport
@@ -3855,6 +3895,7 @@ Import,Importar,module,Magento_OfflineShipping
 "Minimum Order Amount","Quantidade mínima do Pedido",module,Magento_OfflineShipping
 "Full Page Cache","Cache de página inteira",module,Magento_PageCache
 "Caching Application","Cache da Aplicação",module,Magento_PageCache
+"Varnish Configuration","Configuração Varnish",module,Magento_PageCache
 "Access list","Lista de acesso",module,Magento_PageCache
 "Specify backend host for config file generation. If field is empty default value localhost will be saved.","Especifique o host do backend para a geração do arquivo de configuração. Se o campo estiver vazio será gravado o valor localhost.",module,Magento_PageCache
 "TTL for public content","TTL para conteúdo público",module,Magento_PageCache
