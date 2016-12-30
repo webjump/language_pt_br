@@ -2090,10 +2090,15 @@ Specific,Específicas,module,Magento_Dhl
 "Domestic economy select",Todos,module,Magento_Dhl
 "Economy select","Selecione a economia",module,Magento_Dhl
 "Break bulk economy","Fracionar economia em massa",module,Magento_Dhl
+"Domestic express","Expresso nacional",module,Magento_Dhl
 Others,Outros,module,Magento_Dhl
+"Globalmail business","Correio global de negócios",module,Magento_Dhl
 "Same day","Mesmo dia",module,Magento_Dhl
+"Express 12:00","Expresso 12:00",module,Magento_Dhl
+"Express envelope","Envelope Expresso",module,Magento_Dhl
 "Customer services","Atendimento ao cliente",module,Magento_Dhl
 "Freight worldwide","Frete para o mundo todo",module,Magento_Dhl
+"Jumbo box","Caixa grande",module,Magento_Dhl
 "DHL service is not available at %s date","O serviço DHL não está disponível na data %s",module,Magento_Dhl
 "The response is in wrong format.","A resposta está no formato errado.",module,Magento_Dhl
 "Error #%1 : %2","Erro #%1: %2",module,Magento_Dhl
@@ -2423,6 +2428,7 @@ City,Cidade,module,Magento_Email
 "Please enter a template name.","Por favor insira um nome de template.",module,Magento_Email
 "Duplicate Of Template Name","Nome do template duplicado",module,Magento_Email
 "Invalid transactional email code: %1","Código transacional de e-mail inválido: %1",module,Magento_Email
+"Requested invalid store ""%1""","""%1"" loja solicitada inválida",module,Magento_Email
 """file"" parameter must be specified","o parâmetro ""arquivo"" deve ser especificado",module,Magento_Email
 "Contents of %s could not be loaded or is empty","Conteúdo de %s não pôde ser carregado ou está vazio",module,Magento_Email
 """file"" parameter must be specified and must not be empty","O parâmetro ""arquivo"" precisa ser específicado e não pode ser vazio",module,Magento_Email
@@ -2444,6 +2450,7 @@ No,Não,module,Magento_EncryptionKey
 Yes,Sim,module,Magento_EncryptionKey
 "The generated key will be displayed after changing.","A chave gerada será exibida após a alteração.",module,Magento_EncryptionKey
 "New Key","Nova chave",module,Magento_EncryptionKey
+"Deployment configuration file is not writable.","Arquivo de configuração de implantação não é gravável.",module,Magento_EncryptionKey
 "Please enter an encryption key.","Por favor digite uma chave de criptografia.",module,Magento_EncryptionKey
 "The encryption key has been changed.","A chave de criptografia foi alterada.",module,Magento_EncryptionKey
 "This is your new encryption key: <span style=""font-family:monospace;"">%1</span>. Be sure to write it down and take good care of it!","Esta é a sua nova chave de criptografia: <span style=""font-family:monospace;"">%1</span>. Certifique-se de anotá-la e cuidar bem dele!",module,Magento_EncryptionKey
@@ -2818,8 +2825,10 @@ Subject,Assunto,module,Magento_Newsletter
 "Sender Name","Nome do remetente",module,Magento_Newsletter
 "Sender Email","E-mail do remetente",module,Magento_Newsletter
 Message,Mensagem,module,Magento_Newsletter
+"Newsletter Styles","Estilos de Newsletter",module,Magento_Newsletter
 Start,Ínicio,module,Magento_Newsletter
 Pause,Pausar,module,Magento_Newsletter
+"Do you really want to cancel the queue?","Você realmente quer cancelar a fila?",module,Magento_Newsletter
 Cancel,Cancelar,module,Magento_Newsletter
 Resume,Resumir,module,Magento_Newsletter
 Preview,Pré-visualização,module,Magento_Newsletter
@@ -2843,17 +2852,32 @@ Updated,Atualizado,module,Magento_Newsletter
 Sender,Remetente,module,Magento_Newsletter
 "Template Type","Tipo de modelo",module,Magento_Newsletter
 Action,Ação,module,Magento_Newsletter
+"Queue Newsletter","Newsletter da Fila",module,Magento_Newsletter
 "We unsubscribed the people you identified.","Removemos a subscrição às pessoas que identificou.",module,Magento_Newsletter
 "The problems you identified have been deleted.","Os problemas que identificou foram excluídos.",module,Magento_Newsletter
+"Newsletter Problems Report","Relatório de Problemas da Newsletter",module,Magento_Newsletter
 "Newsletter Problem Reports","Relatórios de Problemas da Newsletter",module,Magento_Newsletter
 "Newsletter Queue","Fila de Newsletter",module,Magento_Newsletter
+"Edit Queue","Editar Fila",module,Magento_Newsletter
 "Please correct the newsletter template and try again.","Por favor corrija o template da newsletter e tente novamente.",module,Magento_Newsletter
 "You saved the newsletter queue.","Gravou a fila da newsletter.",module,Magento_Newsletter
+"Newsletter Subscribers","Inscritos da Newsletter",module,Magento_Newsletter
+Subscribers,Inscritos,module,Magento_Newsletter
+"Please select one or more subscribers.","Por favor selecione um ou mais Inscritos.",module,Magento_Newsletter
+"Total of %1 record(s) were deleted.","Total de %1 registro(s) excluído(s).",module,Magento_Newsletter
 "A total of %1 record(s) were updated.","Um total de %1 registro(s) foram atualizados.",module,Magento_Newsletter
+"The newsletter template has been deleted.","O template da newsletter foi removido.",module,Magento_Newsletter
 "We can't delete this template right now.","Não podemos excluir esse modelo neste momento.",module,Magento_Newsletter
 "Edit Template","Editar Template",module,Magento_Newsletter
 "New Template","Novo template",module,Magento_Newsletter
+"Create Newsletter Template","Novo Template de Newsletter",module,Magento_Newsletter
+"The newsletter template has been saved.","O template da newsletter foi salvo.",module,Magento_Newsletter
+"Something went wrong while saving this template.","Algo correu ao gravar este template.",module,Magento_Newsletter
 "Newsletter Subscription","Assinar Newsletter",module,Magento_Newsletter
+"Something went wrong while saving your subscription.","Algo correu mal durante a gravação da sua inscrição.",module,Magento_Newsletter
+"We saved the subscription.","Inscrição salva.",module,Magento_Newsletter
+"We removed the subscription.","Removemos a inscrição.",module,Magento_Newsletter
+"Your subscription has been confirmed.","A sua inscrição foi confirmada.",module,Magento_Newsletter
 "Please enter a valid email address.","Por favor, insira um endereço de e-mail válido.",module,Magento_Newsletter
 Sent,Enviado,module,Magento_Newsletter
 "Not Sent","Não Enviado",module,Magento_Newsletter
@@ -4805,6 +4829,7 @@ Password:,Senha:,module,Magento_Customer
 "The password for your account has been successfully changed.","A senha para sua conta foi alterada com sucesso.",module,Magento_Customer
 "If you did not request this change, please contact us.","Se você não solicitou essa mudança, entre em contato conosco.",module,Magento_Customer
 "Currency Update Warnings","Avisos de Atualização de Moeda",module,Magento_Directory
+"Thank you, %store_name","Obrigado, %store_name",module,Magento_Email
 "Thank you for your order from %store_name.","Obrigado pelo seu pedido na loja %store_name.",module,Magento_Sales
 "Billing Info","Informações de cobrança",module,Magento_Sales
 "Shipping Info","Informações de entrega",module,Magento_Sales
@@ -5491,9 +5516,27 @@ Addresses,Endereços,module,Magento_Customer
 "Allowed IPs (comma separated)","IPs Permitidos (separados por vírgula)",module,Magento_Developer
 "Leave empty for access from any location.","Deixe em branco para acessar a partir de qualquer lugar.",module,Magento_Developer
 "Enabled for Checkout","Ativado para Finalizar Compra",module,Magento_Dhl
+"Gateway URL","URL de entrada",module,Magento_Dhl
 Title,Título,module,Magento_Dhl
+"Access ID","ID de acesso",module,Magento_Dhl
 Password,Senha,module,Magento_Dhl
+"Account Number","Número da Conta",module,Magento_Dhl
+"Content Type","Tipo de Conteúdo",module,Magento_Dhl
+"Calculate Handling Fee","Calcular a taxa de manuseio",module,Magento_Dhl
+"Handling Applied","Processamento Aplicado",module,Magento_Dhl
+"""Per Order"" allows a single handling fee for the entire order. ""Per Package"" allows an individual handling fee for each package.","""Por Encomenda"" permite uma taxa de processamento para a encomenda inteira. ""Por Pacote"" permite uma taxa de processamento para cada pacote.",module,Magento_Dhl
+"Handling Fee","Taxa de Manuseio",module,Magento_Dhl
+"Divide Order Weight","Dividir o Peso da Encomenda",module,Magento_Dhl
+"Select this to allow DHL to optimize shipping charges by splitting the order if it exceeds 70 kg.","Selecione esta opção para permitir que a DHL otimize as despesas de envio ao dividir a encomenda se está exceder 70kg.",module,Magento_Dhl
+"Weight Unit","Unidade de Peso",module,Magento_Dhl
 Size,Tamanho,module,Magento_Dhl
+"Allowed Methods","Métodos Permitidos",module,Magento_Dhl
+"Displayed Error Message","Mensagem de erro exibida",module,Magento_Dhl
+"Free Method","Método Gratuito",module,Magento_Dhl
+"Free Shipping Amount Threshold","Quantidade limite para envios gratuitos",module,Magento_Dhl
+"Ship to Applicable Countries","Envio para Países Aplicáveis",module,Magento_Dhl
+"Ship to Specific Countries","Envio para Países Específicos",module,Magento_Dhl
+"Show Method if Not Applicable","Mostrar Método se Não Aplicável",module,Magento_Dhl
 "Sort Order",Ordernação,module,Magento_Dhl
 Debug,Depurar/Debug,module,Magento_Dhl
 "Currency Setup","Configuração de Moeda",module,Magento_Directory
@@ -5532,8 +5575,12 @@ Emails,E-mails,module,Magento_Email
 "Logo Image","Imagem do logotipo",module,Magento_Email
 "Allowed file types: jpg, jpeg, gif, png. To optimize logo for high-resolution displays, upload an image that is 3x normal size and then specify 1x dimensions in width/height fields below.","Tipos de arquivo permitidos: jpg, jpeg, gif, png. Para otimizar o logotipo para telas de alta resolução, carregue uma imagem que tenha 3 vezes o tamanho normal e especifique a dimensão em tamanho normal nos campos de largura/altura abaixo.",module,Magento_Email
 "Logo Image Alt","Alt da imagem do logotipo",module,Magento_Email
+"Logo Width","Largura do Logótipo",module,Magento_Email
 "Only necessary if image has been uploaded above. Enter number of pixels, without appending ""px"".","Somente é necessário se a imagem foi carregada acima. Informe o número de pixels, sem acrescentar ""px"".",module,Magento_Email
+"Logo Height","Altura do Logótipo",module,Magento_Email
+"Header Template","Modelo de cabeçalho",module,Magento_Email
 "Email template chosen based on theme fallback when ""Default"" option is selected.","O modelo de e-mail escolhido baseado no tema ""fallback"" quando a opção ""Padrão"" é selecionada.",module,Magento_Email
+"Footer Template","Modelo de rodapé",module,Magento_Email
 "No Templates Found","Nenhum modelo foi encontrado",module,Magento_Email
 Added,Adicionado,module,Magento_Email
 Updated,Atualizado,module,Magento_Email
