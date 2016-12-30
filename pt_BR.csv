@@ -2127,10 +2127,15 @@ Specific,Específicas,module,Magento_Dhl
 "Domestic economy select",Todos,module,Magento_Dhl
 "Economy select","Selecione a economia",module,Magento_Dhl
 "Break bulk economy","Fracionar economia em massa",module,Magento_Dhl
+"Domestic express","Expresso nacional",module,Magento_Dhl
 Others,Outros,module,Magento_Dhl
+"Globalmail business","Correio global de negócios",module,Magento_Dhl
 "Same day","Mesmo dia",module,Magento_Dhl
+"Express 12:00","Expresso 12:00",module,Magento_Dhl
+"Express envelope","Envelope Expresso",module,Magento_Dhl
 "Customer services","Atendimento ao cliente",module,Magento_Dhl
 "Freight worldwide","Frete para o mundo todo",module,Magento_Dhl
+"Jumbo box","Caixa grande",module,Magento_Dhl
 "DHL service is not available at %s date","O serviço DHL não está disponível na data %s",module,Magento_Dhl
 "The response is in wrong format.","A resposta está no formato errado.",module,Magento_Dhl
 "Error #%1 : %2","Erro #%1: %2",module,Magento_Dhl
@@ -2139,6 +2144,7 @@ Others,Outros,module,Magento_Dhl
 "Cannot identify measure unit for %1","Não é possível identificar unidade de medida para %1",module,Magento_Dhl
 "Cannot identify weight unit for %1","Não foi possível identificar a unidade de peso para %1",module,Magento_Dhl
 "There is no items in this order","Não há nenhum item neste pedido",module,Magento_Dhl
+"Please specify origin country.","Por favor, especifique o país de origem.",module,Magento_Dhl
 Documents,Documentos,module,Magento_Dhl
 "Non Documents","Nenhuma Documentação",module,Magento_Dhl
 "Height, width and length should be equal or greater than %1","Altura, largura e o comprimento devem ser iguais ou maior que %1",module,Magento_Dhl
@@ -2470,6 +2476,7 @@ City,Cidade,module,Magento_Email
 "Please enter a template name.","Por favor insira um nome de template.",module,Magento_Email
 "Duplicate Of Template Name","Nome do template duplicado",module,Magento_Email
 "Invalid transactional email code: %1","Código transacional de e-mail inválido: %1",module,Magento_Email
+"Requested invalid store ""%1""","""%1"" loja solicitada inválida",module,Magento_Email
 """file"" parameter must be specified","o parâmetro ""arquivo"" deve ser especificado",module,Magento_Email
 "Contents of %s could not be loaded or is empty","Conteúdo de %s não pôde ser carregado ou está vazio",module,Magento_Email
 """file"" parameter must be specified and must not be empty","O parâmetro ""arquivo"" precisa ser específicado e não pode ser vazio",module,Magento_Email
@@ -2492,8 +2499,10 @@ No,Não,module,Magento_EncryptionKey
 Yes,Sim,module,Magento_EncryptionKey
 "The generated key will be displayed after changing.","A chave gerada será exibida após a alteração.",module,Magento_EncryptionKey
 "New Key","Nova chave",module,Magento_EncryptionKey
+"Deployment configuration file is not writable.","Arquivo de configuração de implantação não é gravável.",module,Magento_EncryptionKey
 "Please enter an encryption key.","Por favor digite uma chave de criptografia.",module,Magento_EncryptionKey
 "The encryption key has been changed.","A chave de criptografia foi alterada.",module,Magento_EncryptionKey
+"This is your new encryption key: %1. Be sure to write it down and take good care of it!","Esta é sua nova chave de criptografia: %1. Não se esqueça de anotá-la e cuidar bem dela!",module,Magento_EncryptionKey
 "Europe First Priority","Primeira prioridade Europa",module,Magento_Fedex
 "1 Day Freight","Frete de 1 dia",module,Magento_Fedex
 "2 Day Freight","Frete de 2 dias",module,Magento_Fedex
@@ -2876,8 +2885,10 @@ Subject,Assunto,module,Magento_Newsletter
 "Sender Name","Nome do remetente",module,Magento_Newsletter
 "Sender Email","E-mail do remetente",module,Magento_Newsletter
 Message,Mensagem,module,Magento_Newsletter
+"Newsletter Styles","Estilos de Newsletter",module,Magento_Newsletter
 Start,Ínicio,module,Magento_Newsletter
 Pause,Pausar,module,Magento_Newsletter
+"Do you really want to cancel the queue?","Você realmente quer cancelar a fila?",module,Magento_Newsletter
 Cancel,Cancelar,module,Magento_Newsletter
 Resume,Resumir,module,Magento_Newsletter
 Preview,Pré-visualização,module,Magento_Newsletter
@@ -2901,17 +2912,32 @@ Updated,Atualizado,module,Magento_Newsletter
 Sender,Remetente,module,Magento_Newsletter
 "Template Type","Tipo de modelo",module,Magento_Newsletter
 Action,Ação,module,Magento_Newsletter
+"Queue Newsletter","Newsletter da Fila",module,Magento_Newsletter
 "We unsubscribed the people you identified.","Removemos a subscrição às pessoas que identificou.",module,Magento_Newsletter
 "The problems you identified have been deleted.","Os problemas que identificou foram excluídos.",module,Magento_Newsletter
+"Newsletter Problems Report","Relatório de Problemas da Newsletter",module,Magento_Newsletter
 "Newsletter Problem Reports","Relatórios de Problemas da Newsletter",module,Magento_Newsletter
 "Newsletter Queue","Fila de Newsletter",module,Magento_Newsletter
+"Edit Queue","Editar Fila",module,Magento_Newsletter
 "Please correct the newsletter template and try again.","Por favor corrija o template da newsletter e tente novamente.",module,Magento_Newsletter
 "You saved the newsletter queue.","Gravou a fila da newsletter.",module,Magento_Newsletter
+"Newsletter Subscribers","Inscritos da Newsletter",module,Magento_Newsletter
+Subscribers,Inscritos,module,Magento_Newsletter
+"Please select one or more subscribers.","Por favor selecione um ou mais Inscritos.",module,Magento_Newsletter
+"Total of %1 record(s) were deleted.","Total de %1 registro(s) excluído(s).",module,Magento_Newsletter
 "A total of %1 record(s) were updated.","Um total de %1 registro(s) foram atualizados.",module,Magento_Newsletter
+"The newsletter template has been deleted.","O template da newsletter foi removido.",module,Magento_Newsletter
 "We can't delete this template right now.","Não podemos excluir esse modelo neste momento.",module,Magento_Newsletter
 "Edit Template","Editar Template",module,Magento_Newsletter
 "New Template","Novo template",module,Magento_Newsletter
+"Create Newsletter Template","Novo Template de Newsletter",module,Magento_Newsletter
+"The newsletter template has been saved.","O template da newsletter foi salvo.",module,Magento_Newsletter
+"Something went wrong while saving this template.","Algo correu ao gravar este template.",module,Magento_Newsletter
 "Newsletter Subscription","Assinar Newsletter",module,Magento_Newsletter
+"Something went wrong while saving your subscription.","Algo correu mal durante a gravação da sua inscrição.",module,Magento_Newsletter
+"We saved the subscription.","Inscrição salva.",module,Magento_Newsletter
+"We removed the subscription.","Removemos a inscrição.",module,Magento_Newsletter
+"Your subscription has been confirmed.","A sua inscrição foi confirmada.",module,Magento_Newsletter
 "Please enter a valid email address.","Por favor, insira um endereço de e-mail válido.",module,Magento_Newsletter
 Sent,Enviado,module,Magento_Newsletter
 "Not Sent","Não Enviado",module,Magento_Newsletter
@@ -4488,6 +4514,7 @@ Pallet,Palete,module,Magento_Ups
 Pounds,Libras,module,Magento_Ups
 Kilograms,Quilogramas,module,Magento_Ups
 "Sorry, something went wrong. Please try again or contact us and we'll try to help.","Desculpe, Algo deu errado. Por favor tente novamente ou entre em contato conosco e tentaremos ajudar.",module,Magento_Ups
+"We can't convert a rate from ""%1-%2"".","Não é possível converter uma taxa de ""%1-%2"".",module,Magento_Ups
 "Empty response","Nenhuma resposta",module,Magento_Ups
 "Not Required","Não é necessário",module,Magento_Ups
 None,Nenhum,module,Magento_Ups
@@ -4972,6 +4999,9 @@ Password:,Senha:,module,Magento_Customer
 "Checkout out using your account","Efetue a compra usando sua conta",module,Magento_Customer
 "Email Address","Endereço de e-mail",module,Magento_Customer
 "Currency Update Warnings","Avisos de Atualização de Moeda",module,Magento_Directory
+Footer,Rodapé,module,Magento_Email
+"Thank you, %store_name","Obrigado, %store_name",module,Magento_Email
+Header,Cabeçalho,module,Magento_Email
 "Gift Message (optional)","Mensagem de Presente (opcional)",module,Magento_GiftMessage
 To:,Para:,module,Magento_GiftMessage
 From:,De:,module,Magento_GiftMessage
@@ -5787,6 +5817,10 @@ Currency,Moeda,module,Magento_CurrencySymbol
 "Please enter a number 1 or greater in this field.","Por favor, insira um número maior ou igual a 1 neste campo.",module,Magento_Customer
 "Number of Required Character Classes","Número de Classes de Caracteres Exigido",module,Magento_Customer
 "Number of different character classes required in password: Lowercase, Uppercase, Digits, Special Characters.","Número de classes de caracteres exigido na palavra-passe: Minúsculas, Maiúsculas, Números, Caracteres Especiais.",module,Magento_Customer
+"Minimum Password Length","Comprimento mínimo da senha",module,Magento_Customer
+"Maximum Login Failures to Lockout Account","Máximo de Tentativas de Login para Bloquear Conta",module,Magento_Customer
+"Use 0 to disable account locking.","Use 0 para desativar o bloqueio de conta.",module,Magento_Customer
+"Lockout Time (minutes)","Tempo de Bloqueio (minutos)",module,Magento_Customer
 "Name and Address Options","Opções de Nome e Endereço",module,Magento_Customer
 "Number of Lines in a Street Address","Numero de Linhas em Endereço",module,Magento_Customer
 "Leave empty for default (2). Valid range: 1-4","Deixe vazio para padrão (2). Intervalo válido: 1-4",module,Magento_Customer
@@ -5809,6 +5843,7 @@ Currency,Moeda,module,Magento_CurrencySymbol
 "Online Minutes Interval","Intervalo de Minutos Online",module,Magento_Customer
 "Leave empty for default (15 minutes).","Deixe em branco para o padrão (15 minutos).",module,Magento_Customer
 "Enable Autocomplete on login/forgot password forms","Ativar AutoCompletar no form de login e form de recuperação de senha",module,Magento_Customer
+"Customer Notification","Notificação ao Cliente",module,Magento_Customer
 "Customer Grid","Tabela de Clientes",module,Magento_Customer
 "Rebuild Customer grid index","Reconstrua índice da tabela de clientes",module,Magento_Customer
 Group,Grupo,module,Magento_Customer
@@ -5828,12 +5863,14 @@ ZIP,CEP,module,Magento_Customer
 "Tax VAT Number",CPF/CNPJ,module,Magento_Customer
 "Billing Firstname","Nome de cobrança",module,Magento_Customer
 "Billing Lastname","Sobrenome de cobrança",module,Magento_Customer
+"Account Lock","Bloqueio de Conta",module,Magento_Customer
 "First Name",Nome,module,Magento_Customer
 "Last Name",Sobrenome,module,Magento_Customer
 "Last Activity","Última atividade",module,Magento_Customer
 Type,Tipo,module,Magento_Customer
 "Customer Information","Informações do cliente",module,Magento_Customer
 "If your Magento site has multiple views, you can set the scope to apply to a specific view.","Se seu site tiver múltiplas visualizações, voce poderá configurar o escopo para aplicar uma visualização específica.",module,Magento_Customer
+"Disable Automatic Group Change Based on VAT ID","Desativar mudança automática de grupo baseada no CPF/CNPJ",module,Magento_Customer
 "Send Welcome Email From","Enviar E-mail de Bem Vindo Por",module,Magento_Customer
 Addresses,Endereços,module,Magento_Customer
 "Are you sure you want to delete this item?","Você tem certeza que deseja excluir este item?",module,Magento_Customer
@@ -5849,9 +5886,28 @@ Addresses,Endereços,module,Magento_Customer
 "Allowed IPs (comma separated)","IPs Permitidos (separados por vírgula)",module,Magento_Developer
 "Leave empty for access from any location.","Deixe em branco para acessar a partir de qualquer lugar.",module,Magento_Developer
 "Enabled for Checkout","Ativado para Finalizar Compra",module,Magento_Dhl
+"Gateway URL","URL de entrada",module,Magento_Dhl
 Title,Título,module,Magento_Dhl
+"Access ID","ID de acesso",module,Magento_Dhl
 Password,Senha,module,Magento_Dhl
+"Account Number","Número da Conta",module,Magento_Dhl
+"Content Type","Tipo de Conteúdo",module,Magento_Dhl
+"Calculate Handling Fee","Calcular a taxa de manuseio",module,Magento_Dhl
+"Handling Applied","Processamento Aplicado",module,Magento_Dhl
+"""Per Order"" allows a single handling fee for the entire order. ""Per Package"" allows an individual handling fee for each package.","""Por Encomenda"" permite uma taxa de processamento para a encomenda inteira. ""Por Pacote"" permite uma taxa de processamento para cada pacote.",module,Magento_Dhl
+"Handling Fee","Taxa de Manuseio",module,Magento_Dhl
+"Divide Order Weight","Dividir o Peso da Encomenda",module,Magento_Dhl
+"Select this to allow DHL to optimize shipping charges by splitting the order if it exceeds 70 kg.","Selecione esta opção para permitir que a DHL otimize as despesas de envio ao dividir a encomenda se está exceder 70kg.",module,Magento_Dhl
+"Weight Unit","Unidade de Peso",module,Magento_Dhl
 Size,Tamanho,module,Magento_Dhl
+"Allowed Methods","Métodos Permitidos",module,Magento_Dhl
+"Displayed Error Message","Mensagem de erro exibida",module,Magento_Dhl
+"Free Method","Método Gratuito",module,Magento_Dhl
+"Enable Free Shipping Threshold","Habilitar limite de envio gratuito",module,Magento_Dhl
+"Free Shipping Amount Threshold","Quantidade limite para envios gratuitos",module,Magento_Dhl
+"Ship to Applicable Countries","Envio para Países Aplicáveis",module,Magento_Dhl
+"Ship to Specific Countries","Envio para Países Específicos",module,Magento_Dhl
+"Show Method if Not Applicable","Mostrar Método se Não Aplicável",module,Magento_Dhl
 "Sort Order",Ordernação,module,Magento_Dhl
 Debug,Depurar/Debug,module,Magento_Dhl
 "Currency Setup","Configuração de Moeda",module,Magento_Directory
@@ -5889,6 +5945,7 @@ Downloads,Transferências,module,Magento_Downloadable
 "Guest checkout will only work with shareable.","O checkout para utilizadores não registados apenas funcionará com conteúdo partilhável.",module,Magento_Downloadable
 "EAV types and attributes","Tipos EAV e atributos",module,Magento_Eav
 "Entity types declaration cache","Cache de declaração de tipos de entidade",module,Magento_Eav
+Communications,Comunicações,module,Magento_Email
 "No Templates Found","Nenhum modelo foi encontrado",module,Magento_Email
 Added,Adicionado,module,Magento_Email
 Updated,Atualizado,module,Magento_Email
@@ -5896,7 +5953,15 @@ Subject,Assunto,module,Magento_Email
 "Template Type","Tipo de modelo",module,Magento_Email
 Action,Ação,module,Magento_Email
 "Logo Image","Imagem do logotipo",module,Magento_Email
+"Allowed file types: jpg, jpeg, gif, png. To optimize logo for high-resolution displays, upload an image that is 3x normal size and then specify 1x dimensions in the width/height fields below.","Tipos de arquivo permitidos: jpg, jpeg, gif, png. Para otimizar o logotipo para telas de alta resolução, carregue uma imagem que tenha 3 vezes o tamanho normal e especifique a dimensão em tamanho normal nos campos de largura/altura abaixo.",module,Magento_Email
 "Logo Image Alt","Alt da imagem do logotipo",module,Magento_Email
+"Logo Width","Largura do Logótipo",module,Magento_Email
+"Necessary only if an image has been uploaded above. Enter number of pixels, without appending ""px"".","Necessário somente se uma imagem foi carregado acima. Digite o número de pixels, sem acrescentar ""px"".",module,Magento_Email
+"Logo Height","Altura do Logótipo",module,Magento_Email
+"Necessary only if an image has been uploaded above. Enter image height size in pixels without appending ""px"".","Necessário somente se uma imagem foi carregado acima. Insira o tamanho de altura da imagem em pixels sem acrescentar ""px"".",module,Magento_Email
+"Header Template","Modelo de cabeçalho",module,Magento_Email
+"Email template chosen based on theme fallback, when the ""Default"" option is selected.","Modelo de e-mail escolhido baseado no tema padrão, quando é selecionada a opção ""Padrão"".",module,Magento_Email
+"Footer Template","Modelo de rodapé",module,Magento_Email
 "Manage Encryption Key","Gerir Chave de Encriptação",module,Magento_EncryptionKey
 "Enabled for Checkout","Ativado para Finalizar Compra",module,Magento_Fedex
 Title,Título,module,Magento_Fedex
