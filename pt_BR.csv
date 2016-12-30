@@ -1355,10 +1355,15 @@ Specific,Específicas,module,Magento_Dhl
 "Domestic economy select",Todos,module,Magento_Dhl
 "Economy select","Selecione a economia",module,Magento_Dhl
 "Break bulk economy","Fracionar economia em massa",module,Magento_Dhl
+"Domestic express","Expresso nacional",module,Magento_Dhl
 Others,Outros,module,Magento_Dhl
+"Globalmail business","Correio global de negócios",module,Magento_Dhl
 "Same day","Mesmo dia",module,Magento_Dhl
+"Express 12:00","Expresso 12:00",module,Magento_Dhl
+"Express envelope","Envelope Expresso",module,Magento_Dhl
 "Customer services","Atendimento ao cliente",module,Magento_Dhl
 "Freight worldwide","Frete para o mundo todo",module,Magento_Dhl
+"Jumbo box","Caixa grande",module,Magento_Dhl
 "DHL service is not available at %s date","O serviço DHL não está disponível na data %s",module,Magento_Dhl
 "The response is in wrong format.","A resposta está no formato errado.",module,Magento_Dhl
 "Error #%1 : %2","Erro #%1: %2",module,Magento_Dhl
@@ -1585,6 +1590,7 @@ City,Cidade,module,Magento_Email
 "Template Variables","Variáveis do template",module,Magento_Email
 "Duplicate Of Template Name","Nome do template duplicado",module,Magento_Email
 "Invalid transactional email code: %1","Código transacional de e-mail inválido: %1",module,Magento_Email
+"Requested invalid store ""%1""","""%1"" loja solicitada inválida",module,Magento_Email
 "Invalid sender data","Dados do remetente inválido",module,Magento_Email
 "Load default template","Carregar template padrão",module,Magento_Email
 "Change Encryption Key","Alterar chave de criptografia",module,Magento_EncryptionKey
@@ -1850,8 +1856,10 @@ Subject,Assunto,module,Magento_Newsletter
 "Sender Name","Nome do remetente",module,Magento_Newsletter
 "Sender Email","E-mail do remetente",module,Magento_Newsletter
 Message,Mensagem,module,Magento_Newsletter
+"Newsletter Styles","Estilos de Newsletter",module,Magento_Newsletter
 Start,Ínicio,module,Magento_Newsletter
 Pause,Pausar,module,Magento_Newsletter
+"Do you really want to cancel the queue?","Você realmente quer cancelar a fila?",module,Magento_Newsletter
 Cancel,Cancelar,module,Magento_Newsletter
 Resume,Resumir,module,Magento_Newsletter
 Preview,Pré-visualização,module,Magento_Newsletter
@@ -1877,13 +1885,25 @@ Sender,Remetente,module,Magento_Newsletter
 Action,Ação,module,Magento_Newsletter
 "We unsubscribed the people you identified.","Removemos a subscrição às pessoas que identificou.",module,Magento_Newsletter
 "The problems you identified have been deleted.","Os problemas que identificou foram excluídos.",module,Magento_Newsletter
+"Newsletter Problems Report","Relatório de Problemas da Newsletter",module,Magento_Newsletter
 "Newsletter Problem Reports","Relatórios de Problemas da Newsletter",module,Magento_Newsletter
 "Newsletter Queue","Fila de Newsletter",module,Magento_Newsletter
+"Edit Queue","Editar Fila",module,Magento_Newsletter
 "Please correct the newsletter template and try again.","Por favor corrija o template da newsletter e tente novamente.",module,Magento_Newsletter
+"Newsletter Subscribers","Inscritos da Newsletter",module,Magento_Newsletter
+Subscribers,Inscritos,module,Magento_Newsletter
+"Please select one or more subscribers.","Por favor selecione um ou mais Inscritos.",module,Magento_Newsletter
 "A total of %1 record(s) were updated.","Um total de %1 registro(s) foram atualizados.",module,Magento_Newsletter
+"The newsletter template has been deleted.","O template da newsletter foi removido.",module,Magento_Newsletter
 "Edit Template","Editar Template",module,Magento_Newsletter
 "New Template","Novo template",module,Magento_Newsletter
+"Create Newsletter Template","Novo Template de Newsletter",module,Magento_Newsletter
+"The newsletter template has been saved.","O template da newsletter foi salvo.",module,Magento_Newsletter
 "Newsletter Subscription","Assinar Newsletter",module,Magento_Newsletter
+"Something went wrong while saving your subscription.","Algo correu mal durante a gravação da sua inscrição.",module,Magento_Newsletter
+"We saved the subscription.","Inscrição salva.",module,Magento_Newsletter
+"We removed the subscription.","Removemos a inscrição.",module,Magento_Newsletter
+"Your subscription has been confirmed.","A sua inscrição foi confirmada.",module,Magento_Newsletter
 "Please enter a valid email address.","Por favor, insira um endereço de e-mail válido.",module,Magento_Newsletter
 Sent,Enviado,module,Magento_Newsletter
 "Not Sent","Não Enviado",module,Magento_Newsletter
@@ -3767,9 +3787,26 @@ Addresses,Endereços,module,Magento_Customer
 "Allowed IPs (comma separated)","IPs Permitidos (separados por vírgula)",module,Magento_Developer
 "Leave empty for access from any location.","Deixe em branco para acessar a partir de qualquer lugar.",module,Magento_Developer
 "Enabled for Checkout","Ativado para Finalizar Compra",module,Magento_Dhl
+"Gateway URL","URL de entrada",module,Magento_Dhl
 Title,Título,module,Magento_Dhl
+"Access ID","ID de acesso",module,Magento_Dhl
 Password,Senha,module,Magento_Dhl
+"Account Number","Número da Conta",module,Magento_Dhl
+"Content Type","Tipo de Conteúdo",module,Magento_Dhl
+"Calculate Handling Fee","Calcular a taxa de manuseio",module,Magento_Dhl
+"Handling Applied","Processamento Aplicado",module,Magento_Dhl
+"""Per Order"" allows a single handling fee for the entire order. ""Per Package"" allows an individual handling fee for each package.","""Por Encomenda"" permite uma taxa de processamento para a encomenda inteira. ""Por Pacote"" permite uma taxa de processamento para cada pacote.",module,Magento_Dhl
+"Handling Fee","Taxa de Manuseio",module,Magento_Dhl
+"Divide Order Weight","Dividir o Peso da Encomenda",module,Magento_Dhl
+"Weight Unit","Unidade de Peso",module,Magento_Dhl
 Size,Tamanho,module,Magento_Dhl
+"Allowed Methods","Métodos Permitidos",module,Magento_Dhl
+"Displayed Error Message","Mensagem de erro exibida",module,Magento_Dhl
+"Free Method","Método Gratuito",module,Magento_Dhl
+"Free Shipping Amount Threshold","Quantidade limite para envios gratuitos",module,Magento_Dhl
+"Ship to Applicable Countries","Envio para Países Aplicáveis",module,Magento_Dhl
+"Ship to Specific Countries","Envio para Países Específicos",module,Magento_Dhl
+"Show Method if Not Applicable","Mostrar Método se Não Aplicável",module,Magento_Dhl
 "Sort Order",Ordernação,module,Magento_Dhl
 Debug,Depurar/Debug,module,Magento_Dhl
 "Currency Setup","Configuração de Moeda",module,Magento_Directory
