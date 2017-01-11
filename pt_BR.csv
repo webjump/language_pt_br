@@ -3161,6 +3161,7 @@ Continue,Próximo,module,Magento_Paypal
 "You will no longer receive price alerts for this product.","Você não receberá mais alertas de preço para este produto.",module,Magento_ProductAlert
 "Unable to update the alert subscription.","Não foi possível atualizar a inscrição de alerta.",module,Magento_ProductAlert
 "You will no longer receive stock alerts for this product.","Irá deixar de receber alertas de stock para este produto.",module,Magento_ProductAlert
+"The product was not found.","O produto não foi encontrado.",module,Magento_ProductAlert
 "You will no longer receive stock alerts.","Irá deixar de receber alertas de estoque.",module,Magento_ProductAlert
 Price:,Preço:,module,Magento_ProductAlert
 "Click here to stop alerts for this product.","Clique aqui para parar os alertas para este produto.",module,Magento_ProductAlert
@@ -3176,6 +3177,7 @@ Role,Função,module,Magento_ProductVideo
 "Vimeo supported.<br />To add YouTube video, please <a href=""%1"">enter YouTube API Key</a> first.","É suportado o serviço Vimeo.<br />Para adicionar um vídeo do YouTube, por favor <a href=""%1""> Insira primeiro a chave de API do YouTube</a>.",module,Magento_ProductVideo
 "Add Video","Adicionar vídeo",module,Magento_ProductVideo
 "Browse to find or drag image here","Navegue para encontrar ou arraste a imagem aqui",module,Magento_ProductVideo
+"Delete video","Excluir vídeo",module,Magento_ProductVideo
 "Delete image","Excluir Imagem",module,Magento_ProductVideo
 Hidden,Oculto,module,Magento_ProductVideo
 "Alt Text","Texto Alternativo",module,Magento_ProductVideo
@@ -5185,6 +5187,7 @@ Off,Desligado,module,Magento_Ui
 "Please enter a number 0 or greater in this field.","Por favor, insira um número maior ou igual a 0 neste campo.",module,Magento_Ui
 "Please enter a valid number in this field.","Por favor, insira um número válido neste campo.",module,Magento_Ui
 Close,Fechar,module,Magento_Ui
+Cancel,Cancelar,module,Magento_Vault
 "Show Toolbar","Mostrar Barra de Ferramentas",module,Magento_AdminNotification
 "Show List","Exibir Lista",module,Magento_AdminNotification
 "Use HTTPS to Get Feed","Use HTTPS para Obter o Feed",module,Magento_AdminNotification
