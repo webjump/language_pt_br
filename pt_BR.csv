@@ -3100,6 +3100,7 @@ Continue,Próximo,module,Magento_Paypal
 "You will no longer receive price alerts for this product.","Você não receberá mais alertas de preço para este produto.",module,Magento_ProductAlert
 "Unable to update the alert subscription.","Não foi possível atualizar a inscrição de alerta.",module,Magento_ProductAlert
 "You will no longer receive stock alerts for this product.","Irá deixar de receber alertas de stock para este produto.",module,Magento_ProductAlert
+"The product was not found.","O produto não foi encontrado.",module,Magento_ProductAlert
 "You will no longer receive stock alerts.","Irá deixar de receber alertas de estoque.",module,Magento_ProductAlert
 Price:,Preço:,module,Magento_ProductAlert
 "Click here to stop alerts for this product.","Clique aqui para parar os alertas para este produto.",module,Magento_ProductAlert
@@ -3118,6 +3119,7 @@ Role,Função,module,Magento_ProductVideo
 "Add Video","Adicionar vídeo",module,Magento_ProductVideo
 "Add video","Adicionar vídeo",module,Magento_ProductVideo
 "Click here or drag and drop to add images.","Clique aqui ou arraste e solte para adicionar imagens.",module,Magento_ProductVideo
+"Delete video","Excluir vídeo",module,Magento_ProductVideo
 "Delete image","Excluir Imagem",module,Magento_ProductVideo
 "Make Base","Tornar Base",module,Magento_ProductVideo
 Hidden,Oculto,module,Magento_ProductVideo
