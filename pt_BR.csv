@@ -3260,7 +3260,7 @@ Error,Erro,module,Magento_Reports
 "Add to Wish List","Adicionar à lista de desejos",module,Magento_Reports
 "Add to Compare","Adicionar para Comparar",module,Magento_Reports
 "Learn More","Saiba Mais",module,Magento_Reports
-"Save Review","Salvar Opinião",module,Magento_Review
+"Save Review","Salvar Avaliação",module,Magento_Review
 "New Review","Nova Avaliação",module,Magento_Review
 "Review Details","Detalhes da Avaliação",module,Magento_Review
 Product,Produto,module,Magento_Review
