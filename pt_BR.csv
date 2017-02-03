@@ -2191,7 +2191,7 @@ Bestsellers,"Mais Vendidos",module,Magento_Reports
 "In stock","Em estoque",module,Magento_Reports
 "Out of stock","Fora de estoque",module,Magento_Reports
 "Add to Compare","Adicionar para Comparar",module,Magento_Reports
-"Save Review","Salvar Opinião",module,Magento_Review
+"Save Review","Salvar Avaliação",module,Magento_Review
 "New Review","Nova Avaliação",module,Magento_Review
 "Review Details","Detalhes da Avaliação",module,Magento_Review
 Product,Produto,module,Magento_Review
