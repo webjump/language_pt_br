@@ -3316,7 +3316,7 @@ Error,Erro,module,Magento_Reports
 "Add to Wish List","Adicionar à lista de desejos",module,Magento_Reports
 "Add to Compare","Adicionar para Comparar",module,Magento_Reports
 "Learn More","Saiba Mais",module,Magento_Reports
-"Save Review","Salvar Opinião",module,Magento_Review
+"Save Review","Salvar Avaliação",module,Magento_Review
 "New Review","Nova Avaliação",module,Magento_Review
 "Review Details","Detalhes da Avaliação",module,Magento_Review
 Product,Produto,module,Magento_Review
@@ -3396,6 +3396,7 @@ Reviews,Avaliações,module,Magento_Review
 Ratings,Avaliações,module,Magento_Review
 "You saved the rating.","Você salvou a avaliação.",module,Magento_Review
 "My Product Reviews","Minhas Avaliações de Produto",module,Magento_Review
+"Cannot initialize product","Não é possível inicializar o produto",module,Magento_Review
 "You submitted your review for moderation.","Você enviou sua avaliação para análise.",module,Magento_Review
 "We can't post your review right now.","Não podemos postar sua avaliação agora.",module,Magento_Review
 "Storage key was not set","Chave de armazenamento não foi definida",module,Magento_Review
@@ -6141,6 +6142,8 @@ Action,Ação,module,Magento_Reports
 Report,Relatório,module,Magento_Reports
 Description,Descrição,module,Magento_Reports
 undefined,"Não definido",module,Magento_Reports
+"By Customers","Por clientes",module,Magento_Review
+"By Products","Por produtos",module,Magento_Review
 "Allow Guests to Write Reviews","Permitir Avaliações por Visitantes",module,Magento_Review
 Active,Ativo,module,Magento_Review
 Inactive,Inativo,module,Magento_Review
