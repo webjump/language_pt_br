@@ -1612,6 +1612,7 @@ Yes,Sim,module,Magento_EncryptionKey
 "3 Day Freight","Frete de 3 dias",module,Magento_Fedex
 Ground,Terreno,module,Magento_Fedex
 "First Overnight","Primeiro dia para a noite",module,Magento_Fedex
+"Home Delivery","Entrega ao Domicílio",module,Magento_Fedex
 "International Economy","Economia Internacional",module,Magento_Fedex
 "International First","Prioridade Internacional",module,Magento_Fedex
 "International Priority","Prioridade Internacional",module,Magento_Fedex
@@ -1707,6 +1708,8 @@ Ready,Pronto,module,Magento_Indexer
 Processing,Processando,module,Magento_Indexer
 Never,Nunca,module,Magento_Indexer
 "Index Management","Gerenciador de Índices",module,Magento_Indexer
+"Please select indexers.","Por favor selecione indexadores.",module,Magento_Indexer
+"We couldn't change indexer(s)' mode because of an error.","Não foi possível alterar o modo do(s) indexador(es) devido a um erro.",module,Magento_Indexer
 "State for the same indexer","Estado para o mesmo indexador",module,Magento_Indexer
 Integrations,Integrações,module,Magento_Integration
 "Add New Integration","Adicionar Nova Integração",module,Magento_Integration
@@ -1904,8 +1907,16 @@ Subscribers,Inscritos,module,Magento_Newsletter
 "We saved the subscription.","Inscrição salva.",module,Magento_Newsletter
 "We removed the subscription.","Removemos a inscrição.",module,Magento_Newsletter
 "Your subscription has been confirmed.","A sua inscrição foi confirmada.",module,Magento_Newsletter
+"This is an invalid subscription confirmation code.","Este é um código de confirmação de assinatura inválido.",module,Magento_Newsletter
+"This is an invalid subscription ID.","Este é um ID de assinatura inválido.",module,Magento_Newsletter
+"This email address is already assigned to another user.","Este endereço de email já está associado a outra conta.",module,Magento_Newsletter
 "Please enter a valid email address.","Por favor, insira um endereço de e-mail válido.",module,Magento_Newsletter
+"The confirmation request has been sent.","Foi enviado um pedido de confirmação.",module,Magento_Newsletter
+"Thank you for your subscription.","Obrigado por sua assinatura.",module,Magento_Newsletter
+"There was a problem with the subscription: %1","Houve um problema com a assinatura: %1",module,Magento_Newsletter
+"Something went wrong with the subscription.","Algo deu errado com a assinatura.",module,Magento_Newsletter
 Sent,Enviado,module,Magento_Newsletter
+Cancelled,Cancelado,module,Magento_Newsletter
 "Not Sent","Não Enviado",module,Magento_Newsletter
 Sending,Enviando,module,Magento_Newsletter
 Paused,Pausado,module,Magento_Newsletter
@@ -3854,14 +3865,20 @@ Title,Título,module,Magento_Fedex
 Key,Chave,module,Magento_Fedex
 Password,Senha,module,Magento_Fedex
 "Sandbox Mode","Modo Sandbox",module,Magento_Fedex
+"Web-Services URL (Production)","URL dos Web-Services (Produção)",module,Magento_Fedex
 "Web-Services URL (Sandbox)","URL dos Web-Services (Sandbox)",module,Magento_Fedex
+"Free Method","Método Gratuito",module,Magento_Fedex
+"Ship to Specific Countries","Envio para Países Específicos",module,Magento_Fedex
 Debug,Depurar/Debug,module,Magento_Fedex
+"Show Method if Not Applicable","Mostrar Método se Não Aplicável",module,Magento_Fedex
 "Sort Order",Ordernação,module,Magento_Fedex
 Enable,Habilitado,module,Magento_GoogleAdwords
 "Conversion ID","ID de conversão",module,Magento_GoogleAdwords
 "Conversion Language","Linguagem de Conversão",module,Magento_GoogleAdwords
 "Conversion Format","Formato de Conversão",module,Magento_GoogleAdwords
+"Conversion Color","Cor de Conversão",module,Magento_GoogleAdwords
 "Conversion Label","Etiqueta de Conversão",module,Magento_GoogleAdwords
+"Conversion Value Type","Tipo de Valor de Conversão",module,Magento_GoogleAdwords
 "Conversion Value","Taxa de Conversão",module,Magento_GoogleAdwords
 Enable,Habilitado,module,Magento_GoogleAnalytics
 "Account Number","Número da Conta",module,Magento_GoogleAnalytics
