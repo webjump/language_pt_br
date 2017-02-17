@@ -439,28 +439,6 @@ Authorize,Autorizar,module,Magento_Braintree
 "Authorize and Capture","Autorizar e Capturar",module,Magento_Braintree
 "--Please Select--","--Por Favor Selecione--",module,Magento_Braintree
 "Please agree to all the terms and conditions before placing the order.","Por favor concorde com todos os termos e condições antes de fazer o pedido.",module,Magento_Braintree
-"Paypal account","Conta PayPal",module,Magento_Braintree
-"Coinbase account","Conta Coinbase",module,Magento_Braintree
-"Europe bank account","Conta Bancária Europeia",module,Magento_Braintree
-"Credit card","Cartão de Crédito",module,Magento_Braintree
-"Apple pay card","Cartão Apple Pay",module,Magento_Braintree
-"Android pay card","Cartão Android Pay",module,Magento_Braintree
-"Authorization expired","Autenticação expirada",module,Magento_Braintree
-Authorizing,Autorizando,module,Magento_Braintree
-Authorized,Autorizado,module,Magento_Braintree
-"Gateway rejected","Gateway rejeitado",module,Magento_Braintree
-Failed,Falhou,module,Magento_Braintree
-"Processor declined","Processador recusado",module,Magento_Braintree
-Settled,Liquidada,module,Magento_Braintree
-Settling,Liquidando,module,Magento_Braintree
-"Submitted for settlement","Enviada para liquidação",module,Magento_Braintree
-Voided,Anulada,module,Magento_Braintree
-Unrecognized,"Não reconhecida",module,Magento_Braintree
-"Settlement declined","Liquidação recusada",module,Magento_Braintree
-"Settlement pending","Liquidação pendente",module,Magento_Braintree
-"Settlement confirmed","Liquidação confirmada",module,Magento_Braintree
-Sale,Venda,module,Magento_Braintree
-Credit,Crédito,module,Magento_Braintree
 "Credit Card Type","Tipo do Cartão de Crédito",module,Magento_Braintree
 "Credit Card Number","Número do Cartão de Crédito",module,Magento_Braintree
 "Please, enter valid Credit Card Number","Por favor insira um Número de Cartão de Crédito válido",module,Magento_Braintree
@@ -1611,7 +1589,6 @@ Summary,Resumo,module,Magento_ConfigurableProduct
 "You need to choose options for your item.","Você precisa escolher opções para seu item.",module,Magento_ConfigurableProduct
 "Some product variations fields are not valid.","Algumas variações de campos de produto não são válidas.",module,Magento_ConfigurableProduct
 "Configuration must have specified attributes","Configuração deve especificar os atributos",module,Magento_ConfigurableProduct
-"Configurable product ""%1"" does not have sub-products","O produto configurável ""%1"" não tem sub-produtos",module,Magento_ConfigurableProduct
 "Type %1 is not an instance of %2","O tipo %1 não é uma instância de %2",module,Magento_ConfigurableProduct
 "Choose Affected Attribute Set","Escolher Conjunto de Atributos Afetado",module,Magento_ConfigurableProduct
 "Add configurable attributes to the current Attribute Set","Adicionar atributos configuráveis para o atributo atual Definir",module,Magento_ConfigurableProduct
@@ -3880,9 +3857,6 @@ Partial,Parcial,module,Magento_Sales
 "The payment method you requested is not available.","O método de pagamento que você solicitou não está disponível.",module,Magento_Sales
 "The payment disallows storing objects.","O pagamento não permite armazenar objetos.",module,Magento_Sales
 "The transaction ""%1"" cannot be captured yet.","A transação ""%1"" ainda não pode ser capturada.",module,Magento_Sales
-"We will authorize %1 after the payment is approved at the payment gateway.","Nós vamos autorizar %1 depois que o pagamento for aprovado no gateway de pagamento.",module,Magento_Sales
-"Authorized amount of %1","Valor autorizado de %1",module,Magento_Sales
-"Captured amount of %1 online","Capturado o valor de %1 online",module,Magento_Sales
 "Ordered amount of %1","Valor comprado de %1",module,Magento_Sales
 Order,Pedido,module,Magento_Sales
 Authorization,Autorização,module,Magento_Sales
@@ -3936,6 +3910,8 @@ Closed,Fechado,module,Magento_Sales
 "Suspected Fraud","Suspeita de fraude",module,Magento_Sales
 New,Novo,module,Magento_Sales
 "Email has not been sent","Email não foi enviado",module,Magento_Sales
+"We will authorize %1 after the payment is approved at the payment gateway.","Nós vamos autorizar %1 depois que o pagamento for aprovado no gateway de pagamento.",module,Magento_Sales
+"Authorized amount of %1","Valor autorizado de %1",module,Magento_Sales
 View,Visualizar,module,Magento_Sales
 "Group was removed","O grupo foi removido",module,Magento_Sales
 "Changing address information will not recalculate shipping, tax or other order amount.","Alterar as informações de endereço não recalculará o envio, impostos ou outros valores do pedido.",module,Magento_Sales
@@ -4262,10 +4238,10 @@ Action,Ação,module,Magento_Shipping
 "Order Total","Total do Pedido",module,Magento_Shipping
 "Qty Shipped","Quantidade enviada",module,Magento_Shipping
 N/A,"Não Disponível",module,Magento_Shipping
+"Close Window","Fechar Janela",module,Magento_Shipping
 Location,Localização,module,Magento_Shipping
 Date,Data,module,Magento_Shipping
 Description,Descrição,module,Magento_Shipping
-"Close Window","Fechar Janela",module,Magento_Shipping
 "Save & Generate","Salvar e gerar",module,Magento_Sitemap
 "Edit Sitemap","Editar mapa do site",module,Magento_Sitemap
 "New Sitemap","Novo mapa do site",module,Magento_Sitemap
@@ -4309,7 +4285,6 @@ All,Todos,module,Magento_Sitemap
 "Requested store is inactive","A loja solicitada está inativa",module,Magento_Store
 "Requested store is not found","A loja solicitada não foi encontrada",module,Magento_Store
 "Environment emulation nesting is not allowed.","A emulação de ambiente aninhada não é permitido.",module,Magento_Store
-"Only default scope allowed","Apenas é permitido o escopo padrão",module,Magento_Store
 "Invalid scope object","Objeto de escopo inválido",module,Magento_Store
 "Store with the same code","Loja com o mesmo código",module,Magento_Store
 "Website with the same code","Site com o mesmo código",module,Magento_Store
@@ -4320,8 +4295,8 @@ All,Todos,module,Magento_Sitemap
 "Default store is inactive","A loja padrão está inativa",module,Magento_Store
 "All Store Views","Todas as Visões de Loja",module,Magento_Store
 "-- Please Select --","-- Selecione uma opção --",module,Magento_Store
-"More than one default website is defined","Mais de um site padrão esta definido",module,Magento_Store
 "Default website is not defined","O site padrão não está definido",module,Magento_Store
+"More than one default website is defined","Mais de um site padrão esta definido",module,Magento_Store
 "no such entity exception","não há tal exceção de entidade",module,Magento_Store
 "Your Language:","Seu idioma:",module,Magento_Store
 "Your Language","Seu idioma",module,Magento_Store
@@ -4735,12 +4710,9 @@ Yes,Sim,module,Magento_Variable
 "No token found.","Nenhum arquivo encontrado.",module,Magento_Vault
 "Wrong request.","Solicitação inválida.",module,Magento_Vault
 "Deletion failure. Please try again.","Falha de exclusão. Por favor, tente novamente.",module,Magento_Vault
-"Credit Card was successfully removed","Cartão de Crédito foi removido com êxito",module,Magento_Vault
-"My Credit Cards","Meus Cartões de crédito",module,Magento_Vault
 "Card Number","Numero do cartao",module,Magento_Vault
 "Expiration Date","Data de Validade",module,Magento_Vault
 Type,Tipo,module,Magento_Vault
-"You have no credit cards.","Você não tem nenhum cartão de crédito.",module,Magento_Vault
 ending,"acabando em",module,Magento_Vault
 Delete,Excluir,module,Magento_Vault
 "Consumer is not authorized to access %resources",Todos,module,Magento_Webapi
@@ -4953,7 +4925,6 @@ items,itens,module,Magento_Checkout
 "Options Details","Detalhes das Opções",module,Magento_Checkout
 Remove,Remover,module,Magento_Checkout
 "Cart Subtotal","Subtotal do Carrinho",module,Magento_Checkout
-"No Payment Methods","Não há Formas de Pagamento",module,Magento_Checkout
 "Payment Information","Informação de Pagamento",module,Magento_Checkout
 "No Payment method available.","Nenhum método de pagamento disponível.",module,Magento_Checkout
 "You can track your order status by creating an account.","Você poderá acompanhar o status do seu pedido através da criação de uma conta.",module,Magento_Checkout
@@ -5408,7 +5379,6 @@ Download,"Fazer Download",module,Magento_Backup
 Action,Ação,module,Magento_Backup
 "Enable this Solution","Ativar esta Solução",module,Magento_Braintree
 "Enable PayPal through Braintree","Ativar PayPal através do Braintree",module,Magento_Braintree
-"Vault enabled","Habilitado Vault",module,Magento_Braintree
 "Basic Braintree Settings","Definições Básicas do Braintree",module,Magento_Braintree
 Title,Título,module,Magento_Braintree
 Environment,Ambiente,module,Magento_Braintree
@@ -5442,12 +5412,12 @@ Debug,Depurar/Debug,module,Magento_Braintree
 "Apply filters in order to get results. Only first 100 records will be displayed in the grid, you will be able to download full version of the report in .csv format.","Aplicar filtros para obter resultados. Apenas os primeiros 100 registos serão mostrados na grelha, e poderá fazer download da versão completa do relatório em formato CSV.",module,Magento_Braintree
 Select...,Selecionar...,module,Magento_Braintree
 "Transaction Type","Tipo de Transação",module,Magento_Braintree
+"Payment Type","Tipo de Pagamento",module,Magento_Braintree
 "PayPal Payment ID","ID de pagamento PayPal",module,Magento_Braintree
+"Created At","Criado em",module,Magento_Braintree
 "Transaction ID","ID Transação",module,Magento_Braintree
 "Order ID","ID do Pedido",module,Magento_Braintree
-"Payment Type","Tipo de Pagamento",module,Magento_Braintree
 Type,Tipo,module,Magento_Braintree
-"Created At","Criado em",module,Magento_Braintree
 Amount,Quantidade,module,Magento_Braintree
 "Settlement Code","Código de Liquidação",module,Magento_Braintree
 "Settlement Response Text","Texto da Resposta de Liquidação",module,Magento_Braintree
