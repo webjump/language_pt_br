@@ -2493,7 +2493,7 @@ None,Nenhum,module,Magento_Fedex
 "Could not add gift message to shopping cart","Não foi possível adicionar uma mensagem de presente ao carrinho de compras",module,Magento_GiftMessage
 "There is no item with provided id in the cart","Não existe nenhum item com o id fornecido no carrinho de compras",module,Magento_GiftMessage
 "There is no product with provided  itemId: %1 in the cart","Não existe nenhum produto com o itemId fornecido: %1 no carrinho de compras",module,Magento_GiftMessage
-"There is no item with provided id in the order","Não existe nenhum item com o id fornecido na encomenda",module,Magento_GiftMessage
+"There is no item with provided id in the order","Não existe nenhum item com o ID fornecido no pedido",module,Magento_GiftMessage
 "There is no item with provided id in the order or gift message isn't allowed","Não há nenhum artigo com id fornecidas na ordem ou mensagem em Gifs não é permitido",module,Magento_GiftMessage
 "Could not add gift message to order: ""%1""","Não foi possível adicionar uma mensagem de presente ao item do pedido: ""%1""",module,Magento_GiftMessage
 "There is no order with provided id or gift message isn't allowed","Não há nenhuma ordem com id fornecido ou mensagem em .Gifs não é permitido",module,Magento_GiftMessage
@@ -2714,6 +2714,7 @@ Partners,Parceiros,module,Magento_Marketplace
 "Magento has a thriving ecosystem of technology partners to help merchants and brands deliver the best possible customer experiences. They are recognized as experts in eCommerce, search, email marketing, payments, tax, fraud, optimization and analytics, fulfillment, and more. Visit the Magento Partner Directory to see all of our trusted partners.","O Magento tem um ecossistema próspero de parceiros tecnológicos para ajudar comerciantes e marcas a fornecer a melhor experiência possível ao cliente. A empresa é reconhecida como perita em comércio virtual (eCommerce), pesquisas, marketing por e-mail, pagamentos, impostos, fraude, optimização e análise, cumprimento de obejctivos e muito mais. Visite o Directório de Parceiros do Magento para ver todos os nossos parceiros de confiança.",module,Magento_Marketplace
 "More Partners","Mais parceiros",module,Magento_Marketplace
 "Extensions and Themes are an essential component of the Magento Ecosystem. Please visit the Magento Marketplace to see the latest innovations that developers have created to enhance your Magento Store.","As Extensões e Temas são componentes essenciais do Ecossistema Magento. Por favor visite o Magento Marketplace para ver as últimas inovações que os desenvolvedores criaram para melhorar a sua Loja Magento.",module,Magento_Marketplace
+"Visit Magento Marketplaces","Visitar Magento Marketplace",module,Magento_Marketplace
 "Read More","Leia mais",module,Magento_Marketplace
 "Partner Page","Página do parceiro",module,Magento_Marketplace
 "No partners were found","Não foram encontrados parceiros",module,Magento_Marketplace
@@ -2726,6 +2727,7 @@ Synchronizing...,Sincronizando...,module,Magento_MediaStorage
 "File System","Sistema de arquivos",module,Magento_MediaStorage
 Database,"Banco de dados",module,Magento_MediaStorage
 "database ""%1""","banco de dados ""%1""",module,Magento_MediaStorage
+"Parent directory does not exist: %1","Não existe o diretório pai: %1",module,Magento_MediaStorage
 "File system","Sistema de arquivos",module,Magento_MediaStorage
 "Path \"%value%\" may not include parent directory traversal (\"../\", \"..\\\").","Caminho \"%value%\" não pode incluir diretório pai  (\"../\", \"..\\\").",module,Magento_MediaStorage
 "Please set available and/or protected paths list(s) before validation.","Por favor defina listas de caminhos disponíveis e/ou protegidos antes da validação.",module,Magento_MediaStorage
@@ -3058,6 +3060,7 @@ Never,Nunca,module,Magento_Paypal
 "This customer didn't include a confirmed address.","Este cliente não incluiu um endereço confirmado.",module,Magento_Paypal
 "The merchant holds a non-U.S. account and doesn't have a withdrawal mechanism.","O comerciante titular de uma conta fora dos EUA. E não tem um mecanismo de retirada.",module,Magento_Paypal
 "The payment currency doesn't match any of the merchant's balances currency.","A moeda de pagamento não corresponde a nenhum de moeda saldos do comerciante.",module,Magento_Paypal
+"Buyer claims that he did not receive goods or service.","Comprador afirma que ele não recebeu a mercadoria ou serviço.",module,Magento_Paypal
 "Buyer's Tax ID","Os compradores de identificação fiscal",module,Magento_Paypal
 "Buyer's Tax ID Type","Os compradores Imposto Tipo ID",module,Magento_Paypal
 "Invalid method %1::%2(%3)","Método inválido %1::%2(%3)",module,Magento_Paypal
@@ -3178,7 +3181,7 @@ Tax,Taxa,module,Magento_Quote
 "Cannot set shipping method. %1","Não foi possível definir o método de envio. %1",module,Magento_Quote
 error123,erro123,module,Magento_Quote
 "New Accounts","Nova Conta",module,Magento_Reports
-"Customers by number of orders","Clientes por número de encomendas",module,Magento_Reports
+"Customers by number of orders","Clientes por número de pedidos",module,Magento_Reports
 "Customers by Orders Total","Clientes por Total de Pedidos",module,Magento_Reports
 Filter,Filtro,module,Magento_Reports
 "Date Used","Data Utilizada",module,Magento_Reports
@@ -3446,6 +3449,7 @@ No,Não,module,Magento_SalesRule
 "Apply To","Aplicar a",module,Magento_SalesRule
 Conditions,Condições,module,Magento_SalesRule
 "Apply the rule only if the following conditions are met (leave blank for all products).","Aplicar a regra apenas se as seguintes condições forem verdadeiras (deixe em branco para todos os itens).",module,Magento_SalesRule
+"Manage Coupon Codes","Gerenciar Códigos de Cupom",module,Magento_SalesRule
 "Coupons Information","Cupons Informação",module,Magento_SalesRule
 "Coupon Qty","Qtde de Cupom",module,Magento_SalesRule
 "Code Length","Tamanho do código",module,Magento_SalesRule
@@ -4188,6 +4192,7 @@ Action,Ação,module,Magento_Shipping
 "Shipping &amp; Handling Information","Informações de Transporte e Manuseio",module,Magento_Shipping
 "Order Total","Total do Pedido",module,Magento_Shipping
 "Qty Shipped","Quantidade enviada",module,Magento_Shipping
+"Delivered on:","Entregue em:",module,Magento_Shipping
 N/A,"Não Disponível",module,Magento_Shipping
 Location,Localização,module,Magento_Shipping
 Date,Data,module,Magento_Shipping
@@ -4264,6 +4269,7 @@ Language,Idioma,module,Magento_Store
 "Is Default","É o Padrão",module,Magento_Swatches
 "Sort Option","Opção de Ordenação",module,Magento_Swatches
 Delete,Excluir,module,Magento_Swatches
+Swatch,Amostra,module,Magento_Swatches
 "Step 2: Attribute Values","Passo 2: Valores de atributo",module,Magento_Swatches
 "Select values from each attribute to include in this product. Each unique combination of values creates a unigue product SKU.","Selecione os valores de cada atributo para incluir neste produto. Cada combinação de valores cria um SKU de produto único.",module,Magento_Swatches
 "Sort Variations","Variações de Ordenação",module,Magento_Swatches
@@ -4284,6 +4290,7 @@ Rate,Avaliação,module,Magento_TaxImportExport
 "Range To","Intervalo Até",module,Magento_TaxImportExport
 "Tax Zones and Rates","Zonas de Impostos e Tarifas",module,Magento_TaxImportExport
 "Invalid file upload attempt","Tentativa de carregamento de arquivo inválido",module,Magento_TaxImportExport
+"Invalid file upload attempt.","Tentativa de carregamento de arquivo inválido.",module,Magento_TaxImportExport
 "Invalid file format.","Formato de arquivo inválido.",module,Magento_TaxImportExport
 "Import Tax Rates","Taxas de Imposto de Importação",module,Magento_TaxImportExport
 "Tax Rate Information","Informação de Imposto de Taxa",module,Magento_Tax
@@ -4295,6 +4302,7 @@ Rate,Avaliação,module,Magento_TaxImportExport
 "Range To","Intervalo Até",module,Magento_Tax
 State,Estado,module,Magento_Tax
 Country,País,module,Magento_Tax
+"Tax Titles","Título de imposto",module,Magento_Tax
 "Add New Tax Rate","Adicionar Nova Taxa de Imposto",module,Magento_Tax
 Back,Voltar,module,Magento_Tax
 Reset,Reiniciar,module,Magento_Tax
@@ -4605,6 +4613,7 @@ Resources,Recursos,module,Magento_User
 "First-Class Mail Postcards","Carta de First-Class Mail",module,Magento_Usps
 "Priority Mail","E-mail Prioritário",module,Magento_Usps
 "Priority Mail Express Hold For Pickup","Priority Mail Express espera para Pickup",module,Magento_Usps
+"Retail Ground","Base de Varejo",module,Magento_Usps
 "Media Mail","Mídia Mail",module,Magento_Usps
 "First-Class Mail Large Postcards","Postais de First-Class Mail",module,Magento_Usps
 "Priority Mail Medium Flat Rate Box","Caixa postal prioridade fixa em Médio",module,Magento_Usps
@@ -4650,6 +4659,7 @@ Yes,Sim,module,Magento_Variable
 "Not allowed parameters: %1. Please use only %2 and %3.","Não são permitidos os parâmetros: %1. Por favor use apenas %2 e %3.",module,Magento_Webapi
 "Requested service is not available: ""%1""","O serviço solicitado não está disponível: ""%1""",module,Magento_Webapi
 "SOAP extension is not loaded.","A extensão SOAP não está carregada.",module,Magento_Webapi
+"Invalid XML","XML inválido",module,Magento_Webapi
 "Invalid XML: Detected use of illegal DOCTYPE","XML inválido: Detectado o uso de DOCTYPE ilegal",module,Magento_Webapi
 message,mensagem,module,Magento_Webapi
 Message,Mensagem,module,Magento_Webapi
@@ -4665,6 +4675,7 @@ frontend_label,rótulo_frontend,module,Magento_Weee
 "Fixed Product Tax","Imposto Fixo do Produto",module,Magento_Weee
 "Excl. Tax","Excl. Impostos",module,Magento_Weee
 "Incl. Tax","Imposto Incl.",module,Magento_Weee
+Country/State,País/Estado,module,Magento_Weee
 Tax,Taxa,module,Magento_Weee
 Action,Ação,module,Magento_Weee
 "Final Price","Preço Final",module,Magento_Weee
@@ -4885,15 +4896,15 @@ Password:,Senha:,theme,frontend/Magento/luma
 "Thank you for your order from %store_name.","Obrigado pelo seu pedido na loja %store_name.",theme,frontend/Magento/luma
 "You can check the status of your order by <a href=""%account_url"">logging into your account</a>.","Você pode verificar o status do seu pedido ao <a href=""%account_url""> logar em sua conta</a>.",theme,frontend/Magento/luma
 "If you have questions about your order, you can email us at <a href=""mailto:%store_email"">%store_email</a>.","Se você tem perguntas sobre seu pedido, você pode nos enviar em <a href=""mailto:%store_email""> %store_email</a>.",theme,frontend/Magento/luma
-"Your Credit Memo #%creditmemo_id for Order #%order_id","A sua Nota de Crédito #%creditmemo_id para a Encomenda #%order_id",theme,frontend/Magento/luma
+"Your Credit Memo #%creditmemo_id for Order #%order_id","A sua Nota de Crédito #%creditmemo_id para o Pedido #%order_id",theme,frontend/Magento/luma
 "Billing Info","Informações de cobrança",theme,frontend/Magento/luma
 "Shipping Info","Informações de entrega",theme,frontend/Magento/luma
 "Payment Method","Forma de pagamento",theme,frontend/Magento/luma
 "Shipping Method","Método de Entrega",theme,frontend/Magento/luma
 "Your order #%increment_id has been updated with a status of <strong>%order_status</strong>.","Seu pedido #%increment_id foi atualizado com um status de <strong>%order_status</strong>.",theme,frontend/Magento/luma
-"Your Invoice #%invoice_id for Order #%order_id","A sua Fatura #%invoice_id para a Encomenda #%order_id",theme,frontend/Magento/luma
-"Once your package ships we will send you a tracking number.","Assim que a sua encomenda for enviada irá receber um código para que possa acompanhar a mesma no seu trajeto.",theme,frontend/Magento/luma
-"Your Order <span class=""no-link"">#%increment_id</span>","A sua Encomenda <span class=""no-link"">#%increment_id</span>",theme,frontend/Magento/luma
+"Your Invoice #%invoice_id for Order #%order_id","A sua Fatura #%invoice_id para o Pedido #%order_id",theme,frontend/Magento/luma
+"Once your package ships we will send you a tracking number.","Assim que a sua encomenda for enviada irá receber um código para que possa acompanhar seu trajeto.",theme,frontend/Magento/luma
+"Your Order <span class=""no-link"">#%increment_id</span>","O seu pedido <span class=""no-link"">#%increment_id</span>",theme,frontend/Magento/luma
 "Placed on <span class=""no-link"">%created_at</span>","Efetuada em <span class=""no-link"">%created_at</span>",theme,frontend/Magento/luma
 "Your shipping confirmation is below. Thank you again for your business.","A confirmação de envio encontra-se na secção seguinte. Agradecemos novamente a sua compra.",theme,frontend/Magento/luma
 "Your Shipment #%shipment_id for Order #%order_id","A sua remessa #%shipment_id para a Encomenda #%order_id",theme,frontend/Magento/luma
@@ -5688,6 +5699,8 @@ Guest,Visitante,module,Magento_Newsletter
 Customer,Cliente,module,Magento_Newsletter
 "Customer First Name","Nome do cliente",module,Magento_Newsletter
 "Customer Last Name","Sobrenome do cliente",module,Magento_Newsletter
+Subscribed,Inscrito,module,Magento_Newsletter
+Unsubscribed,"Não Inscrito",module,Magento_Newsletter
 Unconfirmed,"Não confirmados",module,Magento_Newsletter
 "Web Site",Website,module,Magento_Newsletter
 Store,Loja,module,Magento_Newsletter
@@ -5884,6 +5897,7 @@ Configuration,Configuração,module,Magento_Store
 "Calculation Settings","Configurações de cálculo",module,Magento_Tax
 "Tax Calculation Based On","Cálculo do imposto com base no",module,Magento_Tax
 "Catalog Prices","Catálogo de preços",module,Magento_Tax
+"Shipping Prices","Preços de envio",module,Magento_Tax
 "Apply Tax On","Aplicar o imposto sobre",module,Magento_Tax
 "Default State","Estado padrão",module,Magento_Tax
 "Price Display Settings","Configurações de exibição do preço",module,Magento_Tax
