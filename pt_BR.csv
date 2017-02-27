@@ -1779,11 +1779,13 @@ Previous,Anterior,module,Magento_LayeredNavigation
 "Magento has a thriving ecosystem of technology partners to help merchants and brands deliver the best possible customer experiences. They are recognized as experts in eCommerce, search, email marketing, payments, tax, fraud, optimization and analytics, fulfillment, and more. Visit the Magento Partner Directory to see all of our trusted partners.","O Magento tem um ecossistema próspero de parceiros tecnológicos para ajudar comerciantes e marcas a fornecer a melhor experiência possível ao cliente. A empresa é reconhecida como perita em comércio virtual (eCommerce), pesquisas, marketing por e-mail, pagamentos, impostos, fraude, optimização e análise, cumprimento de obejctivos e muito mais. Visite o Directório de Parceiros do Magento para ver todos os nossos parceiros de confiança.",module,Magento_Marketplace
 "More Partners","Mais parceiros",module,Magento_Marketplace
 "Extensions and Themes are an essential component of the Magento Ecosystem. Please visit the Magento Marketplace to see the latest innovations that developers have created to enhance your Magento Store.","As Extensões e Temas são componentes essenciais do Ecossistema Magento. Por favor visite o Magento Marketplace para ver as últimas inovações que os desenvolvedores criaram para melhorar a sua Loja Magento.",module,Magento_Marketplace
+"Visit Magento Marketplaces","Visitar Magento Marketplace",module,Magento_Marketplace
 "Read More","Leia mais",module,Magento_Marketplace
 "Partner Page","Página do parceiro",module,Magento_Marketplace
 "No partners were found","Não foram encontrados parceiros",module,Magento_Marketplace
 "File %1 does not exist","O arquivo %1 não existe",module,Magento_MediaStorage
 "File %1 is not readable","Arquivo %1 não é legível",module,Magento_MediaStorage
+"Parent directory does not exist: %1","Não existe o diretório pai: %1",module,Magento_MediaStorage
 "File system","Sistema de arquivos",module,Magento_MediaStorage
 "Please set available and/or protected paths list(s) before validation.","Por favor defina listas de caminhos disponíveis e/ou protegidos antes da validação.",module,Magento_MediaStorage
 "Unable to create directory: %1","Não foi possível criar o diretório: %1",module,Magento_MediaStorage
@@ -2041,6 +2043,7 @@ Auto,Automático,module,Magento_Paypal
 "Ask Customer","Pergunte ao cliente",module,Magento_Paypal
 Never,Nunca,module,Magento_Paypal
 "Ordered amount of %1","Valor comprado de %1",module,Magento_Paypal
+"Buyer claims that he did not receive goods or service.","Comprador afirma que ele não recebeu a mercadoria ou serviço.",module,Magento_Paypal
 "Transaction ID","ID Transação",module,Magento_Paypal
 Event,Evento,module,Magento_Paypal
 "Start Date","Data de Início",module,Magento_Paypal
@@ -2111,7 +2114,7 @@ Shipping,Frete,module,Magento_Quote
 Discount,Desconto,module,Magento_Quote
 Tax,Taxa,module,Magento_Quote
 "New Accounts","Nova Conta",module,Magento_Reports
-"Customers by number of orders","Clientes por número de encomendas",module,Magento_Reports
+"Customers by number of orders","Clientes por número de pedidos",module,Magento_Reports
 "Customers by Orders Total","Clientes por Total de Pedidos",module,Magento_Reports
 Filter,Filtro,module,Magento_Reports
 "Date Used","Data Utilizada",module,Magento_Reports
@@ -2340,6 +2343,7 @@ No,Não,module,Magento_SalesRule
 "Apply To","Aplicar a",module,Magento_SalesRule
 Conditions,Condições,module,Magento_SalesRule
 "Apply the rule only if the following conditions are met (leave blank for all products).","Aplicar a regra apenas se as seguintes condições forem verdadeiras (deixe em branco para todos os itens).",module,Magento_SalesRule
+"Manage Coupon Codes","Gerenciar Códigos de Cupom",module,Magento_SalesRule
 "Coupons Information","Cupons Informação",module,Magento_SalesRule
 "Coupon Qty","Qtde de Cupom",module,Magento_SalesRule
 "Code Length","Tamanho do código",module,Magento_SalesRule
@@ -2885,6 +2889,7 @@ Action,Ação,module,Magento_Shipping
 "Are you sure?","Você tem certeza?",module,Magento_Shipping
 "Shipping &amp; Handling Information","Informações de Transporte e Manuseio",module,Magento_Shipping
 "Qty Shipped","Quantidade enviada",module,Magento_Shipping
+"Delivered on:","Entregue em:",module,Magento_Shipping
 N/A,"Não Disponível",module,Magento_Shipping
 Location,Localização,module,Magento_Shipping
 Date,Data,module,Magento_Shipping
@@ -2931,6 +2936,7 @@ All,Todos,module,Magento_Sitemap
 "Your Language","Seu idioma",module,Magento_Store
 Language,Idioma,module,Magento_Store
 "Select Store","Selecionar loja",module,Magento_Store
+Swatch,Amostra,module,Magento_Swatches
 "Tax Rate Information","Informação de Imposto de Taxa",module,Magento_Tax
 "Tax Identifier","Identificador Fiscal",module,Magento_Tax
 "Zip/Post is Range","Código Postal está no Intervalo",module,Magento_Tax
@@ -2940,6 +2946,7 @@ Language,Idioma,module,Magento_Store
 "Range To","Intervalo Até",module,Magento_Tax
 State,Estado,module,Magento_Tax
 Country,País,module,Magento_Tax
+"Tax Titles","Título de imposto",module,Magento_Tax
 "Add New Tax Rate","Adicionar Nova Taxa de Imposto",module,Magento_Tax
 Back,Voltar,module,Magento_Tax
 Reset,Reiniciar,module,Magento_Tax
@@ -3189,6 +3196,7 @@ Resources,Recursos,module,Magento_User
 "First-Class Mail Postcards","Carta de First-Class Mail",module,Magento_Usps
 "Priority Mail","E-mail Prioritário",module,Magento_Usps
 "Priority Mail Express Hold For Pickup","Priority Mail Express espera para Pickup",module,Magento_Usps
+"Retail Ground","Base de Varejo",module,Magento_Usps
 "Media Mail","Mídia Mail",module,Magento_Usps
 "First-Class Mail Large Postcards","Postais de First-Class Mail",module,Magento_Usps
 "Priority Mail Medium Flat Rate Box","Caixa postal prioridade fixa em Médio",module,Magento_Usps
@@ -3214,6 +3222,7 @@ None,Nenhum,module,Magento_Usps
 "Request does not match any route.","O pedido não corresponde a nenhuma rota. (URL inválido)",module,Magento_Webapi
 "Not allowed parameters: %1. Please use only %2 and %3.","Não são permitidos os parâmetros: %1. Por favor use apenas %2 e %3.",module,Magento_Webapi
 "Requested service is not available: ""%1""","O serviço solicitado não está disponível: ""%1""",module,Magento_Webapi
+"Invalid XML","XML inválido",module,Magento_Webapi
 "Invalid XML: Detected use of illegal DOCTYPE","XML inválido: Detectado o uso de DOCTYPE ilegal",module,Magento_Webapi
 "Add Tax","Adicionar Imposto",module,Magento_Weee
 "Delete Tax","Remover Imposto",module,Magento_Weee
@@ -3224,6 +3233,7 @@ FPT,"IFP (FPT)",module,Magento_Weee
 "Excluding FPT. Including FPT description and final price","Excluindo IFP. Incluindo a descrição IFP e o preço final",module,Magento_Weee
 "Excluding FPT","Excluir FPT",module,Magento_Weee
 "Fixed Product Tax","Imposto Fixo do Produto",module,Magento_Weee
+Country/State,País/Estado,module,Magento_Weee
 Tax,Taxa,module,Magento_Weee
 Action,Ação,module,Magento_Weee
 "Widget Insertion","Inserção de Widget",module,Magento_Widget
@@ -3916,6 +3926,8 @@ Guest,Visitante,module,Magento_Newsletter
 Customer,Cliente,module,Magento_Newsletter
 "Customer First Name","Nome do cliente",module,Magento_Newsletter
 "Customer Last Name","Sobrenome do cliente",module,Magento_Newsletter
+Subscribed,Inscrito,module,Magento_Newsletter
+Unsubscribed,"Não Inscrito",module,Magento_Newsletter
 Unconfirmed,"Não confirmados",module,Magento_Newsletter
 "Web Site",Website,module,Magento_Newsletter
 Store,Loja,module,Magento_Newsletter
@@ -4081,6 +4093,7 @@ Action,Ação,module,Magento_Sitemap
 "Calculation Settings","Configurações de cálculo",module,Magento_Tax
 "Tax Calculation Based On","Cálculo do imposto com base no",module,Magento_Tax
 "Catalog Prices","Catálogo de preços",module,Magento_Tax
+"Shipping Prices","Preços de envio",module,Magento_Tax
 "Apply Tax On","Aplicar o imposto sobre",module,Magento_Tax
 "Default State","Estado padrão",module,Magento_Tax
 "Price Display Settings","Configurações de exibição do preço",module,Magento_Tax
