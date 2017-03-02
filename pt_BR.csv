@@ -2946,6 +2946,7 @@ Swatch,Amostra,module,Magento_Swatches
 "Range To","Intervalo Até",module,Magento_Tax
 State,Estado,module,Magento_Tax
 Country,País,module,Magento_Tax
+"Rate Percent","Percentagem da Taxa",module,Magento_Tax
 "Tax Titles","Título de imposto",module,Magento_Tax
 "Add New Tax Rate","Adicionar Nova Taxa de Imposto",module,Magento_Tax
 Back,Voltar,module,Magento_Tax
