@@ -4298,6 +4298,7 @@ Language,Idioma,module,Magento_Store
 "Manage Swatch (Values of Your Attribute)","Gerir Amostra (valores do seu atributo)",module,Magento_Swatches
 "Is Default","É o Padrão",module,Magento_Swatches
 Swatch,Amostra,module,Magento_Swatches
+"Add Swatch","Adicionar Amostra",module,Magento_Swatches
 "Sort Option","Opção de Ordenação",module,Magento_Swatches
 Delete,Excluir,module,Magento_Swatches
 "Choose a color","Escolha uma cor",module,Magento_Swatches
@@ -4334,6 +4335,7 @@ Rate,Avaliação,module,Magento_TaxImportExport
 "Range To","Intervalo Até",module,Magento_Tax
 State,Estado,module,Magento_Tax
 Country,País,module,Magento_Tax
+"Rate Percent","Percentagem da Taxa",module,Magento_Tax
 "Tax Titles","Título de imposto",module,Magento_Tax
 "Add New Tax Rate","Adicionar Nova Taxa de Imposto",module,Magento_Tax
 Back,Voltar,module,Magento_Tax
