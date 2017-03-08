@@ -2465,8 +2465,10 @@ Ground,Terreno,module,Magento_Fedex
 "Home Delivery","Entrega ao Domicílio",module,Magento_Fedex
 "International Economy","Economia Internacional",module,Magento_Fedex
 "International First","Prioridade Internacional",module,Magento_Fedex
+"International Ground","Terreno internacional",module,Magento_Fedex
 "International Priority","Prioridade Internacional",module,Magento_Fedex
 "Priority Overnight","Prioritário Noturno",module,Magento_Fedex
+"Smart Post","Envio inteligente",module,Magento_Fedex
 "Standard Overnight","Normal, Noturno",module,Magento_Fedex
 Freight,Frete,module,Magento_Fedex
 "National Freight","Frete Nacional",module,Magento_Fedex
@@ -2555,6 +2557,7 @@ Exclude,Excluir,module,Magento_ImportExport
 "Attribute Label","Rótulo do atributo",module,Magento_ImportExport
 "Attribute Code","Código do Atributo",module,Magento_ImportExport
 Filter,Filtro,module,Magento_ImportExport
+"Unknown attribute filter type","Tipo de filtro de atributo desconhecido",module,Magento_ImportExport
 Download,"Fazer Download",module,Magento_ImportExport
 "Check Data","Verificar dados",module,Magento_ImportExport
 Import,Importar,module,Magento_ImportExport
@@ -2729,6 +2732,7 @@ Database,"Banco de dados",module,Magento_MediaStorage
 "database ""%1""","banco de dados ""%1""",module,Magento_MediaStorage
 "Parent directory does not exist: %1","Não existe o diretório pai: %1",module,Magento_MediaStorage
 "File system","Sistema de arquivos",module,Magento_MediaStorage
+"Path ""%value%"" is protected and cannot be used.","O caminho ""%value%"" está protegido e não pode ser usado.",module,Magento_MediaStorage
 "Path \"%value%\" may not include parent directory traversal (\"../\", \"..\\\").","Caminho \"%value%\" não pode incluir diretório pai  (\"../\", \"..\\\").",module,Magento_MediaStorage
 "Please set available and/or protected paths list(s) before validation.","Por favor defina listas de caminhos disponíveis e/ou protegidos antes da validação.",module,Magento_MediaStorage
 "File with an extension ""%value%"" is protected and cannot be uploaded","O arquivo com a extensão ""%value%"" está protegido e não pode ser enviado",module,Magento_MediaStorage
@@ -2742,6 +2746,7 @@ Database,"Banco de dados",module,Magento_MediaStorage
 "Use config","Usar o config",module,Magento_Msrp
 "Click for price","Clique para precificar",module,Magento_Msrp
 "Order total will be displayed before you submit the order","O Valor Total do Pedido será exibido antes de você fechar o pedido",module,Magento_Msrp
+"You will see the order total before you submit the order.","Você verá o total do pedido, antes de submeter a encomenda.",module,Magento_Msrp
 Price,Preço,module,Magento_Msrp
 "Actual Price","Preço atual",module,Magento_Msrp
 "Add to Cart","Adicionar ao Carrinho",module,Magento_Msrp
@@ -2753,9 +2758,11 @@ Price,Preço,module,Magento_Msrp
 "Shipping Methods","Métodos de envio",module,Magento_Multishipping
 "Edit Address","Editar o Endereço",module,Magento_Multishipping
 "Edit Billing Address","Editar o Endereço de Faturamento",module,Magento_Multishipping
+"Edit Shipping Address","Editar o endereço de entrega",module,Magento_Multishipping
 "Create Billing Address","Criar Endereço de Faturamento",module,Magento_Multishipping
 "We cannot open the overview page.","Não conseguimos abrir a página de visão geral.",module,Magento_Multishipping
 "Order place error","Erro de Confirmação do Pedido",module,Magento_Multishipping
+"Maximum qty allowed for Shipping to multiple addresses is %1","A quantidade máxima permitida de envio para vários endereços %1",module,Magento_Multishipping
 "Please check shipping address information.","Por favor, verifique as informações do endereço de envio.",module,Magento_Multishipping
 "Please check billing address information.","Por favor, verifique as informações do endereço de cobrança.",module,Magento_Multishipping
 "Please select shipping methods for all addresses.","Por favor, selecione os métodos de envio para todos os endereços.",module,Magento_Multishipping
@@ -4055,6 +4062,7 @@ Reports,Relatórios,module,Magento_Search
 "Invalid Sender Information","Informações inválidas do Remetente",module,Magento_SendFriend
 "IP Address","Endereço de IP",module,Magento_SendFriend
 "No Product Exception.","Nenhuma Exceção de Produto.",module,Magento_SendFriend
+"No Category Exception.","Nenhuma exceção de categoria.",module,Magento_SendFriend
 "Some error","Algum erro",module,Magento_SendFriend
 "Localized Exception.","Exceção local (Localized Exception).",module,Magento_SendFriend
 Remove,Remover,module,Magento_SendFriend
@@ -4310,6 +4318,7 @@ Back,Voltar,module,Magento_Tax
 Reset,Reiniciar,module,Magento_Tax
 "Are you sure you want to do this?","Você tem que deseja fazer isso?",module,Magento_Tax
 "Manage Tax Rules","Gerenciar Taxas de Imposto",module,Magento_Tax
+"Add New Tax Rule","Adicionar Nova Regra de Taxa",module,Magento_Tax
 "Delete Rule","Excluir a regra",module,Magento_Tax
 "Save and Continue Edit","Salvar e Continuar a Editar",module,Magento_Tax
 "Tax Rule Information","Informação da Regra de Taxa",module,Magento_Tax
@@ -4448,6 +4457,8 @@ Cancel,Cancelar,module,Magento_Ui
 "UPS Standard","UPS Padrão",module,Magento_Ups
 "UPS Three-Day Select","Selecionar UPS Três Dias",module,Magento_Ups
 "UPS Next Day Air Saver","UPS Proximo Dia Aéreo",module,Magento_Ups
+"UPS Next Day Air Early A.M.","UPS ar no próximo dia pela manhã.",module,Magento_Ups
+"UPS Worldwide Express Plus","UPS expressar mais no mundo todo",module,Magento_Ups
 "UPS Today Standard","Hoje UPS Standard",module,Magento_Ups
 "UPS Today Express","Hoje UPS Express",module,Magento_Ups
 Ground,Terreno,module,Magento_Ups
@@ -4615,8 +4626,10 @@ Resources,Recursos,module,Magento_User
 "First-Class Mail Postcards","Carta de First-Class Mail",module,Magento_Usps
 "Priority Mail","E-mail Prioritário",module,Magento_Usps
 "Priority Mail Express Hold For Pickup","Priority Mail Express espera para Pickup",module,Magento_Usps
+"Priority Mail Express","Prioridade Mail Express",module,Magento_Usps
 "Retail Ground","Base de Varejo",module,Magento_Usps
 "Media Mail","Mídia Mail",module,Magento_Usps
+"Library Mail","Biblioteca de Envio",module,Magento_Usps
 "First-Class Mail Large Postcards","Postais de First-Class Mail",module,Magento_Usps
 "Priority Mail Medium Flat Rate Box","Caixa postal prioridade fixa em Médio",module,Magento_Usps
 "Priority Mail Express Sunday/Holiday Delivery","Priority Mail Express entrega de domingo/feriado",module,Magento_Usps
@@ -5743,6 +5756,7 @@ Import,Importar,module,Magento_OfflineShipping
 "IPs access list separated with ',' that can purge Varnish configuration for config file generation.
                             If field is empty default value localhost will be saved.","Lista de IPs de acesso separados com ',' que pode purgar configuração Varnish para a geração de arquivo de configuração.
                              Se o campo estiver vazio valor padrão localhost será salvo.",module,Magento_PageCache
+"Backend host","Host do backend",module,Magento_PageCache
 "Specify backend host for config file generation. If field is empty default value localhost will be saved.","Especifique o host do backend para a geração do arquivo de configuração. Se o campo estiver vazio será gravado o valor localhost.",module,Magento_PageCache
 "TTL for public content","TTL para conteúdo público",module,Magento_PageCache
 "Page Cache","Cache de página",module,Magento_PageCache
@@ -5983,6 +5997,7 @@ Debug,Depurar/Debug,module,Magento_Usps
 "Sort Order",Ordernação,module,Magento_Usps
 "Variable ID","Variável ID",module,Magento_Variable
 Name,Nome,module,Magento_Variable
+"SOAP Settings","Definições SOAP",module,Magento_Webapi
 "Default Response Charset","Charset de Resposta Pré-definido",module,Magento_Webapi
 "Web Services Configuration","Configuração de Web Services",module,Magento_Webapi
 "REST and SOAP configurations, generated WSDL file.","Configurações REST e SOAP, ficheiro WSDL gerado.",module,Magento_Webapi
