@@ -1615,8 +1615,10 @@ Ground,Terreno,module,Magento_Fedex
 "Home Delivery","Entrega ao Domicílio",module,Magento_Fedex
 "International Economy","Economia Internacional",module,Magento_Fedex
 "International First","Prioridade Internacional",module,Magento_Fedex
+"International Ground","Terreno internacional",module,Magento_Fedex
 "International Priority","Prioridade Internacional",module,Magento_Fedex
 "Priority Overnight","Prioritário Noturno",module,Magento_Fedex
+"Smart Post","Envio inteligente",module,Magento_Fedex
 "Standard Overnight","Normal, Noturno",module,Magento_Fedex
 Freight,Frete,module,Magento_Fedex
 "National Freight","Frete Nacional",module,Magento_Fedex
@@ -1680,6 +1682,7 @@ Exclude,Excluir,module,Magento_ImportExport
 "Attribute Label","Rótulo do atributo",module,Magento_ImportExport
 "Attribute Code","Código do Atributo",module,Magento_ImportExport
 Filter,Filtro,module,Magento_ImportExport
+"Unknown attribute filter type","Tipo de filtro de atributo desconhecido",module,Magento_ImportExport
 "Check Data","Verificar dados",module,Magento_ImportExport
 Import,Importar,module,Magento_ImportExport
 "Import Settings","Importar Configurações",module,Magento_ImportExport
@@ -1798,9 +1801,11 @@ Previous,Anterior,module,Magento_LayeredNavigation
 "Shipping Methods","Métodos de envio",module,Magento_Multishipping
 "Edit Address","Editar o Endereço",module,Magento_Multishipping
 "Edit Billing Address","Editar o Endereço de Faturamento",module,Magento_Multishipping
+"Edit Shipping Address","Editar o endereço de entrega",module,Magento_Multishipping
 "Create Billing Address","Criar Endereço de Faturamento",module,Magento_Multishipping
 "We cannot open the overview page.","Não conseguimos abrir a página de visão geral.",module,Magento_Multishipping
 "Order place error","Erro de Confirmação do Pedido",module,Magento_Multishipping
+"Maximum qty allowed for Shipping to multiple addresses is %1","A quantidade máxima permitida de envio para vários endereços %1",module,Magento_Multishipping
 "Please check shipping address information.","Por favor, verifique as informações do endereço de envio.",module,Magento_Multishipping
 "Please check billing address information.","Por favor, verifique as informações do endereço de cobrança.",module,Magento_Multishipping
 "Please select shipping methods for all addresses.","Por favor, selecione os métodos de envio para todos os endereços.",module,Magento_Multishipping
@@ -2953,6 +2958,7 @@ Back,Voltar,module,Magento_Tax
 Reset,Reiniciar,module,Magento_Tax
 "Are you sure you want to do this?","Você tem que deseja fazer isso?",module,Magento_Tax
 "Manage Tax Rules","Gerenciar Taxas de Imposto",module,Magento_Tax
+"Add New Tax Rule","Adicionar Nova Regra de Taxa",module,Magento_Tax
 "Delete Rule","Excluir a regra",module,Magento_Tax
 "Save and Continue Edit","Salvar e Continuar a Editar",module,Magento_Tax
 "Tax Rule Information","Informação da Regra de Taxa",module,Magento_Tax
@@ -3055,6 +3061,8 @@ Minute,Minuto,module,Magento_Theme
 "UPS Standard","UPS Padrão",module,Magento_Ups
 "UPS Three-Day Select","Selecionar UPS Três Dias",module,Magento_Ups
 "UPS Next Day Air Saver","UPS Proximo Dia Aéreo",module,Magento_Ups
+"UPS Next Day Air Early A.M.","UPS ar no próximo dia pela manhã.",module,Magento_Ups
+"UPS Worldwide Express Plus","UPS expressar mais no mundo todo",module,Magento_Ups
 "UPS Today Standard","Hoje UPS Standard",module,Magento_Ups
 "UPS Today Express","Hoje UPS Express",module,Magento_Ups
 Ground,Terreno,module,Magento_Ups
@@ -3197,8 +3205,10 @@ Resources,Recursos,module,Magento_User
 "First-Class Mail Postcards","Carta de First-Class Mail",module,Magento_Usps
 "Priority Mail","E-mail Prioritário",module,Magento_Usps
 "Priority Mail Express Hold For Pickup","Priority Mail Express espera para Pickup",module,Magento_Usps
+"Priority Mail Express","Prioridade Mail Express",module,Magento_Usps
 "Retail Ground","Base de Varejo",module,Magento_Usps
 "Media Mail","Mídia Mail",module,Magento_Usps
+"Library Mail","Biblioteca de Envio",module,Magento_Usps
 "First-Class Mail Large Postcards","Postais de First-Class Mail",module,Magento_Usps
 "Priority Mail Medium Flat Rate Box","Caixa postal prioridade fixa em Médio",module,Magento_Usps
 "Priority Mail Express Sunday/Holiday Delivery","Priority Mail Express entrega de domingo/feriado",module,Magento_Usps
@@ -3966,6 +3976,7 @@ Import,Importar,module,Magento_OfflineShipping
 "Caching Application","Cache da Aplicação",module,Magento_PageCache
 "Varnish Configuration","Configuração Varnish",module,Magento_PageCache
 "Access list","Lista de acesso",module,Magento_PageCache
+"Backend host","Host do backend",module,Magento_PageCache
 "Specify backend host for config file generation. If field is empty default value localhost will be saved.","Especifique o host do backend para a geração do arquivo de configuração. Se o campo estiver vazio será gravado o valor localhost.",module,Magento_PageCache
 "TTL for public content","TTL para conteúdo público",module,Magento_PageCache
 "Page Cache","Cache de página",module,Magento_PageCache
@@ -4165,6 +4176,7 @@ Height,Altura,module,Magento_Usps
 Girth,Circunferência,module,Magento_Usps
 Debug,Depurar/Debug,module,Magento_Usps
 "Sort Order",Ordernação,module,Magento_Usps
+"SOAP Settings","Definições SOAP",module,Magento_Webapi
 "Default Response Charset","Charset de Resposta Pré-definido",module,Magento_Webapi
 "Web Services Configuration","Configuração de Web Services",module,Magento_Webapi
 "REST and SOAP configurations, generated WSDL file.","Configurações REST e SOAP, ficheiro WSDL gerado.",module,Magento_Webapi
