@@ -448,6 +448,8 @@ Authorize,Autorizar,module,Magento_Braintree
 "Please, enter valid Card Verification Number","Por favor insira um número de verificação de cartão válido",module,Magento_Braintree
 ending,"acabando em",module,Magento_Braintree
 expires,"expira em",module,Magento_Braintree
+"PayPal Account","Conta PayPal",module,Magento_Braintree
+"PayPal Logo","Logo Paypal",module,Magento_Braintree
 Actions,Ações,module,Magento_Braintree
 Delete,Excluir,module,Magento_Braintree
 "Percent Discount","Porcentagem de Desconto",module,Magento_Bundle
@@ -905,6 +907,7 @@ Catalog,Catálogo,module,Magento_Catalog
 "You saved the product attribute.","Você salvou o atributo do produto.",module,Magento_Catalog
 "An attribute with this code already exists.","Um atributo com esse código já existe.",module,Magento_Catalog
 "An attribute with the same code (%1) already exists.","Um atributo com o mesmo código (%1) já existe.",module,Magento_Catalog
+"The value of Admin must be unique.","O valor de Admin deve ser unico.",module,Magento_Catalog
 "You duplicated the product.","Você duplicou o produto.",module,Magento_Catalog
 "This product doesn't exist.","Este produto não existe.",module,Magento_Catalog
 "Invalid product id. Should be numeric value greater than 0","Id de produto inválido. O valor numérico deve ser maior que 0",module,Magento_Catalog
@@ -1094,6 +1097,7 @@ Search,Pesquisa,module,Magento_Catalog
 Dropdown,"Menu suspenso",module,Magento_Catalog
 "%1 doesn't extend \Magento\Framework\Filter\Template","%1 não se estende \Magento\Framework\Filter\Template",module,Magento_Catalog
 "As low as","Tão baixo quanto",module,Magento_Catalog
+test,teste,module,Magento_Catalog
 message,mensagem,module,Magento_Catalog
 Images,Imagens,module,Magento_Catalog
 Select...,Selecionar...,module,Magento_Catalog
@@ -1534,6 +1538,8 @@ Yes,Sim,module,Magento_Config
 Specified,Especificado,module,Magento_Config
 "Config form fieldset clone model required to be able to clone fields","Modelo clone de conjunto de campo de formulation de configuração precisa ser capaz de clonar campos",module,Magento_Config
 "Invalid XML in file %1:\n%2","XML inválido no ficheiro %1:\n%2",module,Magento_Config
+"'There is no defined type ' .","'Não há nenhum tipo definido'.",module,Magento_Config
+"'Object is not instance of ' .","'Objeto não é instância de'.",module,Magento_Config
 some_label,"rótulo (some_label)",module,Magento_Config
 some_comment,comentário,module,Magento_Config
 "some prefix","um prefixo",module,Magento_Config
@@ -1565,6 +1571,8 @@ Summary,Resumo,module,Magento_ConfigurableProduct
 "Choose an Option...","Escolha uma Opção...",module,Magento_ConfigurableProduct
 "This attribute is used in configurable products.","Esse atributo é usado em produtos configuráveis.",module,Magento_ConfigurableProduct
 "Product has been already attached","Produto já anexado",module,Magento_ConfigurableProduct
+"Parent product does not have configurable product options","Produto pai não tem opções de produto configurável",module,Magento_ConfigurableProduct
+"Child product does not have attribute value %1","Produto filho não tem o atributo valor %1",module,Magento_ConfigurableProduct
 "Product with specified sku: %1 is not a configurable product","Produto com sku especificado: %1 não é um produto configurável",module,Magento_ConfigurableProduct
 "Requested option doesn't exist","A opção solicitada não existe",module,Magento_ConfigurableProduct
 "Requested option doesn't exist: %1","Opção solicitada não existe: %1",module,Magento_ConfigurableProduct
@@ -1654,6 +1662,8 @@ Select,Selecione,module,Magento_ConfigurableProduct
 "Remove Product","Remover Produto",module,Magento_ConfigurableProduct
 "Create Product Configurations","Criar Configurações de Produtos",module,Magento_ConfigurableProduct
 Cancel,Cancelar,module,Magento_ConfigurableProduct
+"Special Price","Preço Especial",module,Magento_ConfigurableProduct
+"Regular Price","Preço Normal",module,Magento_ConfigurableProduct
 "Page not found.","Página não encontrada.",module,Magento_Contact
 "Thanks for contacting us with your comments and questions. We'll respond to you very soon.","Obrigado por nos contatar com seus comentários e perguntas. Em breve responderemos.",module,Magento_Contact
 "We can't process your request right now. Sorry, that's all we know.","Nós não podemos processar sua solicitação no momento. Desculpe, isso é tudo o que sabemos.",module,Magento_Contact
@@ -1854,6 +1864,7 @@ Download,"Fazer Download",module,Magento_Customer
 "Please correct the quote items and try again.","Por favor, corrija os itens citados e tente novamente.",module,Magento_Customer
 "You have revoked the customer's tokens.","Você anulou seu Token de cliente.",module,Magento_Customer
 "We can't find a customer to revoke.","Não encontramos o cliente para cancelar.",module,Magento_Customer
+"Something went wrong while saving file.","Ao salvar o arquivo, algo deu errado.",module,Magento_Customer
 "You deleted the customer group.","Você excluiu o grupo de cliente.",module,Magento_Customer
 "The customer group no longer exists.","O grupo de cliente não existe.",module,Magento_Customer
 Customers,Clientes,module,Magento_Customer
@@ -1910,6 +1921,10 @@ Customers,Clientes,module,Magento_Customer
 "The password can not begin or end with a space.","A senha não pode começar ou terminar com um espaço.",module,Magento_Customer
 "ALL GROUPS","TODOS OS GRUPOS",module,Magento_Customer
 "No such entity with %fieldName = %fieldValue, %field2Name = %field2Value","Não há tal entidade com %fieldName = %fieldValue, %field2Name = %field2Value",module,Magento_Customer
+"File can not be saved to the destination folder.","Arquivo não pode ser salvo na pasta de destino.",module,Magento_Customer
+"Unable to create directory %1.","Não foi possível criar o diretório %1",module,Magento_Customer
+"Destination folder is not writable or does not exists.","Pasta de destino não existe ou não é gravável.",module,Magento_Customer
+"Something went wrong while saving the file.","Ocorreu algum problema ao salvar o arquivo.",module,Magento_Customer
 "Attribute object is undefined","Atributo de objeto não definido",module,Magento_Customer
 """%1"" invalid type entered.","""%1"" tipo inválido inserido.",module,Magento_Customer
 """%1"" contains non-alphabetic or non-numeric characters.","""%1"" contém caracteres não-alfabéticos ou não-numéricos.",module,Magento_Customer
@@ -1973,6 +1988,7 @@ Exception,Exceção,module,Magento_Customer
 "Validator Exception","Exceção do validador",module,Magento_Customer
 "Localized Exception","Exceção local (Localized Exception)",module,Magento_Customer
 "some error","algum erro",module,Magento_Customer
+frontend_label,rótulo_frete_de_loja,module,Magento_Customer
 "NOT LOGGED IN","NÃO ESTÁ LOGADO",module,Magento_Customer
 Label,Título,module,Magento_Customer
 Select...,Selecionar...,module,Magento_Customer
@@ -2512,7 +2528,10 @@ None,Nenhum,module,Magento_Fedex
 "Could not add gift message to order: ""%1""","Não foi possível adicionar uma mensagem de presente ao item do pedido: ""%1""",module,Magento_GiftMessage
 "There is no order with provided id or gift message isn't allowed","Não há nenhuma ordem com id fornecido ou mensagem em .Gifs não é permitido",module,Magento_GiftMessage
 "There is no order with provided id","Não há nenhum pedido com o id fornecido",module,Magento_GiftMessage
+"Gift Messages are not applicable for empty order","As Mensagens de cartão presente não se aplicam a uma encomenda vazia",module,Magento_GiftMessage
+"Could not add gift message to order's item: ""%1""","Não foi possível adicionar uma mensagem de presente ao item do pedido: ""%1""",module,Magento_GiftMessage
 "Unknown entity type","Tipo de entidade desconhecido",module,Magento_GiftMessage
+"Test label","Etiqueta de teste",module,Magento_GiftMessage
 "Use Config Settings","Usar Configurações padrão",module,Magento_GiftMessage
 From,De,module,Magento_GiftMessage
 To,Até,module,Magento_GiftMessage
@@ -2547,12 +2566,14 @@ Constant,Constante,module,Magento_GoogleAdwords
 "Add Products to Group","Adicionar Produtos ao Grupo",module,Magento_GroupedProduct
 Cancel,Cancelar,module,Magento_GroupedProduct
 "Add Selected Products","Adicionar Produtos Selecionados",module,Magento_GroupedProduct
+"A grouped product is made up of multiple, standalone products that are presented as a group. You can offer variations of a single product, or group them by season or theme to create a coordinated set. Each product can be purchased separately, or as part of the group.","Um produto agrupado é composto de vários produtos autónomos que são apresentados como um grupo. Pode oferecer variações de um único produto, ou agrupá-las por temporada ou tema para criar um conjunto coordenado. Cada produto pode ser comprado separadamente ou como parte do grupo.",module,Magento_GroupedProduct
 Remove,Remover,module,Magento_GroupedProduct
 Thumbnail,Miniatura,module,Magento_GroupedProduct
 Name,Nome,module,Magento_GroupedProduct
 "Attribute Set","Conjunto de Atributos",module,Magento_GroupedProduct
 Price,Preço,module,Magento_GroupedProduct
 "Default Quantity","Quantidade padrão",module,Magento_GroupedProduct
+Actions,Ações,module,Magento_GroupedProduct
 "Associated Products","Produtos Associados",module,Magento_GroupedProduct
 Availability:,Disponibilidade:,module,Magento_GroupedProduct
 "Out of stock","Fora de estoque",module,Magento_GroupedProduct
@@ -2640,6 +2661,7 @@ Never,Nunca,module,Magento_Indexer
 "%1 indexer(s) are in ""Update on Save"" mode.","%1 indexador(es) estão em modo ""Atualizar ao Gravar"".",module,Magento_Indexer
 "One or more <a href=""%1"">indexers are invalid</a>. Make sure your <a href=""%2"" target=""_blank"">Magento cron job</a> is running.","Um ou mais <a href=""%1"">indexadores são inválidos</a>. Certifique-se que o seu <a href=""%2"" target=""_blank""> Magento Cron Job</a> está ativo.",module,Magento_Indexer
 "State for the same indexer","Estado para o mesmo indexador",module,Magento_Indexer
+"State for the same view","Estado para a mesma vista",module,Magento_Indexer
 "Field '%1' not found","Campo '%1' não encontrado",module,Magento_Indexer
 "Some Exception Message","Alguma Mensagem de Exceção",module,Magento_Indexer
 "Test Phrase","Frase de Teste",module,Magento_Indexer
@@ -2927,12 +2949,24 @@ Subscribers,Inscritos,module,Magento_Newsletter
 "There was a problem with the subscription: %1","Houve um problema com a assinatura: %1",module,Magento_Newsletter
 "Something went wrong with the subscription.","Algo deu errado com a assinatura.",module,Magento_Newsletter
 "You unsubscribed.","Você cancelou sua assinatura.",module,Magento_Newsletter
+"Something went wrong while unsubscribing you.","Algo deu errado durante o cancelamento da subscrição.",module,Magento_Newsletter
 Sent,Enviado,module,Magento_Newsletter
 Cancelled,Cancelado,module,Magento_Newsletter
 "Not Sent","Não Enviado",module,Magento_Newsletter
 Sending,Enviando,module,Magento_Newsletter
 Paused,Pausado,module,Magento_Newsletter
+"There are no subscribers selected.","Não há nenhum assinantes selecionados.",module,Magento_Newsletter
+"You selected an invalid queue.","Selecionou uma fila inválida.",module,Magento_Newsletter
+"We cannot mark as received subscriber.","Não conseguimos marcar como subscritor.",module,Magento_Newsletter
+"Duplicate template code","Código do template duplicado",module,Magento_Newsletter
+"Follow this link to unsubscribe <!-- This tag is for unsubscribe link  --><a href=""{{var subscriber.getUnsubscriptionLink()}}"">{{var subscriber.getUnsubscriptionLink()}}</a>","Siga este link para descadastrar <!..--Essa marca é para cancelar assinatura link--> <a href=""{{var subscriber.getUnsubscriptionLink()}}""> {{var subscriber.getUnsubscriptionLink()}}</a>",module,Magento_Newsletter
+"No such entity with %fieldName = %fieldValue","Não há tal entidade com %fieldName = %fieldValue",module,Magento_Newsletter
+"Newsletter Message Preview","Pré-visualização da Mensagem da Newsletter",module,Magento_Newsletter
+"Add to Queue","Adicionar à Fila",module,Magento_Newsletter
+"Are you sure that you want to strip all tags?","Tem a certeza que pretende remover as tags?",module,Magento_Newsletter
+"Please enter a new template name.","Por favor insira um nome para o template.",module,Magento_Newsletter
 "Are you sure you want to delete this template?","Você tem certeza que quer excluir este modelo?",module,Magento_Newsletter
+"Sign Up for Our Newsletter:","Inscreva-se na nossa Newsletter:",module,Magento_Newsletter
 "Enter your email address","Digite seu email",module,Magento_Newsletter
 Subscribe,Assinar,module,Magento_Newsletter
 "Make Check payable to:","Passe o cheque à ordem de:",module,Magento_OfflinePayments
@@ -5011,6 +5045,13 @@ Update,Atualizar,module,Magento_GiftMessage
 "Gift options","Opções de presente",module,Magento_GiftMessage
 Edit,Editar,module,Magento_GiftMessage
 Delete,Excluir,module,Magento_GiftMessage
+"Newsletter subscription confirmation","Confirmação de subscrição da Newsletter",module,Magento_Newsletter
+"Thank you for subscribing to our newsletter.","Obrigado por subscrever à nossa newsletter.",module,Magento_Newsletter
+"To begin receiving the newsletter, you must first confirm your subscription by clicking on the following link:","Para começar a receber a newsletter, primeiro tem de confirmar a sua subscrição clicando no seguinte link:",module,Magento_Newsletter
+"Newsletter subscription success","Sucesso na subscrição da Newsletter",module,Magento_Newsletter
+"You have been successfully subscribed to our newsletter.","Subscreveu a nossa newsletter com sucesso.",module,Magento_Newsletter
+"Newsletter unsubscription success","Sucesso de cancelamento da Newsletter",module,Magento_Newsletter
+"You have been unsubscribed from the newsletter.","Cancelou a sua subscrição da newsletter com sucesso.",module,Magento_Newsletter
 "Place Order","Finalizar Pedido",module,Magento_OfflinePayments
 "Place Order","Finalizar Pedido",module,Magento_Payment
 "Forgot an Item?","Esqueceu algum Item?",module,Magento_Payment
@@ -5390,8 +5431,10 @@ Size(bytes),"Tamanho (bytes)",module,Magento_Backup
 Type,Tipo,module,Magento_Backup
 Download,"Fazer Download",module,Magento_Backup
 Action,Ação,module,Magento_Backup
+"Accept credit/debit cards and PayPal in your Magento store.<br/>No setup or monthly fees and your customers never leave your store to complete the purchase.","Aceite cartões de crédito / débito e PayPal na sua loja Magento. <br/> Nenhuma configuração ou taxas mensais e os seus clientes nunca iram sair de sua loja para concluir a compra.",module,Magento_Braintree
 "Enable this Solution","Ativar esta Solução",module,Magento_Braintree
 "Enable PayPal through Braintree","Ativar PayPal através do Braintree",module,Magento_Braintree
+"Vault Enabled","Segurança habilitada",module,Magento_Braintree
 "Basic Braintree Settings","Definições Básicas do Braintree",module,Magento_Braintree
 Title,Título,module,Magento_Braintree
 Environment,Ambiente,module,Magento_Braintree
@@ -5417,11 +5460,15 @@ Debug,Depurar/Debug,module,Magento_Braintree
 "Require Customer's Billing Address","Exigir Endereço de Faturação do Cliente",module,Magento_Braintree
 "Allow to Edit Shipping Address Entered During Checkout on PayPal Side","Permitir a Edição da Morada de Envio Inserida Durante o Checkout no PayPal",module,Magento_Braintree
 "Display on Shopping Cart","Mostrar no Carrinho de Compras",module,Magento_Braintree
+"Skip Order Review","Pular a Revisão do pedido",module,Magento_Braintree
 "3D Secure Verification Settings","Definições de Verificação Segura 3D",module,Magento_Braintree
 "3D Secure Verification","Verificação Segura 3D",module,Magento_Braintree
 "Threshold Amount","Valor Limite",module,Magento_Braintree
 "Verify for Applicable Countries","Verificar para países aplicáveis",module,Magento_Braintree
 "Verify for Specific Countries","Verificar para países específicos",module,Magento_Braintree
+Name,Nome,module,Magento_Braintree
+Phone,Telefone,module,Magento_Braintree
+URL,Url,module,Magento_Braintree
 "Apply filters in order to get results. Only first 100 records will be displayed in the grid, you will be able to download full version of the report in .csv format.","Aplicar filtros para obter resultados. Apenas os primeiros 100 registos serão mostrados na grelha, e poderá fazer download da versão completa do relatório em formato CSV.",module,Magento_Braintree
 Select...,Selecionar...,module,Magento_Braintree
 "Transaction Type","Tipo de Transação",module,Magento_Braintree
@@ -5648,6 +5695,7 @@ Details,Detalhes,module,Magento_Catalog
 "Checkout Options","Opcões de Compra",module,Magento_Checkout
 "Enable Onepage Checkout","Ativar Pagamento em Uma Página",module,Magento_Checkout
 "Allow Guest Checkout","Permitir Compras por Visitantes",module,Magento_Checkout
+"Display Billing Address On","Exibir o endereço de facturação em",module,Magento_Checkout
 "Quote Lifetime (days)","Tempo de Vida de Cotação (dias)",module,Magento_Checkout
 "After Adding a Product Redirect to Shopping Cart","Depois de Adicionar um Produto, Reenvie para o Carrinho de Compras",module,Magento_Checkout
 "My Cart Link","Link para Meu Carrinho",module,Magento_Checkout
@@ -5976,6 +6024,8 @@ Password,Senha,module,Magento_Fedex
 Debug,Depurar/Debug,module,Magento_Fedex
 "Show Method if Not Applicable","Mostrar Método se Não Aplicável",module,Magento_Fedex
 "Sort Order",Ordernação,module,Magento_Fedex
+"Allow Gift Messages on Order Level","Permitir Mensagens de Oferta ao Nível do pedido",module,Magento_GiftMessage
+"Allow Gift Messages for Order Items","Permitir Mensagens de Oferta para Itens do Pedido",module,Magento_GiftMessage
 Enable,Habilitado,module,Magento_GoogleAdwords
 "Conversion ID","ID de conversão",module,Magento_GoogleAdwords
 "Conversion Language","Linguagem de Conversão",module,Magento_GoogleAdwords
@@ -5989,7 +6039,9 @@ Enable,Habilitado,module,Magento_GoogleAnalytics
 "Enable Content Experiments","Ativar Experiências de Conteúdo",module,Magento_GoogleOptimizer
 "Category View Optimization","Otimização da Visuação da Categoria",module,Magento_GoogleOptimizer
 "Grouped Product Image","Imagem de Produto Agrupado",module,Magento_GroupedProduct
+Select...,Selecionar...,module,Magento_GroupedProduct
 Type,Tipo,module,Magento_GroupedProduct
+Quantity,Quantidade,module,Magento_GroupedProduct
 StatusText,"Texto do Status",module,Magento_GroupedProduct
 User,Usuário,module,Magento_ImportExport
 "Error File","Arquivo de erro",module,Magento_ImportExport
@@ -6032,13 +6084,23 @@ General,Geral,module,Magento_NewRelicReporting
 "New Relic Application Name","Nome da Aplicação New Relic",module,Magento_NewRelicReporting
 "This is located by navigating to Settings from the New Relic APM website","Pode encontrar esta informação ao navegar até Configurações a partir do novo site Relic APM",module,Magento_NewRelicReporting
 "Enable Cron","Ativar Cron",module,Magento_NewRelicReporting
+"Newsletter Template","Template de Newsletter",module,Magento_Newsletter
+"Newsletter Section","Secção da Newsletter",module,Magento_Newsletter
 "Subscription Options","Opções de assinaturas",module,Magento_Newsletter
+"Allow Guest Subscription","Permitir Subscrição a Utilizadores Não Registados",module,Magento_Newsletter
+"Need to Confirm","Pedir Confirmação",module,Magento_Newsletter
 "Email template chosen based on theme fallback when ""Default"" option is selected.","O modelo de e-mail escolhido baseado no tema ""fallback"" quando a opção ""Padrão"" é selecionada.",module,Magento_Newsletter
+"We found no problems.","Não encontrámos problemas.",module,Magento_Newsletter
 Subscriber,Assinante,module,Magento_Newsletter
+"Queue Start Date","Data de Início da Fila",module,Magento_Newsletter
+"Queue Subject","Assunto da Fila",module,Magento_Newsletter
 "Error Code","Código de erro",module,Magento_Newsletter
 "Error Text","Texto de erro",module,Magento_Newsletter
+"Queue Start","Início da Fila",module,Magento_Newsletter
+"Queue End","Fim da Fila",module,Magento_Newsletter
 Processed,Processado,module,Magento_Newsletter
 Recipients,Destinatários,module,Magento_Newsletter
+Unsubscribe,"Cancelar Subscrição",module,Magento_Newsletter
 Delete,Excluir,module,Magento_Newsletter
 "Excel XML","Excel, XML",module,Magento_Newsletter
 Email,E-mail,module,Magento_Newsletter
@@ -6047,12 +6109,14 @@ Guest,Visitante,module,Magento_Newsletter
 Customer,Cliente,module,Magento_Newsletter
 "Customer First Name","Nome do cliente",module,Magento_Newsletter
 "Customer Last Name","Sobrenome do cliente",module,Magento_Newsletter
+"Not Activated","Não Ativado",module,Magento_Newsletter
 Subscribed,Inscrito,module,Magento_Newsletter
 Unsubscribed,"Não Inscrito",module,Magento_Newsletter
 Unconfirmed,"Não confirmados",module,Magento_Newsletter
 "Web Site",Website,module,Magento_Newsletter
 Store,Loja,module,Magento_Newsletter
 "Store View","Visão de Loja",module,Magento_Newsletter
+"Newsletter Subscriptions","Subscrições da Newsletter",module,Magento_Newsletter
 "Check / Money Order","Cheque / Dinheiro",module,Magento_OfflinePayments
 Enabled,Habilitado,module,Magento_OfflinePayments
 "New Order Status","Novo Status de Pedido",module,Magento_OfflinePayments
