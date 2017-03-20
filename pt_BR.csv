@@ -1714,6 +1714,7 @@ Never,Nunca,module,Magento_Indexer
 "Please select indexers.","Por favor selecione indexadores.",module,Magento_Indexer
 "We couldn't change indexer(s)' mode because of an error.","Não foi possível alterar o modo do(s) indexador(es) devido a um erro.",module,Magento_Indexer
 "State for the same indexer","Estado para o mesmo indexador",module,Magento_Indexer
+"State for the same view","Estado para a mesma vista",module,Magento_Indexer
 Integrations,Integrações,module,Magento_Integration
 "Add New Integration","Adicionar Nova Integração",module,Magento_Integration
 Save,Salvar,module,Magento_Integration
@@ -1927,6 +1928,14 @@ Cancelled,Cancelado,module,Magento_Newsletter
 "Not Sent","Não Enviado",module,Magento_Newsletter
 Sending,Enviando,module,Magento_Newsletter
 Paused,Pausado,module,Magento_Newsletter
+"There are no subscribers selected.","Não há nenhum assinantes selecionados.",module,Magento_Newsletter
+"You selected an invalid queue.","Selecionou uma fila inválida.",module,Magento_Newsletter
+"We cannot mark as received subscriber.","Não conseguimos marcar como subscritor.",module,Magento_Newsletter
+"Duplicate template code","Código do template duplicado",module,Magento_Newsletter
+"Newsletter Message Preview","Pré-visualização da Mensagem da Newsletter",module,Magento_Newsletter
+"Add to Queue","Adicionar à Fila",module,Magento_Newsletter
+"Are you sure that you want to strip all tags?","Tem a certeza que pretende remover as tags?",module,Magento_Newsletter
+"Sign Up for Our Newsletter:","Inscreva-se na nossa Newsletter:",module,Magento_Newsletter
 "Enter your email address","Digite seu email",module,Magento_Newsletter
 Subscribe,Assinar,module,Magento_Newsletter
 "Make Check payable to:","Passe o cheque à ordem de:",module,Magento_OfflinePayments
@@ -3893,6 +3902,8 @@ Password,Senha,module,Magento_Fedex
 Debug,Depurar/Debug,module,Magento_Fedex
 "Show Method if Not Applicable","Mostrar Método se Não Aplicável",module,Magento_Fedex
 "Sort Order",Ordernação,module,Magento_Fedex
+"Allow Gift Messages on Order Level","Permitir Mensagens de Oferta ao Nível do pedido",module,Magento_GiftMessage
+"Allow Gift Messages for Order Items","Permitir Mensagens de Oferta para Itens do Pedido",module,Magento_GiftMessage
 Enable,Habilitado,module,Magento_GoogleAdwords
 "Conversion ID","ID de conversão",module,Magento_GoogleAdwords
 "Conversion Language","Linguagem de Conversão",module,Magento_GoogleAdwords
@@ -3924,11 +3935,19 @@ Updated,Atualizado,module,Magento_Indexer
 Options,Opções,module,Magento_Multishipping
 "Review Order","Revisar pedido",module,Magento_Multishipping
 "Subscription Options","Opções de assinaturas",module,Magento_Newsletter
+"Allow Guest Subscription","Permitir Subscrição a Utilizadores Não Registados",module,Magento_Newsletter
+"Need to Confirm","Pedir Confirmação",module,Magento_Newsletter
+"We found no problems.","Não encontrámos problemas.",module,Magento_Newsletter
 Subscriber,Assinante,module,Magento_Newsletter
+"Queue Start Date","Data de Início da Fila",module,Magento_Newsletter
+"Queue Subject","Assunto da Fila",module,Magento_Newsletter
 "Error Code","Código de erro",module,Magento_Newsletter
 "Error Text","Texto de erro",module,Magento_Newsletter
+"Queue Start","Início da Fila",module,Magento_Newsletter
+"Queue End","Fim da Fila",module,Magento_Newsletter
 Processed,Processado,module,Magento_Newsletter
 Recipients,Destinatários,module,Magento_Newsletter
+Unsubscribe,"Cancelar Subscrição",module,Magento_Newsletter
 Delete,Excluir,module,Magento_Newsletter
 "Excel XML","Excel, XML",module,Magento_Newsletter
 Email,E-mail,module,Magento_Newsletter
@@ -3937,6 +3956,7 @@ Guest,Visitante,module,Magento_Newsletter
 Customer,Cliente,module,Magento_Newsletter
 "Customer First Name","Nome do cliente",module,Magento_Newsletter
 "Customer Last Name","Sobrenome do cliente",module,Magento_Newsletter
+"Not Activated","Não Ativado",module,Magento_Newsletter
 Subscribed,Inscrito,module,Magento_Newsletter
 Unsubscribed,"Não Inscrito",module,Magento_Newsletter
 Unconfirmed,"Não confirmados",module,Magento_Newsletter
