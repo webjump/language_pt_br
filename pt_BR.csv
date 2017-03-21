@@ -1614,6 +1614,7 @@ Ground,Terreno,module,Magento_Fedex
 "First Overnight","Primeiro dia para a noite",module,Magento_Fedex
 "Home Delivery","Entrega ao Domicílio",module,Magento_Fedex
 "International Economy","Economia Internacional",module,Magento_Fedex
+"Intl Economy Freight","Frete Internacional Econômico",module,Magento_Fedex
 "International First","Prioridade Internacional",module,Magento_Fedex
 "International Ground","Terreno internacional",module,Magento_Fedex
 "International Priority","Prioridade Internacional",module,Magento_Fedex
@@ -1791,6 +1792,8 @@ Previous,Anterior,module,Magento_LayeredNavigation
 "File %1 is not readable","Arquivo %1 não é legível",module,Magento_MediaStorage
 "Parent directory does not exist: %1","Não existe o diretório pai: %1",module,Magento_MediaStorage
 "File system","Sistema de arquivos",module,Magento_MediaStorage
+"Unable to save file ""%1"" at ""%2""","Não foi possível salvar o arquivo ""% 1"" em ""% 2""",module,Magento_MediaStorage
+"Wrong file info format","Formato de arquivo incorreto",module,Magento_MediaStorage
 "Please set available and/or protected paths list(s) before validation.","Por favor defina listas de caminhos disponíveis e/ou protegidos antes da validação.",module,Magento_MediaStorage
 "Unable to create directory: %1","Não foi possível criar o diretório: %1",module,Magento_MediaStorage
 "Unable to save file: %1","Não foi possível salvar o arquivo: %1",module,Magento_MediaStorage
@@ -1804,6 +1807,8 @@ Previous,Anterior,module,Magento_LayeredNavigation
 "Edit Billing Address","Editar o Endereço de Faturamento",module,Magento_Multishipping
 "Edit Shipping Address","Editar o endereço de entrega",module,Magento_Multishipping
 "Create Billing Address","Criar Endereço de Faturamento",module,Magento_Multishipping
+"Create Shipping Address","Criar endereço de remessa",module,Magento_Multishipping
+"Data saving problem","Problema ao salvar dados",module,Magento_Multishipping
 "We cannot open the overview page.","Não conseguimos abrir a página de visão geral.",module,Magento_Multishipping
 "Order place error","Erro de Confirmação do Pedido",module,Magento_Multishipping
 "Maximum qty allowed for Shipping to multiple addresses is %1","A quantidade máxima permitida de envio para vários endereços %1",module,Magento_Multishipping
@@ -2101,6 +2106,7 @@ Continue,Próximo,module,Magento_Paypal
 "You will no longer receive stock alerts for this product.","Irá deixar de receber alertas de stock para este produto.",module,Magento_ProductAlert
 "The product was not found.","O produto não foi encontrado.",module,Magento_ProductAlert
 "You will no longer receive stock alerts.","Irá deixar de receber alertas de estoque.",module,Magento_ProductAlert
+"Invalid block type: %1","Tipo de bloco inválido: %1",module,Magento_ProductAlert
 Price:,Preço:,module,Magento_ProductAlert
 "Unsubscribe from all price alerts","Remover todas as inscrições de alertas de preço",module,Magento_ProductAlert
 "Unsubscribe from all stock alerts","Remover todas as inscrições de alertas de estoque",module,Magento_ProductAlert
@@ -2110,6 +2116,7 @@ Price:,Preço:,module,Magento_ProductAlert
 "Add video","Adicionar vídeo",module,Magento_ProductVideo
 "The requested Payment Method is not available.","O método de pagamento solicitado não está disponível.",module,Magento_Quote
 "We found an invalid request for adding product to quote.","Encontramos uma solicitação inválida para adicionar o produto para cotação.",module,Magento_Quote
+"This is the wrong quote item id to update configuration.","Este é o id de item de cotação errado para atualizar a configuração.",module,Magento_Quote
 "This shipping method is not available. To use this shipping method, please contact us.","Este método de envio não está disponível. Para usar este método de envio, entre em contato conosco.",module,Magento_Quote
 "The address model is not defined.","O modelo de endereço não está definido.",module,Magento_Quote
 "Grand Total","Total geral",module,Magento_Quote
@@ -3072,6 +3079,7 @@ Minute,Minuto,module,Magento_Theme
 "UPS Next Day Air Saver","UPS Proximo Dia Aéreo",module,Magento_Ups
 "UPS Next Day Air Early A.M.","UPS ar no próximo dia pela manhã.",module,Magento_Ups
 "UPS Worldwide Express Plus","UPS expressar mais no mundo todo",module,Magento_Ups
+"UPS Second Day Air A.M.","UPS Segundo dia Ar A.M.",module,Magento_Ups
 "UPS Today Standard","Hoje UPS Standard",module,Magento_Ups
 "UPS Today Express","Hoje UPS Express",module,Magento_Ups
 Ground,Terreno,module,Magento_Ups
@@ -3218,6 +3226,7 @@ Resources,Recursos,module,Magento_User
 "Retail Ground","Base de Varejo",module,Magento_Usps
 "Media Mail","Mídia Mail",module,Magento_Usps
 "Library Mail","Biblioteca de Envio",module,Magento_Usps
+"Priority Mail Express Flat Rate Envelope","Correio Prioritário Expresso Envelope de Taxa Fixa",module,Magento_Usps
 "First-Class Mail Large Postcards","Postais de First-Class Mail",module,Magento_Usps
 "Priority Mail Medium Flat Rate Box","Caixa postal prioridade fixa em Médio",module,Magento_Usps
 "Priority Mail Express Sunday/Holiday Delivery","Priority Mail Express entrega de domingo/feriado",module,Magento_Usps
@@ -3242,6 +3251,7 @@ None,Nenhum,module,Magento_Usps
 "Request does not match any route.","O pedido não corresponde a nenhuma rota. (URL inválido)",module,Magento_Webapi
 "Not allowed parameters: %1. Please use only %2 and %3.","Não são permitidos os parâmetros: %1. Por favor use apenas %2 e %3.",module,Magento_Webapi
 "Requested service is not available: ""%1""","O serviço solicitado não está disponível: ""%1""",module,Magento_Webapi
+"Operation ""%1"" not found.","Operação ""% 1"" não encontrada.",module,Magento_Webapi
 "Invalid XML","XML inválido",module,Magento_Webapi
 "Invalid XML: Detected use of illegal DOCTYPE","XML inválido: Detectado o uso de DOCTYPE ilegal",module,Magento_Webapi
 "Add Tax","Adicionar Imposto",module,Magento_Weee
@@ -3250,6 +3260,7 @@ None,Nenhum,module,Magento_Usps
 FPT,"IFP (FPT)",module,Magento_Weee
 "We found a duplicate of website, country and state fields for a fixed product tax","Nós encontramos uma duplicata nos campos de website, país e estado para a taxa de produto fixada",module,Magento_Weee
 "Including FPT only","Incluindo apenas FPT",module,Magento_Weee
+"Including FPT and FPT description","Incluindo descrição FPT e FPT",module,Magento_Weee
 "Excluding FPT. Including FPT description and final price","Excluindo IFP. Incluindo a descrição IFP e o preço final",module,Magento_Weee
 "Excluding FPT","Excluir FPT",module,Magento_Weee
 "Fixed Product Tax","Imposto Fixo do Produto",module,Magento_Weee
@@ -3998,6 +4009,7 @@ Import,Importar,module,Magento_OfflineShipping
 "Access list","Lista de acesso",module,Magento_PageCache
 "Backend host","Host do backend",module,Magento_PageCache
 "Specify backend host for config file generation. If field is empty default value localhost will be saved.","Especifique o host do backend para a geração do arquivo de configuração. Se o campo estiver vazio será gravado o valor localhost.",module,Magento_PageCache
+"Backend port","Porta de back-end",module,Magento_PageCache
 "TTL for public content","TTL para conteúdo público",module,Magento_PageCache
 "Page Cache","Cache de página",module,Magento_PageCache
 "Full page caching.","Cache de página interira.",module,Magento_PageCache
@@ -4033,10 +4045,16 @@ User,Usuário,module,Magento_Paypal
 "Persist Shopping Cart","Persistir Carrinho de Compras",module,Magento_Persistent
 "Product Alerts","Alertas de Produto",module,Magento_ProductAlert
 "Allow Alert When Product Price Changes","Mostrar Alerta Quando o Preço do Produto Alterar",module,Magento_ProductAlert
+"Allow Alert When Product Comes Back in Stock","Permitir Alerta Quando o Produto Regressa ao Stock",module,Magento_ProductAlert
+"Price Alert Email Template","Template de Email de Alerta de Preço",module,Magento_ProductAlert
+"Stock Alert Email Template","Template de Email de Alerta de Stock",module,Magento_ProductAlert
 "Alert Email Sender","Remetente de Email de Alerta",module,Magento_ProductAlert
+"Product Alerts Run Settings","Definições de Execução de Alerta de Produtos",module,Magento_ProductAlert
 Frequency,Frequência,module,Magento_ProductAlert
 "Start Time","Hora de Início",module,Magento_ProductAlert
+"Error Email Recipient","Erro de Destinatário de E-mail",module,Magento_ProductAlert
 "Error Email Sender","Erro de Remetente de Email",module,Magento_ProductAlert
+"Error Email Template","Erro de Template de Email",module,Magento_ProductAlert
 "Sign up for price alert","Registe-se para se avisado sobre o preço",module,Magento_ProductAlert
 "Sign up to be notified when this product is back in stock.","Registe-se para ser notificado quando este produto estive de volta em stock.",module,Magento_ProductAlert
 "Product Video","Vídeo do Produto",module,Magento_ProductVideo
@@ -4164,6 +4182,8 @@ Copyright,"Direitos autorais",module,Magento_Theme
 "Translation Strategy","Estratégia de Tradução",module,Magento_Translation
 Translations,Traduções,module,Magento_Translation
 "Translation files.","Arquivos de tradução.",module,Magento_Translation
+"Log JS Errors to Session Storage","Escrever Erros JS para o Armazenamento de Sessão",module,Magento_Ui
+"Log JS Errors to Session Storage Key","Escrever Erros JS para a Chave de Armazenamento de Sessão",module,Magento_Ui
 "Access License Number","Número de licença de acesso",module,Magento_Ups
 Password,Senha,module,Magento_Ups
 "Sort Order",Ordernação,module,Magento_Ups
