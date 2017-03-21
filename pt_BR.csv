@@ -2492,6 +2492,7 @@ Ground,Terreno,module,Magento_Fedex
 "First Overnight","Primeiro dia para a noite",module,Magento_Fedex
 "Home Delivery","Entrega ao Domicílio",module,Magento_Fedex
 "International Economy","Economia Internacional",module,Magento_Fedex
+"Intl Economy Freight","Frete Internacional Econômico",module,Magento_Fedex
 "International First","Prioridade Internacional",module,Magento_Fedex
 "International Ground","Terreno internacional",module,Magento_Fedex
 "International Priority","Prioridade Internacional",module,Magento_Fedex
@@ -2590,6 +2591,7 @@ Export,Exportar,module,Magento_ImportExport
 "Export Settings","Exportar Configurações",module,Magento_ImportExport
 "Entity Type","Tipo de entidade",module,Magento_ImportExport
 "Export File Format","Formato do arquivo de exportação",module,Magento_ImportExport
+"Fields Enclosure","Envelhecimento de campos",module,Magento_ImportExport
 From,De,module,Magento_ImportExport
 To,Até,module,Magento_ImportExport
 "We can't filter an attribute with no attribute options.","Não somos possíveis de filtrar um atributo sem opções de atributo.",module,Magento_ImportExport
@@ -2779,6 +2781,8 @@ Database,"Banco de dados",module,Magento_MediaStorage
 "database ""%1""","banco de dados ""%1""",module,Magento_MediaStorage
 "Parent directory does not exist: %1","Não existe o diretório pai: %1",module,Magento_MediaStorage
 "File system","Sistema de arquivos",module,Magento_MediaStorage
+"Unable to save file ""%1"" at ""%2""","Não foi possível salvar o arquivo ""% 1"" em ""% 2""",module,Magento_MediaStorage
+"Wrong file info format","Formato de arquivo incorreto",module,Magento_MediaStorage
 "Path ""%value%"" is protected and cannot be used.","O caminho ""%value%"" está protegido e não pode ser usado.",module,Magento_MediaStorage
 "Please set available and/or protected paths list(s) before validation.","Por favor defina listas de caminhos disponíveis e/ou protegidos antes da validação.",module,Magento_MediaStorage
 "File with an extension ""%value%"" is protected and cannot be uploaded","O arquivo com a extensão ""%value%"" está protegido e não pode ser enviado",module,Magento_MediaStorage
@@ -2807,6 +2811,8 @@ Price,Preço,module,Magento_Msrp
 "Edit Billing Address","Editar o Endereço de Faturamento",module,Magento_Multishipping
 "Edit Shipping Address","Editar o endereço de entrega",module,Magento_Multishipping
 "Create Billing Address","Criar Endereço de Faturamento",module,Magento_Multishipping
+"Create Shipping Address","Criar endereço de remessa",module,Magento_Multishipping
+"Data saving problem","Problema ao salvar dados",module,Magento_Multishipping
 "We cannot open the overview page.","Não conseguimos abrir a página de visão geral.",module,Magento_Multishipping
 "Order place error","Erro de Confirmação do Pedido",module,Magento_Multishipping
 "Maximum qty allowed for Shipping to multiple addresses is %1","A quantidade máxima permitida de envio para vários endereços %1",module,Magento_Multishipping
@@ -3187,9 +3193,12 @@ Continue,Próximo,module,Magento_Paypal
 "You will no longer receive stock alerts for this product.","Irá deixar de receber alertas de stock para este produto.",module,Magento_ProductAlert
 "The product was not found.","O produto não foi encontrado.",module,Magento_ProductAlert
 "You will no longer receive stock alerts.","Irá deixar de receber alertas de estoque.",module,Magento_ProductAlert
+"Invalid block type: %1","Tipo de bloco inválido: %1",module,Magento_ProductAlert
+"Price change alert! We wanted you to know that prices have changed for these products:","Alerta de alteração de preço! Queremos que saiba que os preços foram alterados para estes produtos:",module,Magento_ProductAlert
 Price:,Preço:,module,Magento_ProductAlert
 "Click here to stop alerts for this product.","Clique aqui para parar os alertas para este produto.",module,Magento_ProductAlert
 "Unsubscribe from all price alerts","Remover todas as inscrições de alertas de preço",module,Magento_ProductAlert
+"In stock alert! We wanted you to know that these products are now available:","Alerta de stock! Queremos que saiba que estes produtos estão disponíveis:",module,Magento_ProductAlert
 "Unsubscribe from all stock alerts","Remover todas as inscrições de alertas de estoque",module,Magento_ProductAlert
 Title,Título,module,Magento_ProductVideo
 Description,Descrição,module,Magento_ProductVideo
@@ -3200,6 +3209,7 @@ Role,Função,module,Magento_ProductVideo
 "YouTube and Vimeo supported.","YouTube e Vimeo suportados.",module,Magento_ProductVideo
 "Vimeo supported.<br />To add YouTube video, please <a href=""%1"">enter YouTube API Key</a> first.","É suportado o serviço Vimeo.<br />Para adicionar um vídeo do YouTube, por favor <a href=""%1""> Insira primeiro a chave de API do YouTube</a>.",module,Magento_ProductVideo
 "Protocol isn't allowed","Protocolo não é permitido",module,Magento_ProductVideo
+"Could not get preview image information. Please check your connection and try again.","Não foi possível obter informações de visualização da imagem. Por favor verifique sua conexão e tente novamente.",module,Magento_ProductVideo
 "Add Video","Adicionar vídeo",module,Magento_ProductVideo
 "Browse to find or drag image here","Navegue para encontrar ou arraste a imagem aqui",module,Magento_ProductVideo
 "Delete video","Excluir vídeo",module,Magento_ProductVideo
@@ -3218,6 +3228,7 @@ Title:,Título:,module,Magento_ProductVideo
 "Shipping address is not set","Endereço de envio não está definido",module,Magento_Quote
 "The requested Payment Method is not available.","O método de pagamento solicitado não está disponível.",module,Magento_Quote
 "We found an invalid request for adding product to quote.","Encontramos uma solicitação inválida para adicionar o produto para cotação.",module,Magento_Quote
+"This is the wrong quote item id to update configuration.","Este é o id de item de cotação errado para atualizar a configuração.",module,Magento_Quote
 "This shipping method is not available. To use this shipping method, please contact us.","Este método de envio não está disponível. Para usar este método de envio, entre em contato conosco.",module,Magento_Quote
 "The address model is not defined.","O modelo de endereço não está definido.",module,Magento_Quote
 "Grand Total","Total geral",module,Magento_Quote
@@ -3499,6 +3510,8 @@ Category,Categoria,module,Magento_Rule
 "Open Chooser","Abrir Seletor",module,Magento_Rule
 "Unknown condition operator","Operador de condição desconhecido",module,Magento_Rule
 "There is no information about associated entity type ""%1"".","Não existe nenhuma informação sobre o tipo de entidade associado ""%1"".",module,Magento_Rule
+"The ""%1"" product is not part of the current creditmemo.","O produto ""% 1"" não faz parte do atual creditmemo.",module,Magento_SalesInventory
+"The return to stock argument contains product item that is not part of the original order.","O argumento de retorno ao estoque contém item do produto que não faz parte da ordem original.",module,Magento_SalesInventory
 "Cart Price Rules","Regras de preço do carrinho",module,Magento_SalesRule
 "Add New Rule","Adicionar Nova Regra",module,Magento_SalesRule
 Delete,Excluir,module,Magento_SalesRule
@@ -4128,6 +4141,7 @@ None,Nenhum,module,Magento_Security
 "Please enter a sender name.","Por favor insira um nome de remetente.",module,Magento_SendFriend
 "Invalid Sender Email","E-mail do remetente inválido",module,Magento_SendFriend
 "Please enter a message.","Por favor escreva uma mensagem.",module,Magento_SendFriend
+"Please specify at least one recipient.","Especifique pelo menos um destinatário.",module,Magento_SendFriend
 "Please enter a correct recipient email address.","Por favor, digite pelo menos um endereço de e-mail.",module,Magento_SendFriend
 "No more than %1 emails can be sent at a time.","Não podem ser enviados mais do que %1 e-mails de cada vez.",module,Magento_SendFriend
 "Invalid Sender Information","Informações inválidas do Remetente",module,Magento_SendFriend
@@ -4371,6 +4385,8 @@ Rate,Avaliação,module,Magento_TaxImportExport
 "Range From","Intervalo De",module,Magento_TaxImportExport
 "Range To","Intervalo Até",module,Magento_TaxImportExport
 "Tax Zones and Rates","Zonas de Impostos e Tarifas",module,Magento_TaxImportExport
+"Import and Export Tax Rates","Imposto de Importação e Exportação",module,Magento_TaxImportExport
+"The tax rate has been imported.","A taxa de imposto foi importada.",module,Magento_TaxImportExport
 "Invalid file upload attempt","Tentativa de carregamento de arquivo inválido",module,Magento_TaxImportExport
 "Invalid file upload attempt.","Tentativa de carregamento de arquivo inválido.",module,Magento_TaxImportExport
 "Invalid file format.","Formato de arquivo inválido.",module,Magento_TaxImportExport
@@ -4526,6 +4542,7 @@ Minute,Minuto,module,Magento_Theme
 "Parameter ""class"" must be present.","Parâmetro ""classe"" deve estar presente.",module,Magento_Ui
 "Parameter ""sortOrder"" must be present.","O parâmetro ""sortOrder"" deve estar presente.",module,Magento_Ui
 "Invalid UI Component element name: '%1'","Nome de Elemento de UI inválido: '%1'",module,Magento_Ui
+"Bookmark with id ""%1"" does not exist.","O marcador com id ""%1"" não existe.",module,Magento_Ui
 "Invalid UI Component element name: ''","Nome de Elemento de UI inválido: '%1'",module,Magento_Ui
 Cancel,Cancelar,module,Magento_Ui
 Back,Voltar,module,Magento_Ui
@@ -4538,6 +4555,7 @@ Next,Próximo,module,Magento_Ui
 "UPS Next Day Air Saver","UPS Proximo Dia Aéreo",module,Magento_Ups
 "UPS Next Day Air Early A.M.","UPS ar no próximo dia pela manhã.",module,Magento_Ups
 "UPS Worldwide Express Plus","UPS expressar mais no mundo todo",module,Magento_Ups
+"UPS Second Day Air A.M.","UPS Segundo dia Ar A.M.",module,Magento_Ups
 "UPS Today Standard","Hoje UPS Standard",module,Magento_Ups
 "UPS Today Express","Hoje UPS Express",module,Magento_Ups
 Ground,Terreno,module,Magento_Ups
@@ -4716,6 +4734,7 @@ Resources,Recursos,module,Magento_User
 "Retail Ground","Base de Varejo",module,Magento_Usps
 "Media Mail","Mídia Mail",module,Magento_Usps
 "Library Mail","Biblioteca de Envio",module,Magento_Usps
+"Priority Mail Express Flat Rate Envelope","Correio Prioritário Expresso Envelope de Taxa Fixa",module,Magento_Usps
 "First-Class Mail Large Postcards","Postais de First-Class Mail",module,Magento_Usps
 "Priority Mail Medium Flat Rate Box","Caixa postal prioridade fixa em Médio",module,Magento_Usps
 "Priority Mail Express Sunday/Holiday Delivery","Priority Mail Express entrega de domingo/feriado",module,Magento_Usps
@@ -4755,7 +4774,9 @@ Yes,Sim,module,Magento_Variable
 "No token found.","Nenhum arquivo encontrado.",module,Magento_Vault
 "Wrong request.","Solicitação inválida.",module,Magento_Vault
 "Deletion failure. Please try again.","Falha de exclusão. Por favor, tente novamente.",module,Magento_Vault
+"Stored Payment Method was successfully removed","Método de pagamento armazenado foi removido com êxito",module,Magento_Vault
 "Stored Payment Methods","Métodos de Pagamento armazenados",module,Magento_Vault
+"No available payment tokens for specified order payment.","Não há tokens de pagamento disponíveis para pagamento de ordem especificado.",module,Magento_Vault
 "Card Number","Numero do cartao",module,Magento_Vault
 "Expiration Date","Data de Validade",module,Magento_Vault
 Type,Tipo,module,Magento_Vault
@@ -4769,6 +4790,7 @@ Delete,Excluir,module,Magento_Vault
 "Request does not match any route.","O pedido não corresponde a nenhuma rota. (URL inválido)",module,Magento_Webapi
 "Not allowed parameters: %1. Please use only %2 and %3.","Não são permitidos os parâmetros: %1. Por favor use apenas %2 e %3.",module,Magento_Webapi
 "Requested service is not available: ""%1""","O serviço solicitado não está disponível: ""%1""",module,Magento_Webapi
+"Operation ""%1"" not found.","Operação ""% 1"" não encontrada.",module,Magento_Webapi
 "SOAP extension is not loaded.","A extensão SOAP não está carregada.",module,Magento_Webapi
 "Invalid XML","XML inválido",module,Magento_Webapi
 "Invalid XML: Detected use of illegal DOCTYPE","XML inválido: Detectado o uso de DOCTYPE ilegal",module,Magento_Webapi
@@ -4780,6 +4802,7 @@ Message,Mensagem,module,Magento_Webapi
 FPT,"IFP (FPT)",module,Magento_Weee
 "You must set unique country-state combinations within the same fixed product tax","Você deve definir combinações únicas de país-estado dentro do mesmo imposto de produto fixo",module,Magento_Weee
 "Including FPT only","Incluindo apenas FPT",module,Magento_Weee
+"Including FPT and FPT description","Incluindo descrição FPT e FPT",module,Magento_Weee
 "Excluding FPT. Including FPT description and final price","Excluindo IFP. Incluindo a descrição IFP e o preço final",module,Magento_Weee
 "Excluding FPT","Excluir FPT",module,Magento_Weee
 frontend_label,rótulo_frontend,module,Magento_Weee
@@ -5057,6 +5080,10 @@ Delete,Excluir,module,Magento_GiftMessage
 "Forgot an Item?","Esqueceu algum Item?",module,Magento_Payment
 "Edit Your Cart","Alterar o Carrinho",module,Magento_Payment
 "Check 'Remember Me' to access your shopping cart on this computer even if you are not signed in.","Marque &quot; Me Lembrar&quot; para acessar seu carrinho de compras nesse computador quando você estiver desconectado.",module,Magento_Persistent
+"Product alerts Cron error","Alertas de produto Cron error",module,Magento_ProductAlert
+"Product alerts cron warnings","Avisos de cron de alertas de produto",module,Magento_ProductAlert
+"Products price changed alert","Alerta para preço dos produtos alterado",module,Magento_ProductAlert
+"Products back in stock alert","Alerta para produtos em stock",module,Magento_ProductAlert
 "Apply Discount Code","Aplicar Cupom de Desconto",module,Magento_SalesRule
 "Enter discount code","Inserir cupom de desconto",module,Magento_SalesRule
 "Apply Discount","Aplicar Desconto",module,Magento_SalesRule
@@ -5207,28 +5234,93 @@ Delete,Excluir,module,Magento_ProductVideo
 "These changes affect all related products.","Essas alterações afetam todos os produtos relacionados.",module,Magento_Swatches
 "We could not detect a size.","Não foi possível detectar o tamanho.",module,Magento_Theme
 "We don't recognize this file extension.","Nós não reconhecemos essa extensão de arquivo.",module,Magento_Theme
+Add,Adicionar,module,Magento_Ui
 "Something went wrong.","Houve algum problema.",module,Magento_Ui
+Yes,Sim,module,Magento_Ui
 No,Não,module,Magento_Ui
+Done,Concluído,module,Magento_Ui
 options,opções,module,Magento_Ui
 Select...,Selecionar...,module,Magento_Ui
+Selected,Selecionado,module,Magento_Ui
 "Select All","Selecionar Todos",module,Magento_Ui
+"Deselect All","Desmarcar Tudo",module,Magento_Ui
 "Select All on This Page","Selecionar Tudo Nesta Página",module,Magento_Ui
 "Deselect All on This Page","Desmarcar Tudo Nesta Página",module,Magento_Ui
+On,Ligado,module,Magento_Ui
 Off,Desligado,module,Magento_Ui
+"Go to Details Page","Ir para a Página de Detalhes",module,Magento_Ui
 "New View","Nova Visão",module,Magento_Ui
+"Default View","Visualização padrão",module,Magento_Ui
 "${ $.visible } out of ${ $.total } visible","${ $.visible } de ${ $.total } visíveis",module,Magento_Ui
 "You have successfully saved your edits.","Gravou as suas edições com sucesso.",module,Magento_Ui
+"You haven't selected any items!","Não selecionou nenhuns itens!",module,Magento_Ui
 "Search by keyword","Pesquisar por palavra-chave",module,Magento_Ui
+Keyword,Palavra-chave,module,Magento_Ui
 "Select Date","Selecionar data",module,Magento_Ui
 "Please enter more or equal than {0} symbols.","Por favor insira {0} ou mais símbolos.",module,Magento_Ui
 "Please enter less or equal than {0} symbols.","Por favor insira {0} ou menos símbolos.",module,Magento_Ui
+"Please enter {0} words or less.","Por favor escreva {0} ou menos palavras.",module,Magento_Ui
 "Please enter at least {0} words.","Por favor escreva pelo menos {0} palavras.",module,Magento_Ui
 "Please enter between {0} and {1} words.","Por favor insira entre {0} e {1} palavras.",module,Magento_Ui
+"Letters or punctuation only please","Apenas letras ou pontuação, por favor",module,Magento_Ui
 "Letters, numbers, spaces or underscores only please","Apenas letras, números, espaços ou underscores, por favor",module,Magento_Ui
 "Letters only please","Apenas letras, por favor",module,Magento_Ui
+"No white space please","Não coloque espaços, por favor",module,Magento_Ui
 "Your ZIP-code must be in the range 902xx-xxxx to 905-xx-xxxx","O seu Cep deve estar no intervalo 01000-xxx a 99999-xxx",module,Magento_Ui
+"A positive or negative non-decimal number please","Por favor insira um número inteiro negativo ou positivo",module,Magento_Ui
+"The specified vehicle identification number (VIN) is invalid.","A matrícula do veículo é inválida.",module,Magento_Ui
+"Please enter a correct date","Por favor insira uma data correta",module,Magento_Ui
+"Vul hier een geldige datum in.","Por favor indique uma data válida neste campo.",module,Magento_Ui
+"Please enter a valid time, between 00:00 and 23:59","Por favor insira uma hora válida, entre as 00:00 e as 23:59",module,Magento_Ui
+"Please enter a valid time, between 00:00 am and 12:00 pm","Por favor insira uma hora válida, entre as 00:00 am e as 11:59 pm",module,Magento_Ui
+"Please specify a valid phone number","Por favor especifique um número de telefone válido",module,Magento_Ui
+"Please specify a valid mobile number","Por favor especifique um número de telemóvel válido",module,Magento_Ui
+"Please enter at least {0} characters","Por favor insira pelo menos {0} caracteres",module,Magento_Ui
+"Please enter a valid credit card number.","Por favor, insira um número de cartão de crédito válido.",module,Magento_Ui
+"Please enter a valid IP v4 address.","Por favor introduza um endereço de IPv4 válido.",module,Magento_Ui
+"Please enter a valid IP v6 address.","Por favor introduza um endereço de IPv6 válido.",module,Magento_Ui
+"Invalid format.","Formato inválido.",module,Magento_Ui
+"HTML tags are not allowed.","As tags HTML não são permitidas.",module,Magento_Ui
+"Please select an option.","Por favor selecione uma opção.",module,Magento_Ui
+"Empty Value.","Valor Vazio.",module,Magento_Ui
+"Please use only letters (a-z or A-Z), numbers (0-9) or spaces only in this field.","Por favor use apenas letras (a-z ou A-Z), números (0-9) ou espaços neste campo.",module,Magento_Ui
+"Please use only letters (a-z or A-Z), numbers (0-9) or underscore (_) in this field, and the first character should be a letter.","Por favor use apenas letras (a-z), números (0-9) ou underscore (_) neste campo, e o primeiro carácter deve ser uma letra.",module,Magento_Ui
+"Please use only letters (a-z or A-Z), numbers (0-9), spaces and ""#"" in this field.","Por favor use somente letras (a-z ou A-Z), números (0-9), espaços e ""#"" neste campo.",module,Magento_Ui
+"Please enter a valid phone number. For example (123) 456-7890 or 123-456-7890.","Por favor insira um número de telefone válido. Por exemplo (+351) 210 123 123 ou 910 123 123.",module,Magento_Ui
+"Please enter a valid fax number (Ex: 123-456-7890).","Por favor insira um número de fax válido. (Ex: 210 123 123).",module,Magento_Ui
+"Please enter a valid email address (Ex: johndoe@domain.com).","Por favor insira um endereço de email válido (Ex: exemplo@dominio.com).",module,Magento_Ui
+"Please enter 6 or more characters. Leading and trailing spaces will be ignored.","Por favor insira 6 ou mais caracteres. Os espaços iniciais ou finais serão ignorados.",module,Magento_Ui
+"Please enter 7 or more characters, using both numeric and alphabetic.","Por favor insira 7 ou mais caracteres, usando caracteres numéricos e alfabéticos.",module,Magento_Ui
+"Please enter a valid URL. Protocol is required (http://, https:// or ftp://).","Por favor introduza um URL válido. O protocolo é necessário (http://, https:// ou ftp://).",module,Magento_Ui
+"Please enter a valid URL. For example http://www.example.com or www.example.com.","Por favor introduza um URL válido. Por exemplo http://www.exemplo.com ou www.exemplo.com.",module,Magento_Ui
+"Please enter a valid XML-identifier (Ex: something_1, block5, id-4).","Por favor insira um identificador XML válido (Ex: algo_1, bloco5, id-4).",module,Magento_Ui
+"Please enter a valid social security number (Ex: 123-45-6789).","Por favor, digite um CPF válido (Ex: 123-456-789-00).",module,Magento_Ui
+"Please enter a valid zip code (Ex: 90602 or 90602-1234).","Por favor introduza um código postal válido (Ex: 21000-123).",module,Magento_Ui
+"Please use this date format: dd/mm/yyyy. For example 17/03/2006 for the 17th of March, 2006.","Por favor use este formato de data: dd/mm/aaaa. Por exemplo 17/03/2006 de 17 de março de 2006.",module,Magento_Ui
+"Please enter a valid $ amount. For example $100.00.","Por favor insira um montante de R$ válido. Por exemplo, R$100,00.",module,Magento_Ui
 "Please enter a number 0 or greater in this field.","Por favor, insira um número maior ou igual a 0 neste campo.",module,Magento_Ui
+"Please enter a number greater than 0 in this field.","Por favor, insira um número maior que 0 neste campo.",module,Magento_Ui
+"Please input a valid CSS-length (Ex: 100px, 77pt, 20em, .5ex or 50%).","Por favor insira um comprimento CSS válido (Ex: 100px, 77pt, 20em, .5ex ou 50%).",module,Magento_Ui
 "Please enter a valid number in this field.","Por favor, insira um número válido neste campo.",module,Magento_Ui
+"The value is not within the specified range.","O valor não está dentro do intervalo especificado.",module,Magento_Ui
+"Please use letters only (a-z or A-Z) in this field.","Por favor use apenas letras (a-z ou A-Z) neste campo.",module,Magento_Ui
+"Please use only letters (a-z), numbers (0-9) or underscore (_) in this field, and the first character should be a letter.","Por favor use apenas letras (a-z), números (0-9) ou underscore (_) neste campo, e o primeiro carácter deve ser uma letra.",module,Magento_Ui
+"Please use only letters (a-z or A-Z) or numbers (0-9) in this field. No spaces or other characters are allowed.","Por favor use apenas letras (a-z ou A-Z) ou números (0-9) neste campo. Não são permitidos espaços ou outros caracteres.",module,Magento_Ui
+"Please enter a valid date.","Por favor insira uma data válida.",module,Magento_Ui
+"Please enter a valid URL Key (Ex: ""example-page"", ""example-page.html"" or ""anotherlevel/example-page"").","Por favor introduza uma URL válida (Ex: ""pagina-exemplo"", ""pagina-exemplo.html"" ou ""outronivel/pagina-exemplo"").",module,Magento_Ui
+"Please enter a valid zip code.","Por favor informe um Cep válido.",module,Magento_Ui
+"Please select State/Province.","Por favor selecione o estado.",module,Magento_Ui
+"Please enter a value less than or equal to {0}.","Por favor, insira um valor menor ou igual a {0}.",module,Magento_Ui
+"Please enter a value greater than or equal to {0}.","Por favor, insira um valor maior ou igual a {0}.",module,Magento_Ui
+"Please enter issue number or start date for switch/solo card type.","Por favor, insira o número de emissão ou data de início para o cartão switch/solo.",module,Magento_Ui
+"This is a required field.","Esse campo é obrigatório.",module,Magento_Ui
+"Please enter positive number in this field.","Por favor insira um número positivo neste campo.",module,Magento_Ui
+"Please enter a valid value, ex: 10,20,30","Por favor insira um valor válido, ex: 10,20,30",module,Magento_Ui
+"We don't recognize or support this file extension type.","Não reconhecemos ou suportamos este formato de arquivo.",module,Magento_Ui
+"File you are trying to upload exceeds maximum file size limit.","O ficheiro que está a carregar excede o limite máximo de tamanho do arquivo.",module,Magento_Ui
+"Please use tag SCRIPT with SRC attribute or with proper content to include JavaScript to the document.","Por favor use tag SCRIPT com atributo SRC ou com conteúdo adequado para incluir JavaScript para o documento.",module,Magento_Ui
+"The date is not within the specified range.","A data não está dentro do intervalo especificado.",module,Magento_Ui
+Attention,Atenção,module,Magento_Ui
 Close,Fechar,module,Magento_Ui
 Cancel,Cancelar,module,Magento_Vault
 "Show Toolbar","Mostrar Barra de Ferramentas",module,Magento_AdminNotification
@@ -6079,6 +6171,10 @@ General,Geral,module,Magento_NewRelicReporting
 "New Relic API URL","URL da API New Relic",module,Magento_NewRelicReporting
 "Insights API URL","URL da API Insights",module,Magento_NewRelicReporting
 "Use %s to replace the account ID in the URL","Utilize %s para substituir o ID da conta no URL",module,Magento_NewRelicReporting
+"New Relic Account ID","Novo ID da Conta Relic",module,Magento_NewRelicReporting
+"""Need a New Relic account? <a href=""http://www.newrelic.com/magento"" target=""_blank"">Click here to get one","""Precisa de uma conta nova relíquia? <a href=""http://www.newrelic.com/magento"" target=""_blank""> Clique aqui para obter um",module,Magento_NewRelicReporting
+"New Relic Application ID","ID da nova aplicação Relic",module,Magento_NewRelicReporting
+"This can commonly be found at the end of the URL when viewing the APM after ""/applications/""","Isso geralmente pode ser encontrado no final do URL ao exibir o APM após ""/ applications /""",module,Magento_NewRelicReporting
 "New Relic API Key","Chave da API New Relic",module,Magento_NewRelicReporting
 "Insights API Key","Chave da API Insights",module,Magento_NewRelicReporting
 "New Relic Application Name","Nome da Aplicação New Relic",module,Magento_NewRelicReporting
@@ -6156,6 +6252,7 @@ Import,Importar,module,Magento_OfflineShipping
                              Se o campo estiver vazio valor padrão localhost será salvo.",module,Magento_PageCache
 "Backend host","Host do backend",module,Magento_PageCache
 "Specify backend host for config file generation. If field is empty default value localhost will be saved.","Especifique o host do backend para a geração do arquivo de configuração. Se o campo estiver vazio será gravado o valor localhost.",module,Magento_PageCache
+"Backend port","Porta de back-end",module,Magento_PageCache
 "TTL for public content","TTL para conteúdo público",module,Magento_PageCache
 "Page Cache","Cache de página",module,Magento_PageCache
 "Full page caching","Caching de Página Inteira",module,Magento_PageCache
@@ -6189,12 +6286,19 @@ User,Usuário,module,Magento_Paypal
 "Persist Shopping Cart","Persistir Carrinho de Compras",module,Magento_Persistent
 "Product Alerts","Alertas de Produto",module,Magento_ProductAlert
 "Allow Alert When Product Price Changes","Mostrar Alerta Quando o Preço do Produto Alterar",module,Magento_ProductAlert
+"Allow Alert When Product Comes Back in Stock","Permitir Alerta Quando o Produto Regressa ao Stock",module,Magento_ProductAlert
+"Price Alert Email Template","Template de Email de Alerta de Preço",module,Magento_ProductAlert
 "Email template chosen based on theme fallback when ""Default"" option is selected.","O modelo de e-mail escolhido baseado no tema ""fallback"" quando a opção ""Padrão"" é selecionada.",module,Magento_ProductAlert
+"Stock Alert Email Template","Template de Email de Alerta de Stock",module,Magento_ProductAlert
 "Alert Email Sender","Remetente de Email de Alerta",module,Magento_ProductAlert
+"Product Alerts Run Settings","Definições de Execução de Alerta de Produtos",module,Magento_ProductAlert
 Frequency,Frequência,module,Magento_ProductAlert
 "Start Time","Hora de Início",module,Magento_ProductAlert
+"Error Email Recipient","Erro de Destinatário de E-mail",module,Magento_ProductAlert
 "Error Email Sender","Erro de Remetente de Email",module,Magento_ProductAlert
+"Error Email Template","Erro de Template de Email",module,Magento_ProductAlert
 "Notify me when the price drops","Receber notificações de baixa de preço",module,Magento_ProductAlert
+"Notify me when this product is in stock","Me avise quando esse produto estiver disponível",module,Magento_ProductAlert
 "Product Video","Vídeo do Produto",module,Magento_ProductVideo
 "Autostart base video","Iniciar automaticamente o vídeo base",module,Magento_ProductVideo
 "Show related video","Mostrar vídeos relacionados",module,Magento_ProductVideo
@@ -6374,6 +6478,8 @@ Copyright,"Direitos autorais",module,Magento_Theme
 "Translation Strategy","Estratégia de Tradução",module,Magento_Translation
 Translations,Traduções,module,Magento_Translation
 "Translation files","Arquivos de tradução",module,Magento_Translation
+"Log JS Errors to Session Storage","Escrever Erros JS para o Armazenamento de Sessão",module,Magento_Ui
+"Log JS Errors to Session Storage Key","Escrever Erros JS para a Chave de Armazenamento de Sessão",module,Magento_Ui
 Action,Ação,module,Magento_Ui
 "Excel XML","Excel, XML",module,Magento_Ui
 "Access License Number","Número de licença de acesso",module,Magento_Ups
