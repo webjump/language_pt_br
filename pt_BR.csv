@@ -4556,21 +4556,28 @@ Next,Próximo,module,Magento_Ui
 "UPS Next Day Air Early A.M.","UPS ar no próximo dia pela manhã.",module,Magento_Ups
 "UPS Worldwide Express Plus","UPS expressar mais no mundo todo",module,Magento_Ups
 "UPS Second Day Air A.M.","UPS Segundo dia Ar A.M.",module,Magento_Ups
+"UPS Expedited","Expedido pela UPS",module,Magento_Ups
 "UPS Today Standard","Hoje UPS Standard",module,Magento_Ups
+"UPS Today Intercity","UPS hoje IC",module,Magento_Ups
 "UPS Today Express","Hoje UPS Express",module,Magento_Ups
+"UPS Today Express Saver","Hoje UPS Express Saver",module,Magento_Ups
 Ground,Terreno,module,Magento_Ups
 "Ground Commercial","Terreno comercial",module,Magento_Ups
 "Canada Standard","Padrão de Canadá",module,Magento_Ups
 "Worldwide Express Letter","Carta expressa em todo o mundo",module,Magento_Ups
 "Worldwide Express Plus Letter","Carta expressa em todo o mundo",module,Magento_Ups
 "UPS Letter Envelope","Envelope de carta de UPS",module,Magento_Ups
+"UPS Tube","Tubo de UPS",module,Magento_Ups
 Pallet,Palete,module,Magento_Ups
 "Medium Express Box","Caixa expressa Médio",module,Magento_Ups
+Residential,Residencial,module,Magento_Ups
+Commercial,Comercial,module,Magento_Ups
 Pounds,Libras,module,Magento_Ups
 Kilograms,Quilogramas,module,Magento_Ups
 "Sorry, something went wrong. Please try again or contact us and we'll try to help.","Desculpe, Algo deu errado. Por favor tente novamente ou entre em contato conosco e tentaremos ajudar.",module,Magento_Ups
 "We can't convert a rate from ""%1-%2"".","Não é possível converter uma taxa de ""%1-%2"".",module,Magento_Ups
 "Empty response","Nenhuma resposta",module,Magento_Ups
+"Delivery Confirmation","Confirmação de entrega",module,Magento_Ups
 "Not Required","Não é necessário",module,Magento_Ups
 None,Nenhum,module,Magento_Ups
 label,rótulo,module,Magento_Ups
@@ -6420,13 +6427,16 @@ Enabled,Habilitado,module,Magento_Sitemap
 "Link for Google","Link para o Google",module,Magento_Sitemap
 Action,Ação,module,Magento_Sitemap
 Configuration,Configuração,module,Magento_Store
+"Various XML configurations that were collected across modules and merged","Foram obtidas e combinadas várias configurações XML",module,Magento_Store
 "Layout building instructions","Instruções de construção de layout",module,Magento_Store
 "Blocks HTML output","Saída de blocos HTML",module,Magento_Store
 "Page blocks HTML","HTML dos blocos da página",module,Magento_Store
 "Collections Data","Coleções de dados",module,Magento_Store
 "Collection data files","Arquivos de coleção de dados",module,Magento_Store
 "Reflection Data","Dados de Reflecção",module,Magento_Store
+"API interfaces reflection data","Dados de reflexão das interfaces de API",module,Magento_Store
 "Database DDL operations","Operações DDL da Base de Dados",module,Magento_Store
+"Results of DDL queries, such as describing tables or indexes","Resultados das consultas DDL, como descrições de tabelas ou indíces",module,Magento_Store
 "Swatches per Product","Amostras por Produto",module,Magento_Swatches
 "Swatch Image","Imagem de amostra",module,Magento_Swatches
 Image,Imagem,module,Magento_Swatches
@@ -6483,6 +6493,8 @@ Translations,Traduções,module,Magento_Translation
 Action,Ação,module,Magento_Ui
 "Excel XML","Excel, XML",module,Magento_Ui
 "Access License Number","Número de licença de acesso",module,Magento_Ups
+"Free Method","Método Gratuito",module,Magento_Ups
+"Gateway URL","URL de entrada",module,Magento_Ups
 Password,Senha,module,Magento_Ups
 "Sort Order",Ordernação,module,Magento_Ups
 Title,Título,module,Magento_Ups
