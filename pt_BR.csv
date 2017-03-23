@@ -4486,20 +4486,27 @@ Cancel,Cancelar,module,Magento_Ui
 "UPS Next Day Air Early A.M.","UPS ar no próximo dia pela manhã.",module,Magento_Ups
 "UPS Worldwide Express Plus","UPS expressar mais no mundo todo",module,Magento_Ups
 "UPS Second Day Air A.M.","UPS Segundo dia Ar A.M.",module,Magento_Ups
+"UPS Expedited","Expedido pela UPS",module,Magento_Ups
 "UPS Today Standard","Hoje UPS Standard",module,Magento_Ups
+"UPS Today Intercity","UPS hoje IC",module,Magento_Ups
 "UPS Today Express","Hoje UPS Express",module,Magento_Ups
+"UPS Today Express Saver","Hoje UPS Express Saver",module,Magento_Ups
 Ground,Terreno,module,Magento_Ups
 "Ground Commercial","Terreno comercial",module,Magento_Ups
 "Canada Standard","Padrão de Canadá",module,Magento_Ups
 "Worldwide Express Letter","Carta expressa em todo o mundo",module,Magento_Ups
 "Worldwide Express Plus Letter","Carta expressa em todo o mundo",module,Magento_Ups
 "UPS Letter Envelope","Envelope de carta de UPS",module,Magento_Ups
+"UPS Tube","Tubo de UPS",module,Magento_Ups
 Pallet,Palete,module,Magento_Ups
 "Medium Express Box","Caixa expressa Médio",module,Magento_Ups
+Residential,Residencial,module,Magento_Ups
+Commercial,Comercial,module,Magento_Ups
 Pounds,Libras,module,Magento_Ups
 Kilograms,Quilogramas,module,Magento_Ups
 "Sorry, something went wrong. Please try again or contact us and we'll try to help.","Desculpe, Algo deu errado. Por favor tente novamente ou entre em contato conosco e tentaremos ajudar.",module,Magento_Ups
 "Empty response","Nenhuma resposta",module,Magento_Ups
+"Delivery Confirmation","Confirmação de entrega",module,Magento_Ups
 "Not Required","Não é necessário",module,Magento_Ups
 None,Nenhum,module,Magento_Ups
 label,rótulo,module,Magento_Ups
@@ -5782,6 +5789,7 @@ General,Geral,module,Magento_NewRelicReporting
 "New Relic Account ID","Novo ID da Conta Relic",module,Magento_NewRelicReporting
 "\"Need a New Relic account? <a href=\"http://www.newrelic.com/magento\" target=\"_blank\">Click here to get one","\"Precisa de uma conta New Relic ? <a href=\"http://www.newrelic.com/magento\" target=\"_blank\">Click aqui para obter uma.",module,Magento_NewRelicReporting
 "New Relic Application ID","ID da nova aplicação Relic",module,Magento_NewRelicReporting
+"This can commonly be found at the end of the URL when viewing the APM after ""/applications/""","Isso geralmente pode ser encontrado no final do URL ao exibir o APM após ""/ applications /""",module,Magento_NewRelicReporting
 "New Relic API Key","Chave da API New Relic",module,Magento_NewRelicReporting
 "Insights API Key","Chave da API Insights",module,Magento_NewRelicReporting
 "New Relic Application Name","Nome da Aplicação New Relic",module,Magento_NewRelicReporting
@@ -6070,6 +6078,8 @@ ui/grid/filters/elements/select,ui/grid/filtros/elementos/selecionar,module,Mage
 Action,Ação,module,Magento_Ui
 "Excel XML","Excel, XML",module,Magento_Ui
 "Access License Number","Número de licença de acesso",module,Magento_Ups
+"Free Method","Método Gratuito",module,Magento_Ups
+"Gateway URL","URL de entrada",module,Magento_Ups
 Password,Senha,module,Magento_Ups
 "Sort Order",Ordernação,module,Magento_Ups
 Title,Título,module,Magento_Ups
