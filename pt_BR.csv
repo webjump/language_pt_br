@@ -1810,6 +1810,7 @@ Previous,Anterior,module,Magento_LayeredNavigation
 "Create Shipping Address","Criar endereço de remessa",module,Magento_Multishipping
 "Data saving problem","Problema ao salvar dados",module,Magento_Multishipping
 "We cannot open the overview page.","Não conseguimos abrir a página de visão geral.",module,Magento_Multishipping
+"Please agree to all Terms and Conditions before placing the order.","Por favor concorde com todos os termos e condições antes de fazer a encomenda.",module,Magento_Multishipping
 "Order place error","Erro de Confirmação do Pedido",module,Magento_Multishipping
 "Maximum qty allowed for Shipping to multiple addresses is %1","A quantidade máxima permitida de envio para vários endereços %1",module,Magento_Multishipping
 "Please check shipping address information.","Por favor, verifique as informações do endereço de envio.",module,Magento_Multishipping
@@ -2148,6 +2149,7 @@ To,Até,module,Magento_Reports
 Yes,Sim,module,Magento_Reports
 No,Não,module,Magento_Reports
 "Empty Rows","Linhas vazias",module,Magento_Reports
+"Invalid date specified","Data inválida especificada",module,Magento_Reports
 Refresh,Atualizar,module,Magento_Reports
 "Show Reviews","Permitir Comentários",module,Magento_Reports
 "Products Report","Relatório de Produtos",module,Magento_Reports
@@ -2929,6 +2931,7 @@ Generate,Gerar,module,Magento_Sitemap
 "XML Sitemap","Mapa do site XML",module,Magento_Sitemap
 "Add Sitemap","Adicionar mapa do site",module,Magento_Sitemap
 Catalog,Catálogo,module,Magento_Sitemap
+"This sitemap no longer exists.","Este mapa do site já não existe.",module,Magento_Sitemap
 "Site Map","Mapa do Site",module,Magento_Sitemap
 "New Site Map","Novo mapa do Site",module,Magento_Sitemap
 "The sitemap ""%1"" has been generated.","O mapa do site ""%1"" foi gerado.",module,Magento_Sitemap
@@ -2972,7 +2975,9 @@ Country,País,module,Magento_Tax
 "Add New Tax Rate","Adicionar Nova Taxa de Imposto",module,Magento_Tax
 Back,Voltar,module,Magento_Tax
 Reset,Reiniciar,module,Magento_Tax
+"Delete Rate","Eliminar Taxa",module,Magento_Tax
 "Are you sure you want to do this?","Você tem que deseja fazer isso?",module,Magento_Tax
+"Save Rate","Gravar Taxa",module,Magento_Tax
 "Manage Tax Rules","Gerenciar Taxas de Imposto",module,Magento_Tax
 "Add New Tax Rule","Adicionar Nova Regra de Taxa",module,Magento_Tax
 "Delete Rule","Excluir a regra",module,Magento_Tax
@@ -3112,6 +3117,7 @@ Product:,Produto:,module,Magento_UrlRewrite
 "Skip Category Selection","Pular Seleção de Categoria",module,Magento_UrlRewrite
 Name,Nome,module,Magento_UrlRewrite
 "Edit URL Rewrite for CMS page","Editar Reescrita de URL para uma Página CMS",module,Magento_UrlRewrite
+"Add URL Rewrite for CMS page","Adicionar Reescrita de URL para uma Página CMS",module,Magento_UrlRewrite
 "CMS page:","Página do CMS:",module,Magento_UrlRewrite
 Title,Título,module,Magento_UrlRewrite
 "URL Key","Chave URL",module,Magento_UrlRewrite
@@ -3987,6 +3993,7 @@ Enabled,Habilitado,module,Magento_OfflinePayments
 "Sort Order",Ordernação,module,Magento_OfflinePayments
 Title,Título,module,Magento_OfflinePayments
 "Payment from Applicable Countries","Pagamento a partir de Países Aplicáveis",module,Magento_OfflinePayments
+"Payment from Specific Countries","Pagamento de Países Específicos",module,Magento_OfflinePayments
 "Make Check Payable to","Passe o cheque à ordem de",module,Magento_OfflinePayments
 "Maximum Order Total","Valor Total do Pedido",module,Magento_OfflinePayments
 "Purchase Order","Ordem de compra",module,Magento_OfflinePayments
@@ -4048,6 +4055,7 @@ User,Usuário,module,Magento_Paypal
 "Persistent Shopping Cart","Carrinho de Compras Persistente",module,Magento_Persistent
 "General Options","Opções gerais",module,Magento_Persistent
 "Persistence Lifetime (seconds)","Tempo de Persistência (segundos)",module,Magento_Persistent
+"Enable ""Remember Me""","Ativar ""Ligação Automática""",module,Magento_Persistent
 """Remember Me"" Default Value","Valor Pré-definido de ""Me Lembre""",module,Magento_Persistent
 "Persist Shopping Cart","Persistir Carrinho de Compras",module,Magento_Persistent
 "Product Alerts","Alertas de Produto",module,Magento_ProductAlert
