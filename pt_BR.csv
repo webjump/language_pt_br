@@ -2737,6 +2737,7 @@ Database,"Banco de dados",module,Magento_MediaStorage
 "Unable to save file ""%1"" at ""%2""","Não foi possível salvar o arquivo ""% 1"" em ""% 2""",module,Magento_MediaStorage
 "Wrong file info format","Formato de arquivo incorreto",module,Magento_MediaStorage
 "Path ""%value%"" is protected and cannot be used.","O caminho ""%value%"" está protegido e não pode ser usado.",module,Magento_MediaStorage
+"Path ""%value%"" is not available and cannot be used.","O caminho ""%value%"" não está disponível e não pode ser usado.",module,Magento_MediaStorage
 "Path \"%value%\" may not include parent directory traversal (\"../\", \"..\\\").","Caminho \"%value%\" não pode incluir diretório pai  (\"../\", \"..\\\").",module,Magento_MediaStorage
 "Please set available and/or protected paths list(s) before validation.","Por favor defina listas de caminhos disponíveis e/ou protegidos antes da validação.",module,Magento_MediaStorage
 "File with an extension ""%value%"" is protected and cannot be uploaded","O arquivo com a extensão ""%value%"" está protegido e não pode ser enviado",module,Magento_MediaStorage
@@ -2767,6 +2768,7 @@ Price,Preço,module,Magento_Msrp
 "Create Shipping Address","Criar endereço de remessa",module,Magento_Multishipping
 "Data saving problem","Problema ao salvar dados",module,Magento_Multishipping
 "We cannot open the overview page.","Não conseguimos abrir a página de visão geral.",module,Magento_Multishipping
+"Please agree to all Terms and Conditions before placing the order.","Por favor concorde com todos os termos e condições antes de fazer a encomenda.",module,Magento_Multishipping
 "Order place error","Erro de Confirmação do Pedido",module,Magento_Multishipping
 "Maximum qty allowed for Shipping to multiple addresses is %1","A quantidade máxima permitida de envio para vários endereços %1",module,Magento_Multishipping
 "Please check shipping address information.","Por favor, verifique as informações do endereço de envio.",module,Magento_Multishipping
@@ -3223,6 +3225,7 @@ To,Até,module,Magento_Reports
 Yes,Sim,module,Magento_Reports
 No,Não,module,Magento_Reports
 "Empty Rows","Linhas vazias",module,Magento_Reports
+"Invalid date specified","Data inválida especificada",module,Magento_Reports
 Refresh,Atualizar,module,Magento_Reports
 "We can't find records for this period.","Não foram encontrados registos para este período.",module,Magento_Reports
 "Show Reviews","Permitir Comentários",module,Magento_Reports
@@ -4084,6 +4087,7 @@ Reports,Relatórios,module,Magento_Search
 "No more than %1 emails can be sent at a time.","Não podem ser enviados mais do que %1 e-mails de cada vez.",module,Magento_SendFriend
 "Invalid Sender Information","Informações inválidas do Remetente",module,Magento_SendFriend
 "IP Address","Endereço de IP",module,Magento_SendFriend
+"Cookie (unsafe)","Cookie (inseguro)",module,Magento_SendFriend
 "No Product Exception.","Nenhuma Exceção de Produto.",module,Magento_SendFriend
 "No Category Exception.","Nenhuma exceção de categoria.",module,Magento_SendFriend
 "Some error","Algum erro",module,Magento_SendFriend
@@ -4245,6 +4249,7 @@ Generate,Gerar,module,Magento_Sitemap
 Catalog,Catálogo,module,Magento_Sitemap
 "You deleted the sitemap.","Você excluiu o sitemap.",module,Magento_Sitemap
 "We can't find a sitemap to delete.","Não podemos encontrar um mapa do site para excluir.",module,Magento_Sitemap
+"This sitemap no longer exists.","Este mapa do site já não existe.",module,Magento_Sitemap
 "Site Map","Mapa do Site",module,Magento_Sitemap
 "New Site Map","Novo mapa do Site",module,Magento_Sitemap
 "The sitemap ""%1"" has been generated.","O mapa do site ""%1"" foi gerado.",module,Magento_Sitemap
@@ -4326,6 +4331,7 @@ Rate,Avaliação,module,Magento_TaxImportExport
 "Invalid file upload attempt","Tentativa de carregamento de arquivo inválido",module,Magento_TaxImportExport
 "Invalid file upload attempt.","Tentativa de carregamento de arquivo inválido.",module,Magento_TaxImportExport
 "Invalid file format.","Formato de arquivo inválido.",module,Magento_TaxImportExport
+"One of the countries has invalid code.","Um dos países tem código inválido.",module,Magento_TaxImportExport
 "Import Tax Rates","Taxas de Imposto de Importação",module,Magento_TaxImportExport
 "Tax Rate Information","Informação de Imposto de Taxa",module,Magento_Tax
 "Tax Identifier","Identificador Fiscal",module,Magento_Tax
@@ -4341,7 +4347,9 @@ Country,País,module,Magento_Tax
 "Add New Tax Rate","Adicionar Nova Taxa de Imposto",module,Magento_Tax
 Back,Voltar,module,Magento_Tax
 Reset,Reiniciar,module,Magento_Tax
+"Delete Rate","Eliminar Taxa",module,Magento_Tax
 "Are you sure you want to do this?","Você tem que deseja fazer isso?",module,Magento_Tax
+"Save Rate","Gravar Taxa",module,Magento_Tax
 "Manage Tax Rules","Gerenciar Taxas de Imposto",module,Magento_Tax
 "Add New Tax Rule","Adicionar Nova Regra de Taxa",module,Magento_Tax
 "Delete Rule","Excluir a regra",module,Magento_Tax
@@ -4521,6 +4529,7 @@ Product:,Produto:,module,Magento_UrlRewrite
 "Skip Category Selection","Pular Seleção de Categoria",module,Magento_UrlRewrite
 Name,Nome,module,Magento_UrlRewrite
 "Edit URL Rewrite for CMS page","Editar Reescrita de URL para uma Página CMS",module,Magento_UrlRewrite
+"Add URL Rewrite for CMS page","Adicionar Reescrita de URL para uma Página CMS",module,Magento_UrlRewrite
 "CMS page:","Página do CMS:",module,Magento_UrlRewrite
 Title,Título,module,Magento_UrlRewrite
 "URL Key","Chave URL",module,Magento_UrlRewrite
@@ -5791,6 +5800,7 @@ General,Geral,module,Magento_NewRelicReporting
 "New Relic Application ID","ID da nova aplicação Relic",module,Magento_NewRelicReporting
 "This can commonly be found at the end of the URL when viewing the APM after ""/applications/""","Isso geralmente pode ser encontrado no final do URL ao exibir o APM após ""/ applications /""",module,Magento_NewRelicReporting
 "New Relic API Key","Chave da API New Relic",module,Magento_NewRelicReporting
+"This is located by navigating to Events -> Deployments from the New Relic APM website","Pode encontrar isto ao navegar até Events -> Deployments a partir do site New Relic APM",module,Magento_NewRelicReporting
 "Insights API Key","Chave da API Insights",module,Magento_NewRelicReporting
 "New Relic Application Name","Nome da Aplicação New Relic",module,Magento_NewRelicReporting
 "This is located by navigating to Settings from the New Relic APM website","Pode encontrar esta informação ao navegar até Configurações a partir do novo site Relic APM",module,Magento_NewRelicReporting
@@ -5832,6 +5842,7 @@ Enabled,Habilitado,module,Magento_OfflinePayments
 "Sort Order",Ordernação,module,Magento_OfflinePayments
 Title,Título,module,Magento_OfflinePayments
 "Payment from Applicable Countries","Pagamento a partir de Países Aplicáveis",module,Magento_OfflinePayments
+"Payment from Specific Countries","Pagamento de Países Específicos",module,Magento_OfflinePayments
 "Make Check Payable to","Passe o cheque à ordem de",module,Magento_OfflinePayments
 "Maximum Order Total","Valor Total do Pedido",module,Magento_OfflinePayments
 "Purchase Order","Ordem de compra",module,Magento_OfflinePayments
@@ -5896,6 +5907,7 @@ User,Usuário,module,Magento_Paypal
 "Persistent Shopping Cart","Carrinho de Compras Persistente",module,Magento_Persistent
 "General Options","Opções gerais",module,Magento_Persistent
 "Persistence Lifetime (seconds)","Tempo de Persistência (segundos)",module,Magento_Persistent
+"Enable ""Remember Me""","Ativar ""Ligação Automática""",module,Magento_Persistent
 """Remember Me"" Default Value","Valor Pré-definido de ""Me Lembre""",module,Magento_Persistent
 "Persist Shopping Cart","Persistir Carrinho de Compras",module,Magento_Persistent
 "Product Alerts","Alertas de Produto",module,Magento_ProductAlert
