@@ -2468,6 +2468,7 @@ Ground,Terreno,module,Magento_Fedex
 "International First","Prioridade Internacional",module,Magento_Fedex
 "International Ground","Terreno internacional",module,Magento_Fedex
 "International Priority","Prioridade Internacional",module,Magento_Fedex
+"Intl Priority Freight","Frete Prioritário Internacional",module,Magento_Fedex
 "Priority Overnight","Prioritário Noturno",module,Magento_Fedex
 "Smart Post","Envio inteligente",module,Magento_Fedex
 "Standard Overnight","Normal, Noturno",module,Magento_Fedex
@@ -2948,6 +2949,7 @@ Region/State,Região/estado,module,Magento_OfflineShipping
 "Weight (and above)","Peso (e acima)",module,Magento_OfflineShipping
 "Order Subtotal (and above)","Subtotal do Pedido (e acima)",module,Magento_OfflineShipping
 "# of Items (and above)","# de itens (e acima)",module,Magento_OfflineShipping
+"Please correct Table Rate code type: %1.","Por favor corrija o tipo de código da Tabela de Taxas: %1.",module,Magento_OfflineShipping
 "Please correct Table Rate code for type %1: %2.","Por favor corrija o código da Tabela de Taxas para o tipo %1: %2.",module,Magento_OfflineShipping
 None,Nenhum,module,Magento_OfflineShipping
 "Per Order","Por pedido",module,Magento_OfflineShipping
@@ -3184,6 +3186,9 @@ Title:,Título:,module,Magento_ProductVideo
 "This is the wrong quote item id to update configuration.","Este é o id de item de cotação errado para atualizar a configuração.",module,Magento_Quote
 "This shipping method is not available. To use this shipping method, please contact us.","Este método de envio não está disponível. Para usar este método de envio, entre em contato conosco.",module,Magento_Quote
 "The address model is not defined.","O modelo de endereço não está definido.",module,Magento_Quote
+"The address total model should be extended from
+                    \Magento\Quote\Model\Quote\Address\Total\AbstractTotal.","O modelo de endereço completo deve estender de
+                    \Magento\Quote\Model\Quote\Address\Total\AbstractTotal.",module,Magento_Quote
 "Grand Total","Total geral",module,Magento_Quote
 "Shipping & Handling (%1)","Envio e Manuseio (%1)",module,Magento_Quote
 "Shipping & Handling","Envio e Manuseio",module,Magento_Quote
@@ -4085,6 +4090,7 @@ Reports,Relatórios,module,Magento_Search
 "Please specify at least one recipient.","Especifique pelo menos um destinatário.",module,Magento_SendFriend
 "Please enter a correct recipient email address.","Por favor, digite pelo menos um endereço de e-mail.",module,Magento_SendFriend
 "No more than %1 emails can be sent at a time.","Não podem ser enviados mais do que %1 e-mails de cada vez.",module,Magento_SendFriend
+"Please define a correct product instance.","Por favor defina uma instância de produto correto.",module,Magento_SendFriend
 "Invalid Sender Information","Informações inválidas do Remetente",module,Magento_SendFriend
 "IP Address","Endereço de IP",module,Magento_SendFriend
 "Cookie (unsafe)","Cookie (inseguro)",module,Magento_SendFriend
@@ -5784,6 +5790,7 @@ Updated,Atualizado,module,Magento_Indexer
 "Environment Update Time","Tempo de Atualização do Ambiente",module,Magento_MediaStorage
 "Minimum Advertised Price","Preço mínimo anunciado",module,Magento_Msrp
 "Enable MAP","Habilitar MAP",module,Magento_Msrp
+"Display Actual Price","Mostrar Preço Atual",module,Magento_Msrp
 "Default Popup Text Message","Mensagem de Texto Popup Pré-definida",module,Magento_Msrp
 "Default \"What's This\" Text Message","Básico \ ""O que é isto \" Mensagem de texto",module,Magento_Msrp
 Options,Opções,module,Magento_Multishipping
@@ -5876,6 +5883,7 @@ Import,Importar,module,Magento_OfflineShipping
 "Backend host","Host do backend",module,Magento_PageCache
 "Specify backend host for config file generation. If field is empty default value localhost will be saved.","Especifique o host do backend para a geração do arquivo de configuração. Se o campo estiver vazio será gravado o valor localhost.",module,Magento_PageCache
 "Backend port","Porta de back-end",module,Magento_PageCache
+"Specify backend port for config file generation. If field is empty default value 8080 will be saved.","Especifique a porta do backend para a geração do arquivo de configuração. Se o campo estiver vazio será gravado o valor 8080.",module,Magento_PageCache
 "TTL for public content","TTL para conteúdo público",module,Magento_PageCache
 "Page Cache","Cache de página",module,Magento_PageCache
 "Full page caching.","Cache de página interira.",module,Magento_PageCache
@@ -5906,6 +5914,7 @@ User,Usuário,module,Magento_Paypal
 "Allowed Credit Card Types","Permitido tipos de Cartão de Crédito",module,Magento_Paypal
 "Persistent Shopping Cart","Carrinho de Compras Persistente",module,Magento_Persistent
 "General Options","Opções gerais",module,Magento_Persistent
+"Enable Persistence","Habilitar Persistência",module,Magento_Persistent
 "Persistence Lifetime (seconds)","Tempo de Persistência (segundos)",module,Magento_Persistent
 "Enable ""Remember Me""","Ativar ""Ligação Automática""",module,Magento_Persistent
 """Remember Me"" Default Value","Valor Pré-definido de ""Me Lembre""",module,Magento_Persistent
