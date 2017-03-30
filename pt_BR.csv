@@ -1618,6 +1618,7 @@ Ground,Terreno,module,Magento_Fedex
 "International First","Prioridade Internacional",module,Magento_Fedex
 "International Ground","Terreno internacional",module,Magento_Fedex
 "International Priority","Prioridade Internacional",module,Magento_Fedex
+"Intl Priority Freight","Frete Prioritário Internacional",module,Magento_Fedex
 "Priority Overnight","Prioritário Noturno",module,Magento_Fedex
 "Smart Post","Envio inteligente",module,Magento_Fedex
 "Standard Overnight","Normal, Noturno",module,Magento_Fedex
@@ -1963,6 +1964,7 @@ Region/State,Região/estado,module,Magento_OfflineShipping
 "Weight (and above)","Peso (e acima)",module,Magento_OfflineShipping
 "Order Subtotal (and above)","Subtotal do Pedido (e acima)",module,Magento_OfflineShipping
 "# of Items (and above)","# de itens (e acima)",module,Magento_OfflineShipping
+"Please correct Table Rate code type: %1.","Por favor corrija o tipo de código da Tabela de Taxas: %1.",module,Magento_OfflineShipping
 "Please correct Table Rate code for type %1: %2.","Por favor corrija o código da Tabela de Taxas para o tipo %1: %2.",module,Magento_OfflineShipping
 None,Nenhum,module,Magento_OfflineShipping
 "Per Order","Por pedido",module,Magento_OfflineShipping
@@ -4024,6 +4026,7 @@ Import,Importar,module,Magento_OfflineShipping
 "Backend host","Host do backend",module,Magento_PageCache
 "Specify backend host for config file generation. If field is empty default value localhost will be saved.","Especifique o host do backend para a geração do arquivo de configuração. Se o campo estiver vazio será gravado o valor localhost.",module,Magento_PageCache
 "Backend port","Porta de back-end",module,Magento_PageCache
+"Specify backend port for config file generation. If field is empty default value 8080 will be saved.","Especifique a porta do backend para a geração do arquivo de configuração. Se o campo estiver vazio será gravado o valor 8080.",module,Magento_PageCache
 "TTL for public content","TTL para conteúdo público",module,Magento_PageCache
 "Page Cache","Cache de página",module,Magento_PageCache
 "Full page caching.","Cache de página interira.",module,Magento_PageCache
@@ -4054,6 +4057,7 @@ User,Usuário,module,Magento_Paypal
 "Allowed Credit Card Types","Permitido tipos de Cartão de Crédito",module,Magento_Paypal
 "Persistent Shopping Cart","Carrinho de Compras Persistente",module,Magento_Persistent
 "General Options","Opções gerais",module,Magento_Persistent
+"Enable Persistence","Habilitar Persistência",module,Magento_Persistent
 "Persistence Lifetime (seconds)","Tempo de Persistência (segundos)",module,Magento_Persistent
 "Enable ""Remember Me""","Ativar ""Ligação Automática""",module,Magento_Persistent
 """Remember Me"" Default Value","Valor Pré-definido de ""Me Lembre""",module,Magento_Persistent
