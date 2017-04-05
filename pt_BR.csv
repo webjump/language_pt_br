@@ -3028,6 +3028,7 @@ N/A,"Não Disponível",module,Magento_Payment
 "We cannot retrieve the transparent payment method model object.","Não foi possível recuperar o objeto de modelo do método de pagamento transparente.",module,Magento_Payment
 "Command Executor for %1 is not defined.","O Executante do Comando para %1 não está definido.",module,Magento_Payment
 "Command %1 does not exist.","Comando %1 não existe.",module,Magento_Payment
+"Transaction has been declined. Please try again later.","A Transação foi recusada. Por favor tente novamente mais tarde.",module,Magento_Payment
 "Wrong gateway response format.","O formato da resposta do gateway esta incorreta.",module,Magento_Payment
 "Validator for field %1 does not exist.","Validador do campo %1 não existe.",module,Magento_Payment
 Discount,Desconto,module,Magento_Payment
@@ -3504,6 +3505,7 @@ is,é,module,Magento_Rule
 "greater than","maior do que",module,Magento_Rule
 "less than","menos que",module,Magento_Rule
 contains,contém,module,Magento_Rule
+"does not contain","não contém",module,Magento_Rule
 "is one of","é um dos",module,Magento_Rule
 "is not one of","não é um dos",module,Magento_Rule
 "Please choose a condition to add.","Por favor, escolha uma condição para adicionar.",module,Magento_Rule
@@ -4156,6 +4158,7 @@ None,Nenhum,module,Magento_Security
 "No more than %1 emails can be sent at a time.","Não podem ser enviados mais do que %1 e-mails de cada vez.",module,Magento_SendFriend
 "Please define a correct product instance.","Por favor defina uma instância de produto correto.",module,Magento_SendFriend
 "Invalid Sender Information","Informações inválidas do Remetente",module,Magento_SendFriend
+"Please define the correct sender information.","Por favor defina as informações corretas do remetente.",module,Magento_SendFriend
 "IP Address","Endereço de IP",module,Magento_SendFriend
 "Cookie (unsafe)","Cookie (inseguro)",module,Magento_SendFriend
 "No Product Exception.","Nenhuma Exceção de Produto.",module,Magento_SendFriend
@@ -4377,6 +4380,7 @@ Swatch,Amostra,module,Magento_Swatches
 "Add Swatch","Adicionar Amostra",module,Magento_Swatches
 "Sort Option","Opção de Ordenação",module,Magento_Swatches
 Delete,Excluir,module,Magento_Swatches
+"The value of Admin must be unique.","O valor de Admin deve ser unico.",module,Magento_Swatches
 "Choose a color","Escolha uma cor",module,Magento_Swatches
 "Upload a file","Enviar um arquivo",module,Magento_Swatches
 Clear,Limpar,module,Magento_Swatches
@@ -4406,6 +4410,7 @@ Rate,Avaliação,module,Magento_TaxImportExport
 "Invalid file format.","Formato de arquivo inválido.",module,Magento_TaxImportExport
 "One of the countries has invalid code.","Um dos países tem código inválido.",module,Magento_TaxImportExport
 "Import Tax Rates","Taxas de Imposto de Importação",module,Magento_TaxImportExport
+"Export Tax Rates","Taxas de imposto de exportação",module,Magento_TaxImportExport
 "Tax Rate Information","Informação de Imposto de Taxa",module,Magento_Tax
 "Tax Identifier","Identificador Fiscal",module,Magento_Tax
 "Zip/Post is Range","Código Postal está no Intervalo",module,Magento_Tax
@@ -4575,6 +4580,7 @@ Next,Próximo,module,Magento_Ui
 "UPS Second Day Air A.M.","UPS Segundo dia Ar A.M.",module,Magento_Ups
 "UPS Expedited","Expedido pela UPS",module,Magento_Ups
 "UPS Today Standard","Hoje UPS Standard",module,Magento_Ups
+"UPS Today Dedicated Courrier","UPS hoje dedicado Courier",module,Magento_Ups
 "UPS Today Intercity","UPS hoje IC",module,Magento_Ups
 "UPS Today Express","Hoje UPS Express",module,Magento_Ups
 "UPS Today Express Saver","Hoje UPS Express Saver",module,Magento_Ups
@@ -4611,6 +4617,7 @@ Name,Nome,module,Magento_UrlRewrite
 "Edit URL Rewrite for CMS page","Editar Reescrita de URL para uma Página CMS",module,Magento_UrlRewrite
 "Add URL Rewrite for CMS page","Adicionar Reescrita de URL para uma Página CMS",module,Magento_UrlRewrite
 "CMS page:","Página do CMS:",module,Magento_UrlRewrite
+"Please assign a website to the selected CMS page.","Por favor, atribua um site para a página selecionada do CMS.",module,Magento_UrlRewrite
 Title,Título,module,Magento_UrlRewrite
 "URL Key","Chave URL",module,Magento_UrlRewrite
 "Store View","Visão de Loja",module,Magento_UrlRewrite
@@ -4761,9 +4768,13 @@ Resources,Recursos,module,Magento_User
 "Library Mail","Biblioteca de Envio",module,Magento_Usps
 "Priority Mail Express Flat Rate Envelope","Correio Prioritário Expresso Envelope de Taxa Fixa",module,Magento_Usps
 "First-Class Mail Large Postcards","Postais de First-Class Mail",module,Magento_Usps
+"Priority Mail Flat Rate Envelope","Prioridade Mail fixo Envelope",module,Magento_Usps
 "Priority Mail Medium Flat Rate Box","Caixa postal prioridade fixa em Médio",module,Magento_Usps
+"Priority Mail Large Flat Rate Box","Caixa de grande taxa fixa correio prioritário",module,Magento_Usps
 "Priority Mail Express Sunday/Holiday Delivery","Priority Mail Express entrega de domingo/feriado",module,Magento_Usps
+"Priority Mail Express Sunday/Holiday Delivery Flat Rate Envelope","Priority Mail Express Envelope de taxa fixa de entrega de domingo/feriado",module,Magento_Usps
 "Priority Mail Express Flat Rate Envelope Hold For Pickup","Prioritário Tarifa de Envelo para o Coletor Mail Express",module,Magento_Usps
+"Priority Mail Small Flat Rate Box","Caixa postal prioridade fixa em pequenas",module,Magento_Usps
 "Priority Mail Express International","Prioridade correio internacional",module,Magento_Usps
 "Global Express Guaranteed Non-Document Rectangular","Global Express Garantidas não-documento não-retangulares",module,Magento_Usps
 Variable,Variável,module,Magento_Usps
@@ -4822,6 +4833,7 @@ Delete,Excluir,module,Magento_Vault
 "Invalid XML: Detected use of illegal DOCTYPE","XML inválido: Detectado o uso de DOCTYPE ilegal",module,Magento_Webapi
 message,mensagem,module,Magento_Webapi
 Message,Mensagem,module,Magento_Webapi
+"Soap fault reason.","Razão da falha SOAP.",module,Magento_Webapi
 "Add Tax","Adicionar Imposto",module,Magento_Weee
 "Delete Tax","Remover Imposto",module,Magento_Weee
 "All Websites","Todos os sites",module,Magento_Weee
@@ -6205,6 +6217,7 @@ General,Geral,module,Magento_NewRelicReporting
 "New Relic API Key","Chave da API New Relic",module,Magento_NewRelicReporting
 "This is located by navigating to Events -> Deployments from the New Relic APM website","Pode encontrar isto ao navegar até Events -> Deployments a partir do site New Relic APM",module,Magento_NewRelicReporting
 "Insights API Key","Chave da API Insights",module,Magento_NewRelicReporting
+"Generated under Insights in Manage data -> API Keys -> Insert Keys","Gerado em Insights dentro de Manage data -> API Keys -> Insert Keys",module,Magento_NewRelicReporting
 "New Relic Application Name","Nome da Aplicação New Relic",module,Magento_NewRelicReporting
 "This is located by navigating to Settings from the New Relic APM website","Pode encontrar esta informação ao navegar até Configurações a partir do novo site Relic APM",module,Magento_NewRelicReporting
 "Enable Cron","Ativar Cron",module,Magento_NewRelicReporting
@@ -6249,6 +6262,7 @@ Title,Título,module,Magento_OfflinePayments
 "Payment from Applicable Countries","Pagamento a partir de Países Aplicáveis",module,Magento_OfflinePayments
 "Payment from Specific Countries","Pagamento de Países Específicos",module,Magento_OfflinePayments
 "Make Check Payable to","Passe o cheque à ordem de",module,Magento_OfflinePayments
+"Minimum Order Total","Valor Mínimo do Pedido",module,Magento_OfflinePayments
 "Maximum Order Total","Valor Total do Pedido",module,Magento_OfflinePayments
 "Purchase Order","Ordem de compra",module,Magento_OfflinePayments
 Instructions,Instruções,module,Magento_OfflinePayments
@@ -6315,6 +6329,7 @@ User,Usuário,module,Magento_Paypal
 "Persistence Lifetime (seconds)","Tempo de Persistência (segundos)",module,Magento_Persistent
 "Enable ""Remember Me""","Ativar ""Ligação Automática""",module,Magento_Persistent
 """Remember Me"" Default Value","Valor Pré-definido de ""Me Lembre""",module,Magento_Persistent
+"Clear Persistence on Sign Out","Limpar Persistência ao Terminar Sessão",module,Magento_Persistent
 "Persist Shopping Cart","Persistir Carrinho de Compras",module,Magento_Persistent
 "Product Alerts","Alertas de Produto",module,Magento_ProductAlert
 "Allow Alert When Product Price Changes","Mostrar Alerta Quando o Preço do Produto Alterar",module,Magento_ProductAlert
@@ -6558,6 +6573,7 @@ Name,Nome,module,Magento_Variable
 "Web API Security","Segurança de Web API",module,Magento_WebapiSecurity
 "Allow Anonymous Guest Access","Permitir o Acesso de Visitantes Anônimos",module,Magento_WebapiSecurity
 "Manage Customers","Gerenciar Clientes",module,Magento_Webapi
+"Create Customer","Criar Cliente",module,Magento_Webapi
 "Edit Customer","Editar Cliente",module,Magento_Webapi
 "Get Customer","Obter Cliente",module,Magento_Webapi
 "Delete Customer","Excluir Cliente",module,Magento_Webapi
