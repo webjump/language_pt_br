@@ -2341,6 +2341,7 @@ is,é,module,Magento_Rule
 "greater than","maior do que",module,Magento_Rule
 "less than","menos que",module,Magento_Rule
 contains,contém,module,Magento_Rule
+"does not contain","não contém",module,Magento_Rule
 "is one of","é um dos",module,Magento_Rule
 "is not one of","não é um dos",module,Magento_Rule
 "Please choose a condition to add.","Por favor, escolha uma condição para adicionar.",module,Magento_Rule
@@ -3089,6 +3090,7 @@ Minute,Minuto,module,Magento_Theme
 "UPS Second Day Air A.M.","UPS Segundo dia Ar A.M.",module,Magento_Ups
 "UPS Expedited","Expedido pela UPS",module,Magento_Ups
 "UPS Today Standard","Hoje UPS Standard",module,Magento_Ups
+"UPS Today Dedicated Courrier","UPS hoje dedicado Courier",module,Magento_Ups
 "UPS Today Intercity","UPS hoje IC",module,Magento_Ups
 "UPS Today Express","Hoje UPS Express",module,Magento_Ups
 "UPS Today Express Saver","Hoje UPS Express Saver",module,Magento_Ups
@@ -3243,9 +3245,13 @@ Resources,Recursos,module,Magento_User
 "Library Mail","Biblioteca de Envio",module,Magento_Usps
 "Priority Mail Express Flat Rate Envelope","Correio Prioritário Expresso Envelope de Taxa Fixa",module,Magento_Usps
 "First-Class Mail Large Postcards","Postais de First-Class Mail",module,Magento_Usps
+"Priority Mail Flat Rate Envelope","Prioridade Mail fixo Envelope",module,Magento_Usps
 "Priority Mail Medium Flat Rate Box","Caixa postal prioridade fixa em Médio",module,Magento_Usps
+"Priority Mail Large Flat Rate Box","Caixa de grande taxa fixa correio prioritário",module,Magento_Usps
 "Priority Mail Express Sunday/Holiday Delivery","Priority Mail Express entrega de domingo/feriado",module,Magento_Usps
+"Priority Mail Express Sunday/Holiday Delivery Flat Rate Envelope","Priority Mail Express Envelope de taxa fixa de entrega de domingo/feriado",module,Magento_Usps
 "Priority Mail Express Flat Rate Envelope Hold For Pickup","Prioritário Tarifa de Envelo para o Coletor Mail Express",module,Magento_Usps
+"Priority Mail Small Flat Rate Box","Caixa postal prioridade fixa em pequenas",module,Magento_Usps
 "Priority Mail Express International","Prioridade correio internacional",module,Magento_Usps
 "Global Express Guaranteed Non-Document Rectangular","Global Express Garantidas não-documento não-retangulares",module,Magento_Usps
 Variable,Variável,module,Magento_Usps
@@ -3997,6 +4003,7 @@ Title,Título,module,Magento_OfflinePayments
 "Payment from Applicable Countries","Pagamento a partir de Países Aplicáveis",module,Magento_OfflinePayments
 "Payment from Specific Countries","Pagamento de Países Específicos",module,Magento_OfflinePayments
 "Make Check Payable to","Passe o cheque à ordem de",module,Magento_OfflinePayments
+"Minimum Order Total","Valor Mínimo do Pedido",module,Magento_OfflinePayments
 "Maximum Order Total","Valor Total do Pedido",module,Magento_OfflinePayments
 "Purchase Order","Ordem de compra",module,Magento_OfflinePayments
 Instructions,Instruções,module,Magento_OfflinePayments
