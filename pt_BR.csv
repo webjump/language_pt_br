@@ -1090,6 +1090,7 @@ Search,Pesquisa,module,Magento_Catalog
 "We cannot determine the field name.","Não conseguimos determinar o nome do campo.",module,Magento_Catalog
 "Attribute '%1' is locked. %2","Atributo '%1' está bloqueado. %2",module,Magento_Catalog
 "Do not change the scope. %1","Não altere o escopo. %1",module,Magento_Catalog
+"Processor %1 doesn't implement BaseSelectProcessorInterface","Processador %1 não implementa BaseSelectProcessorInterface",module,Magento_Catalog
 "A product type is not defined for the indexer.","Um tipo de produto não está definido para indexação.",module,Magento_Catalog
 "%1 doesn't extend \Magento\Catalog\Model\ResourceModel\Product\Indexer\Price\DefaultPrice","%1 não se estende \Magento\Catalog\Model\ResourceModel\Product\Indexer\Price\DefaultPrice",module,Magento_Catalog
 "Product with SKU %1 is not linked to product with SKU %2","Produto com %1 SKU não está relacionado ao produto com SKU %2",module,Magento_Catalog
@@ -2516,6 +2517,8 @@ Direct,Direto,module,Magento_Fedex
 Indirect,Indireto,module,Magento_Fedex
 Pounds,Libras,module,Magento_Fedex
 Kilograms,Quilogramas,module,Magento_Fedex
+"Invalid response from carrier","Resposta inválida do serviço de transporte",module,Magento_Fedex
+"No available tracking items","Itens de rastreio não disponíveis",module,Magento_Fedex
 "For some reason we can't retrieve tracking info right now.","Por alguma razão não é possível recuperar informação de rastreamento agora.",module,Magento_Fedex
 "Empty response","Nenhuma resposta",module,Magento_Fedex
 None,Nenhum,module,Magento_Fedex
@@ -2607,7 +2610,10 @@ Import,Importar,module,Magento_ImportExport
 "Import Settings","Importar Configurações",module,Magento_ImportExport
 "Import Behavior","Comportamento de Importação",module,Magento_ImportExport
 "Allowed Errors Count","Número de Erros Permitidos",module,Magento_ImportExport
+"Please specify number of errors to halt import process","Por favor, especifique o número de erros para parar o processo de importação",module,Magento_ImportExport
 "Field separator","Separador de Campos",module,Magento_ImportExport
+"Multiple value separator","Separador de valore múltiplo",module,Magento_ImportExport
+"Fields enclosure","Invólucro de campos",module,Magento_ImportExport
 "File to Import","Arquivo para importação",module,Magento_ImportExport
 "Select File to Import","Selecione o arquivo de importação",module,Magento_ImportExport
 "Images File Directory","Diretório do arquivos de imagens",module,Magento_ImportExport
@@ -2623,32 +2629,74 @@ History,Histórico,module,Magento_ImportExport
 "Maximum error count has been reached or system error is occurred!","Foi atingido o limite máximo de erros ou então ocorreu um erro do sistema!",module,Magento_ImportExport
 "Import successfully done","Importação com sucesso",module,Magento_ImportExport
 "Sorry, but the data is invalid or the file is not uploaded.","Desculpe, mas os dados são inválidos ou o arquivo não foi enviado.",module,Magento_ImportExport
+"The file was not uploaded.","O arquivo não foi enviado.",module,Magento_ImportExport
+"This file is empty. Please try another one.","O arquivo está vazio. Por favor, tente outro arquivo.",module,Magento_ImportExport
+"Data validation failed. Please fix the following errors and upload the file again.","Falha na validação de dados. Por favor, corrija os seguintes erros e envie o arquivo novamente.",module,Magento_ImportExport
+"File is valid! To start import process press ""Import"" button","O arquivo é válido! Para iniciar o processo de importação clique no botão ""Importar""",module,Magento_ImportExport
 "The file is valid, but we can't import it for some reason.","O arquivo é válido, mais não podemos importa-lo por algum motivo.",module,Magento_ImportExport
+"Checked rows: %1, checked entities: %2, invalid rows: %3, total errors: %4","Registros verificados: %1, entidades verificadas: %2, registros inválidos: %3, total de erros: %4",module,Magento_ImportExport
 "Show more","Mostrar mais",module,Magento_ImportExport
 "Additional data","Dados Adicionais",module,Magento_ImportExport
 "Following Error(s) has been occurred during importing process:","Ocorreram os seguintes erros durante o processo de importação:",module,Magento_ImportExport
 "Download full report","Baixar relatório completo",module,Magento_ImportExport
+"in row(s):","na(s) linha(s):",module,Magento_ImportExport
 "Make sure your file isn't more than %1M.","Verifique se o seu arquivo não é mais do que %1M.",module,Magento_ImportExport
 "We can't provide the upload settings right now.","Nós não podemos fornecer as configurações de upload agora.",module,Magento_ImportExport
+"Created: %1, Updated: %2, Deleted: %3","Criados: %1, Atualizados: %2, Removidos: %3",module,Magento_ImportExport
+"Please enter a correct entity model.","Por favor, insira um modelo de entidade correto.",module,Magento_ImportExport
 "The entity adapter object must be an instance of %1 or %2.","O objeto do adaptador de entidade deve ser uma instância de %1 ou %2.",module,Magento_ImportExport
+"The input entity code is not equal to entity adapter code.","O código da entidade de entrada é diferente do código de adaptador de entidade.",module,Magento_ImportExport
 "Please enter a correct entity.","Por favor insira uma entidade correta.",module,Magento_ImportExport
+"The adapter object must be an instance of %1.","O objeto adaptador deve ser uma instância de %1.",module,Magento_ImportExport
+"Please correct the file format.","Por favor, corrija o formato do arquivo.",module,Magento_ImportExport
+"Begin export of %1","Iniciar exportação de %1",module,Magento_ImportExport
+"There is no data for the export.","Não existem dados para exportar.",module,Magento_ImportExport
+"Exported %1 rows.","Foram exportados %1 registros.",module,Magento_ImportExport
+"The export is finished.","A exportação foi concluída.",module,Magento_ImportExport
+"Please provide filter data.","Por favor, informe os dados de filtro.",module,Magento_ImportExport
 "We can't determine the attribute filter type.","Não podemos determinar o tipo de filtro desse atributo.",module,Magento_ImportExport
 "Entity is unknown","A entidade é desconhecida",module,Magento_ImportExport
 "We can't identify this file format.","Não conseguimos identificar este formato de arquivo.",module,Magento_ImportExport
 "Please correct the value for ""%1"" column.","Por favor, corrija o valor para a coluna ""%1"".",module,Magento_ImportExport
+"Please specify the writer.","Por favor, especifique o escritor.",module,Magento_ImportExport
+"The destination file path must be a string.","O caminho de destino do arquivo deve ser uma string.",module,Magento_ImportExport
 "The destination directory is not writable.","O diretório de destino não é gravável.",module,Magento_ImportExport
 "Destination file is not writable","O arquivo de destino não é gravável",module,Magento_ImportExport
+"The header column names are already set.","Os nomes das colunas do cabeçalho já foram definidos.",module,Magento_ImportExport
+"in row(s)","na(s) linha(s)",module,Magento_ImportExport
+"The validation is complete.","A validação foi concluída.",module,Magento_ImportExport
+"This file does not contain any data.","O arquivo está vazio.",module,Magento_ImportExport
+"Begin import of ""%1"" with ""%2"" behavior","Iniciar importação de ""%1"" com comportamento ""%2""",module,Magento_ImportExport
 "The import was successful.","A importação foi bem sucedida.",module,Magento_ImportExport
+"The file you uploaded has no extension.","O arquivo que você enviou não possui extensão.",module,Magento_ImportExport
+"The source file moving process failed.","O processo de mover o arquivo de origem falhou.",module,Magento_ImportExport
+"Begin data validation","Iniciar a validação de dados",module,Magento_ImportExport
+"Import data validation is complete.","A validação de dados da importação está completa.",module,Magento_ImportExport
+"The behavior token for %1 is invalid.","O token de comportamento para %1 é inválido.",module,Magento_ImportExport
+"Please enter a correct entity model","Por favor, insira um modelo de entidade correto",module,Magento_ImportExport
+"Source file coping failed","A cópia do arquivo de origem falhou",module,Magento_ImportExport
+"The source is not set.","A origem não está definida.",module,Magento_ImportExport
+"The adapter type must be a non-empty string.","O tipo de adaptador deve ser uma string não vazia.",module,Magento_ImportExport
 "'%1' file extension is not supported","'%1' extensão de arquivo não é suportado",module,Magento_ImportExport
+"Adapter must be an instance of \Magento\ImportExport\Model\Import\AbstractSource","O adaptador deve ser uma instância de \Magento\ImportExport\Model\Import\AbstractSource",module,Magento_ImportExport
+"Please specify a source.","Por favor, especifique a origem.",module,Magento_ImportExport
+"ImportExport: Import Data validation - Validation strategy not found","ImportExport: Validação de Dados de Importação - Estratégia de validação não encontrada",module,Magento_ImportExport
+"Cannot get autoincrement value","Não foi possível obter o valor de auto-incremento",module,Magento_ImportExport
+"Error in data structure: %1 values are mixed","Erro na estrutura de dados: %1 valores estão misturados",module,Magento_ImportExport
 "-- Please Select --","-- Selecione uma opção --",module,Magento_ImportExport
 label,rótulo,module,Magento_ImportExport
 Add/Update,Adicionar/atualizar,module,Magento_ImportExport
 Replace,Substituir,module,Magento_ImportExport
 Delete,Excluir,module,Magento_ImportExport
+"Note: Product IDs will be regenerated.","Nota: Os IDs dos produtos serão gerados novamente.",module,Magento_ImportExport
+"Add/Update Complex Data","Adicionar/Atualizar Dados Complexos",module,Magento_ImportExport
+"Delete Entities","Excluir Entidades",module,Magento_ImportExport
 "Custom Action","Ação personalizada",module,Magento_ImportExport
 "Error message","Mensagem de erro",module,Magento_ImportExport
 "URL key for specified store already exists.","A chave de URL para loja especificada já existe.",module,Magento_ImportExport
+"Entity Attributes","Atributos de Entidade",module,Magento_ImportExport
 Continue,Próximo,module,Magento_ImportExport
+"Validation Results","Resultados da Validação",module,Magento_ImportExport
 "Indexer Management","Gerenciador de Índices",module,Magento_Indexer
 "Update by Schedule","Atualizar por Agenda",module,Magento_Indexer
 "Update on Save","Atualizar ao salvar",module,Magento_Indexer
@@ -5596,6 +5644,7 @@ Debug,Depurar/Debug,module,Magento_Braintree
 "Threshold Amount","Valor Limite",module,Magento_Braintree
 "Verify for Applicable Countries","Verificar para países aplicáveis",module,Magento_Braintree
 "Verify for Specific Countries","Verificar para países específicos",module,Magento_Braintree
+"Dynamic Descriptors","Descritores Dinâmicos",module,Magento_Braintree
 Name,Nome,module,Magento_Braintree
 Phone,Telefone,module,Magento_Braintree
 URL,Url,module,Magento_Braintree
@@ -6149,7 +6198,20 @@ Password,Senha,module,Magento_Fedex
 "Sandbox Mode","Modo Sandbox",module,Magento_Fedex
 "Web-Services URL (Production)","URL dos Web-Services (Produção)",module,Magento_Fedex
 "Web-Services URL (Sandbox)","URL dos Web-Services (Sandbox)",module,Magento_Fedex
+"Packages Request Type","Tipo Solicitado de Pacotes",module,Magento_Fedex
+Packaging,Embalagem,module,Magento_Fedex
+Dropoff,Entrega,module,Magento_Fedex
+"Weight Unit","Unidade de Peso",module,Magento_Fedex
+"Calculate Handling Fee","Calcular Taxa de Manuseio",module,Magento_Fedex
+"Handling Applied","Manuseio Aplicado",module,Magento_Fedex
+"Handling Fee","Taxa de Manuseio",module,Magento_Fedex
+"Residential Delivery","Entrega Residencial",module,Magento_Fedex
+"Allowed Methods","Métodos Permitidos",module,Magento_Fedex
+"Hub ID","ID do Hub",module,Magento_Fedex
 "Free Method","Método Gratuito",module,Magento_Fedex
+"Free Shipping Amount Threshold","Limite de Volume de Envios Gratuito",module,Magento_Fedex
+"Displayed Error Message","Mensagem de Erro Exibida",module,Magento_Fedex
+"Ship to Applicable Countries","Enviar para Países Aplicáveis",module,Magento_Fedex
 "Ship to Specific Countries","Envio para Países Específicos",module,Magento_Fedex
 Debug,Depurar/Debug,module,Magento_Fedex
 "Show Method if Not Applicable","Mostrar Método se Não Aplicável",module,Magento_Fedex
@@ -6173,7 +6235,9 @@ Select...,Selecionar...,module,Magento_GroupedProduct
 Type,Tipo,module,Magento_GroupedProduct
 Quantity,Quantidade,module,Magento_GroupedProduct
 StatusText,"Texto do Status",module,Magento_GroupedProduct
+"Start Date&Time","Data e Hora de Início",module,Magento_ImportExport
 User,Usuário,module,Magento_ImportExport
+"Imported File","Arquivo Importado",module,Magento_ImportExport
 "Error File","Arquivo de erro",module,Magento_ImportExport
 "Execution Time","Tempo de execução",module,Magento_ImportExport
 Summary,Resumo,module,Magento_ImportExport
@@ -6186,11 +6250,16 @@ Updated,Atualizado,module,Magento_Indexer
 "Cleanup Probability","Probabilidade de limpeza",module,Magento_Integration
 "Expiration Period","Período de validade",module,Magento_Integration
 "We couldn't find any records.","Não encontramos nenhum registro.",module,Magento_Integration
+"Layered Navigation","Navegação em Camadas",module,Magento_LayeredNavigation
 "Display Product Count","Mostrar Total de Produtos",module,Magento_LayeredNavigation
+"Price Navigation Step Calculation","Cálculo de Intervalo da Navegação por Preço",module,Magento_LayeredNavigation
 "Default Price Navigation Step","Intervalo de Preço Pré-definido",module,Magento_LayeredNavigation
+"Maximum Number of Price Intervals","Quantidade Máxima de Intervalos de Preço",module,Magento_LayeredNavigation
 "Maximum number of price intervals is 100","O Número Máximo de Intervalos de Preço é 100",module,Magento_LayeredNavigation
 "Display Price Interval as One Price","Mostrar Intervalo de Preço como Um Preço",module,Magento_LayeredNavigation
+"This setting will be applied when all prices in the specific price interval are equal.","Esta configuração será aplicada quando todos os preços no intervalo de preço específico forem iguais.",module,Magento_LayeredNavigation
 "Interval Division Limit","Limite de Divisão de Interalo",module,Magento_LayeredNavigation
+"Please specify the number of products, that will not be divided into subintervals.","Por favor, especifique a quantidade de produtos que não serão divididos em sub-intervalos.",module,Magento_LayeredNavigation
 "Storage Configuration for Media","Configuração de Armazenamento para Midia",module,Magento_MediaStorage
 "Media Storage","Armazenamento de Mídia",module,Magento_MediaStorage
 "Select Media Database","Selecione a Base de Dados de Mídia",module,Magento_MediaStorage
