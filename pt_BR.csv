@@ -2476,6 +2476,7 @@ Freight,Frete,module,Magento_Fedex
 "National Freight","Frete Nacional",module,Magento_Fedex
 "Regular Pickup","Coleta regular",module,Magento_Fedex
 "Request Courier","Solicitação de Courier",module,Magento_Fedex
+"Drop Box","Caixa de Depósito",module,Magento_Fedex
 "Business Service Center","Central de Serviços Comerciais",module,Magento_Fedex
 Station,Estação,module,Magento_Fedex
 "FedEx Envelope","Envelope FedEx",module,Magento_Fedex
@@ -2995,11 +2996,13 @@ Region/State,Região/estado,module,Magento_OfflineShipping
 None,Nenhum,module,Magento_OfflineShipping
 "Per Order","Por pedido",module,Magento_OfflineShipping
 "Per Item","Por Item",module,Magento_OfflineShipping
+"Please correct Table Rates File Format.","Por favor corrija o formato de ficheiro das taxas tabeladas.",module,Magento_OfflineShipping
 "Something went wrong while importing table rates.","Algo deu errado ao importar a tabela de tarifas.",module,Magento_OfflineShipping
 "We couldn't import this file because of these errors: %1","Não foi possível importar este arquivo porque ocorreu esses erros: %1",module,Magento_OfflineShipping
 "Please correct Table Rates format in the Row #%1.","Por favor corrija o formato das taxas tabeladas na linha #%1.",module,Magento_OfflineShipping
 "Please correct Region/State ""%1"" in the Row #%2.","Por favor corrija a Região/Estado ""%1"" na Linha #%2.",module,Magento_OfflineShipping
 "Please correct %1 ""%2"" in the Row #%3.","Por favor, corrija o %1 ""%2"" na linha #%3.",module,Magento_OfflineShipping
+"Please correct Shipping Price ""%1"" in the Row #%2.","Por favor corrija o Valor dos Portes ""%1"" na Linha #%2.",module,Magento_OfflineShipping
 "Duplicate Row #%1 (Country ""%2"", Region/State ""%3"", Zip ""%4"" and Value ""%5"")","Duplicar coluna #%1 (País ""%2"", Região/Estado ""%3"", CEP ""%4"" e Valor ""%5"")",module,Magento_OfflineShipping
 "Free Shipping","Frete grátis",module,Magento_OfflineShipping
 No,Não,module,Magento_OfflineShipping
@@ -3077,7 +3080,9 @@ Purchased,Comprado,module,Magento_Paypal
 "Billing Agreement View","Visualizar Termos de Serviço de Faturamento",module,Magento_Paypal
 "Reference Information","Informação da Referência",module,Magento_Paypal
 "Transaction Information","Informação de Transações",module,Magento_Paypal
+"PayPal Fee Information","Informação da Taxa PayPal",module,Magento_Paypal
 "PayPal Settlement Reports","Relatórios de Liquidação do PayPal",module,Magento_Paypal
+"We are connecting to the PayPal SFTP server to retrieve new reports. Are you sure you want to continue?","Estamos a ligar ao servidor SFTP do PayPal para obter novos relatórios. Tem certeza que deseja continuar?",module,Magento_Paypal
 "Fetch Updates","Buscar Atualizações",module,Magento_Paypal
 Help,Ajuda,module,Magento_Paypal
 Configure,Configurar,module,Magento_Paypal
@@ -3216,6 +3221,7 @@ Role,Função,module,Magento_ProductVideo
 Hidden,Oculto,module,Magento_ProductVideo
 "Alt Text","Texto Alternativo",module,Magento_ProductVideo
 Title:,Título:,module,Magento_ProductVideo
+Uploaded:,Carregado:,module,Magento_ProductVideo
 "Unable to save address. Please, check input data.","Não é possível salvar o endereço. Por favor, verifique os dados de entrada.",module,Magento_Quote
 "Cart %1 doesn't contain products","O carrinho %1 não contém produtos",module,Magento_Quote
 "Could not apply coupon code","Não foi possivel aplicar o código do cupom",module,Magento_Quote
@@ -3237,9 +3243,12 @@ Shipping,Frete,module,Magento_Quote
 "We found an invalid item option format.","Encontramos um formato de opção de item inválido.",module,Magento_Quote
 "An item option with code %1 already exists.","Uma opção de item com o código %1 já existe.",module,Magento_Quote
 "Item qty declaration error","Erro de declaração de qtd de item",module,Magento_Quote
+"Some of the products below do not have all the required options.","Alguns dos produtos abaixo não têm todas as opções necessárias.",module,Magento_Quote
 "Something went wrong during the item options declaration.","Houve algum erro durante a declaração das opções do item.",module,Magento_Quote
 "Some of the selected options are not currently available.","Algumas das opções selecionadas não estão disponíveis de momento.",module,Magento_Quote
+"Some item options or their combination are not currently available.","Algumas opções de itens ou a sua combinação não estão disponíveis de momento.",module,Magento_Quote
 "Cart %1 doesn't contain item  %2","O carrinho %1 não contém o tem %2",module,Magento_Quote
+"Could not save quote","Não foi possível gravar o orçamento",module,Magento_Quote
 "The qty value is required to update quote item.","O valor da qtd é necessário para atualizar o item do orçamento.",module,Magento_Quote
 "Invalid address id %1","Id do endereço inválido %1",module,Magento_Quote
 "Cannot create quote","Não foi possível criar o orçamento",module,Magento_Quote
@@ -3281,6 +3290,7 @@ Purchases,Compras,module,Magento_Reports
 "Excel XML","Excel, XML",module,Magento_Reports
 Unlimited,Ilimitado,module,Magento_Reports
 "Low stock","Estoque Mínimo",module,Magento_Reports
+"Products Ordered","Produtos ordenados",module,Magento_Reports
 "Most Viewed","Mais visitados",module,Magento_Reports
 Interval,Intervalo,module,Magento_Reports
 Price,Preço,module,Magento_Reports
@@ -3536,6 +3546,7 @@ Conditions,Condições,module,Magento_SalesRule
 "Code Format","Formato do código",module,Magento_SalesRule
 "Code Prefix","Prefixo do código",module,Magento_SalesRule
 "Code Suffix","Sufixo do código",module,Magento_SalesRule
+"Dash Every X Characters","Hífen a Cada X Caracteres",module,Magento_SalesRule
 "If empty no separation.","Se estiver vazio não há separação.",module,Magento_SalesRule
 Generate,Gerar,module,Magento_SalesRule
 "Coupon Code","Código do cupom",module,Magento_SalesRule
@@ -4141,6 +4152,8 @@ Reports,Relatórios,module,Magento_Search
 "No Category Exception.","Nenhuma exceção de categoria.",module,Magento_SendFriend
 "Some error","Algum erro",module,Magento_SendFriend
 "Localized Exception.","Exceção local (Localized Exception).",module,Magento_SendFriend
+Exception.,Excepção.,module,Magento_SendFriend
+"Remove Recipent","Remover o estrangeiro",module,Magento_SendFriend
 Remove,Remover,module,Magento_SendFriend
 Name,Nome,module,Magento_SendFriend
 Email,E-mail,module,Magento_SendFriend
@@ -4402,11 +4415,13 @@ Reset,Reiniciar,module,Magento_Tax
 "Save Rate","Gravar Taxa",module,Magento_Tax
 "Manage Tax Rules","Gerenciar Taxas de Imposto",module,Magento_Tax
 "Add New Tax Rule","Adicionar Nova Regra de Taxa",module,Magento_Tax
+"Save Rule","Gravar Regra",module,Magento_Tax
 "Delete Rule","Excluir a regra",module,Magento_Tax
 "Save and Continue Edit","Salvar e Continuar a Editar",module,Magento_Tax
 "Tax Rule Information","Informação da Regra de Taxa",module,Magento_Tax
 Name,Nome,module,Magento_Tax
 "Customer Tax Class","Classe de Imposto do Cliente",module,Magento_Tax
+"Product Tax Class","Taxa de Imposto do Cliente",module,Magento_Tax
 "Tax Rate",Taxa,module,Magento_Tax
 Priority,Prioridade,module,Magento_Tax
 "Calculate Off Subtotal Only","Calcular apenas fora Subtotal",module,Magento_Tax
@@ -4550,6 +4565,8 @@ Cancel,Cancelar,module,Magento_Ui
 "UPS Today Intercity","UPS hoje IC",module,Magento_Ups
 "UPS Today Express","Hoje UPS Express",module,Magento_Ups
 "UPS Today Express Saver","Hoje UPS Express Saver",module,Magento_Ups
+"Next Day Air Letter","No próximo dia ar letra",module,Magento_Ups
+"Next Day Air Intra (Puerto Rico)","No próximo dia ar Intra (Puerto Rico)",module,Magento_Ups
 Ground,Terreno,module,Magento_Ups
 "Ground Commercial","Terreno comercial",module,Magento_Ups
 "Canada Standard","Padrão de Canadá",module,Magento_Ups
@@ -4587,6 +4604,7 @@ Title,Título,module,Magento_UrlRewrite
 "URL Key","Chave URL",module,Magento_UrlRewrite
 "Store View","Visão de Loja",module,Magento_UrlRewrite
 "Edit URL Rewrite","Edite o Reescrita de URL",module,Magento_UrlRewrite
+"Add New URL Rewrite","Adicionar Nova Reescrita de URL",module,Magento_UrlRewrite
 Reset,Reiniciar,module,Magento_UrlRewrite
 Back,Voltar,module,Magento_UrlRewrite
 Delete,Excluir,module,Magento_UrlRewrite
@@ -4734,6 +4752,12 @@ Resources,Recursos,module,Magento_User
 "Priority Mail Express Sunday/Holiday Delivery Flat Rate Envelope","Priority Mail Express Envelope de taxa fixa de entrega de domingo/feriado",module,Magento_Usps
 "Priority Mail Express Flat Rate Envelope Hold For Pickup","Prioritário Tarifa de Envelo para o Coletor Mail Express",module,Magento_Usps
 "Priority Mail Small Flat Rate Box","Caixa postal prioridade fixa em pequenas",module,Magento_Usps
+"Priority Mail Padded Flat Rate Envelope","Prioridade Mail acolchoado forfetária Envelope",module,Magento_Usps
+"Priority Mail Express Legal Flat Rate Envelope Hold For Pickup","Prioritário Tarifa de Envelo para o Coletor Mail Express",module,Magento_Usps
+"Priority Mail Express Sunday/Holiday Delivery Legal Flat Rate Envelope","Priority Mail Express Envelope de taxa fixa de entrega de domingo/feriado",module,Magento_Usps
+"Priority Mail Medium Flat Rate Box Hold For Pickup","Prioridade Mail médio taxa fixa caixa espera Pickup",module,Magento_Usps
+"Priority Mail Small Flat Rate Box Hold For Pickup","Prioridade Mail pequena taxa fixa caixa espera Pickup",module,Magento_Usps
+"Priority Mail Flat Rate Envelope Hold For Pickup","Prioridade correio taxa fixa Envelope Hold para Pickup",module,Magento_Usps
 "Priority Mail Express International","Prioridade correio internacional",module,Magento_Usps
 "Global Express Guaranteed Non-Document Rectangular","Global Express Garantidas não-documento não-retangulares",module,Magento_Usps
 Variable,Variável,module,Magento_Usps
@@ -4792,6 +4816,7 @@ frontend_label,rótulo_frontend,module,Magento_Weee
 "Fixed Product Tax","Imposto Fixo do Produto",module,Magento_Weee
 "Excl. Tax","Excl. Impostos",module,Magento_Weee
 "Incl. Tax","Imposto Incl.",module,Magento_Weee
+"Total Incl. Tax","Total de impostos incluídos",module,Magento_Weee
 Country/State,País/Estado,module,Magento_Weee
 Tax,Taxa,module,Magento_Weee
 Action,Ação,module,Magento_Weee
@@ -5073,6 +5098,8 @@ Done,Concluir,module,Magento_Integration
 "We can't complete your order because you don't have a payment method set up.","Não podemos concluir seu pedido, porque você não tem um método de pagamento configurado.",module,Magento_Multishipping
 "Please choose a payment method.","Por favor, escolha um método de pagamento.",module,Magento_Multishipping
 "Video Error","Erro de Vídeo",module,Magento_ProductVideo
+"Unknown video type","Tipo de vídeo desconhecido",module,Magento_ProductVideo
+"Invalid video url","Url de vídeo inválido",module,Magento_ProductVideo
 "Youtube API key is invalid","Chave da API do YouTube é inválida",module,Magento_ProductVideo
 "Video not found","Vídeo não encontrado",module,Magento_ProductVideo
 Save,Salvar,module,Magento_ProductVideo
@@ -5857,6 +5884,7 @@ Updated,Atualizado,module,Magento_Indexer
 "Storage Configuration for Media","Configuração de Armazenamento para Midia",module,Magento_MediaStorage
 "Media Storage","Armazenamento de Mídia",module,Magento_MediaStorage
 "Select Media Database","Selecione a Base de Dados de Mídia",module,Magento_MediaStorage
+"After selecting a new media storage location, press the Synchronize button to transfer all media to that location. Media will not be available in the new location until the synchronization process is complete.","Após selecionar uma nova localização de armazenamento mídia, clique no botão Sincronizar para transferir todos os ficheiros de mídia para a nova localização. Os arquivos só estarão disponíveis na nova localização quando o processo de sincronização terminar.",module,Magento_MediaStorage
 "Environment Update Time","Tempo de Atualização do Ambiente",module,Magento_MediaStorage
 "Minimum Advertised Price","Preço mínimo anunciado",module,Magento_Msrp
 "Enable MAP","Habilitar MAP",module,Magento_Msrp
@@ -5926,6 +5954,7 @@ Title,Título,module,Magento_OfflinePayments
 "Maximum Order Total","Valor Total do Pedido",module,Magento_OfflinePayments
 "Purchase Order","Ordem de compra",module,Magento_OfflinePayments
 Instructions,Instruções,module,Magento_OfflinePayments
+"Cash On Delivery Payment","Pagamento Contra Entrega",module,Magento_OfflinePayments
 "Zero Subtotal Checkout","Checkout com Subtotal Zero",module,Magento_OfflinePayments
 "Flat Rate","Taxa Fixa",module,Magento_OfflineShipping
 Enabled,Habilitado,module,Magento_OfflineShipping
@@ -6210,11 +6239,15 @@ Debug,Depurar/Debug,module,Magento_Usps
 Name,Nome,module,Magento_Variable
 "SOAP Settings","Definições SOAP",module,Magento_Webapi
 "Default Response Charset","Charset de Resposta Pré-definido",module,Magento_Webapi
+"If empty, UTF-8 will be used.","Se estiver vazio será usado UTF-8.",module,Magento_Webapi
 "Web Services Configuration","Configuração de Web Services",module,Magento_Webapi
 "REST and SOAP configurations, generated WSDL file.","Configurações REST e SOAP, ficheiro WSDL gerado.",module,Magento_Webapi
+"Fixed Product Taxes","Impostos Fixos do Produto",module,Magento_Weee
 "Enable FPT","Ativar Impostos Fixos de Produto",module,Magento_Weee
 "Display Prices On Product View Page","Mostrar preços na página de visualização do produto",module,Magento_Weee
+"Display Prices In Sales Modules","Mostrar Preços em Módulos de Vendas",module,Magento_Weee
 "Display Prices In Emails","Mostrar Preços em Emails",module,Magento_Weee
+"Apply Tax To FPT","Aplicar Imposto sobre os IFP",module,Magento_Weee
 "Include FPT In Subtotal","Incluir IFP no Subtotal",module,Magento_Weee
 "Orders and Returns","Pedidos e Devoluções",module,Magento_Widget
 "Orders and Returns Search Form","Formulário de Pesquisa de Pedidos e Devoluções",module,Magento_Widget
