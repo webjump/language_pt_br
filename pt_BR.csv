@@ -5104,6 +5104,7 @@ Cancel,Cancelar,module,Magento_Checkout
 "You already have an account with us. Sign in or continue as guest.","Você já tem uma conta conosco. Efetue Login ou continue como convidado.",module,Magento_Checkout
 Login,Entrar,module,Magento_Checkout
 items,itens,module,Magento_Checkout
+"Go to Checkout","Finalizar Compra",module,Magento_Checkout
 "See Details","Veja os Detalhes",module,Magento_Checkout
 "Options Details","Detalhes das Opções",module,Magento_Checkout
 Remove,Remover,module,Magento_Checkout
