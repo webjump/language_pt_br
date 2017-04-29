@@ -609,6 +609,7 @@ Always,Sempre,module,Magento_Captcha
 "The fewest you may purchase is %1.","O mínimo que você pode comprar é %1.",module,Magento_CatalogInventory
 "Please correct the quantity for some products.","Por favor, corrija a quantidade para alguns produtos.",module,Magento_CatalogInventory
 "The most you may purchase is %1.","O máximo que você pode comprar é %1.",module,Magento_CatalogInventory
+"We don't have as many ""%1"" as you requested.","Não temos o total de ""%1"" que você solicitou.",module,Magento_CatalogInventory
 "We don't have as many ""%1"" as you requested, but we'll back order the remaining %2.","Não temos o total de ""%1"" que você solicitou, mas ainda restam disponíveis %2.",module,Magento_CatalogInventory
 "We don't have ""%1"" in the requested quantity, so we'll back order the remaining %2.","Não temos ""%1"" na quantidade solicitada, então vamos disponibilizar os %2 restantes.",module,Magento_CatalogInventory
 "You can buy %1 only in quantities of %2 at a time.","Você pode comprar %1 somente em quantidades de %2 de cada vez.",module,Magento_CatalogInventory
@@ -3147,6 +3148,7 @@ Purchased,Comprado,module,Magento_Paypal
 "PayPal Settlement Reports","Relatórios de Liquidação do PayPal",module,Magento_Paypal
 "We are connecting to the PayPal SFTP server to retrieve new reports. Are you sure you want to continue?","Estamos a ligar ao servidor SFTP do PayPal para obter novos relatórios. Tem certeza que deseja continuar?",module,Magento_Paypal
 "Fetch Updates","Buscar Atualizações",module,Magento_Paypal
+button_label,"rótulo do botão",module,Magento_Paypal
 Help,Ajuda,module,Magento_Paypal
 Configure,Configurar,module,Magento_Paypal
 Close,Fechar,module,Magento_Paypal
@@ -3313,8 +3315,10 @@ Shipping,Frete,module,Magento_Quote
 "Some of the selected options are not currently available.","Algumas das opções selecionadas não estão disponíveis de momento.",module,Magento_Quote
 "Selected option(s) or their combination is not currently available.","Opção (ões) selecionada ou sua combinação não está atualmente disponível.",module,Magento_Quote
 "Some item options or their combination are not currently available.","Algumas opções de itens ou a sua combinação não estão disponíveis de momento.",module,Magento_Quote
+"Cart %1 does not contain item %2","O carrinho %1 não contém o item %2",module,Magento_Quote
 "Could not save quote","Não foi possível gravar o orçamento",module,Magento_Quote
 "Cart %1 doesn't contain item  %2","O carrinho %1 não contém o tem %2",module,Magento_Quote
+"Could not remove item from quote","Não foi possível remover um item do orçamento",module,Magento_Quote
 "The qty value is required to update quote item.","O valor da qtd é necessário para atualizar o item do orçamento.",module,Magento_Quote
 "Minimum order amount is %1","O valor mínimo do pedido é %1",module,Magento_Quote
 "Invalid customer id %1","%1 de identificação de cliente inválido",module,Magento_Quote
@@ -3358,6 +3362,7 @@ Unlimited,Ilimitado,module,Magento_Reports
 "Low stock","Estoque Mínimo",module,Magento_Reports
 "Products Ordered","Produtos ordenados",module,Magento_Reports
 "Most Viewed","Mais visitados",module,Magento_Reports
+"Show Report","Mostrar relatório",module,Magento_Reports
 Interval,Intervalo,module,Magento_Reports
 Price,Preço,module,Magento_Reports
 Views,Visões,module,Magento_Reports
@@ -4175,6 +4180,7 @@ Store,Loja,module,Magento_Search
 "Redirect URL","URL de redirecionamento",module,Magento_Search
 "Display in Suggested Terms","Exibir em termos sugeridos",module,Magento_Search
 "The synonym group has been deleted.","O grupo de sinónimos foi eliminado.",module,Magento_Search
+"An error was encountered while performing delete operation.","Foi encontrado um erro ao executar a operação de exclusão.",module,Magento_Search
 "We can't find a synonym group to delete.","Não conseguimos encontrar um grupo de sinónimos para eliminar.",module,Magento_Search
 "This synonyms group no longer exists.","O grupo de sinónimos já não existe maix.",module,Magento_Search
 "Synonym Group","Grupo de Sinónimos",module,Magento_Search
@@ -4249,6 +4255,7 @@ Email,E-mail,module,Magento_SendFriend
 Sender,Remetente,module,Magento_SendFriend
 Message,Mensagem,module,Magento_SendFriend
 Invitee,Convidado,module,Magento_SendFriend
+"Maximum %1 email addresses allowed.","São permitidos até %1 endereços de email.",module,Magento_SendFriend
 "Add Invitee","Adicionar convidado",module,Magento_SendFriend
 "Send Email","Enviar e-mail",module,Magento_SendFriend
 Back,Voltar,module,Magento_SendFriend
@@ -4516,9 +4523,11 @@ Name,Nome,module,Magento_Tax
 "Product Tax Class","Taxa de Imposto do Cliente",module,Magento_Tax
 "Tax Rate",Taxa,module,Magento_Tax
 Priority,Prioridade,module,Magento_Tax
+"Tax rates at the same priority are added, others are compounded.","Taxas de imposto na mesma prioridade são adicionadas, outros são agravados.",module,Magento_Tax
 "Calculate Off Subtotal Only","Calcular apenas fora Subtotal",module,Magento_Tax
 "Sort Order",Ordernação,module,Magento_Tax
 "Do you really want to delete this tax class?","Você realmente deseja excluir esta tarifa?",module,Magento_Tax
+"Add New Tax Class","Adicionar a nova classe de imposto",module,Magento_Tax
 "Shipping Incl. Tax (%1)","Frete incl. imposto (%1)",module,Magento_Tax
 "Shipping Excl. Tax (%1)","Frete excl. imposto (%1)",module,Magento_Tax
 "Subtotal (Incl.Tax)","Subtotal (Incluindo Taxas)",module,Magento_Tax
@@ -4667,6 +4676,11 @@ Next,Próximo,module,Magento_Ui
 "Next Day Air Early AM Letter","No próximo dia ar cedo AM letra",module,Magento_Ups
 "Next Day Air Letter","No próximo dia ar letra",module,Magento_Ups
 "Next Day Air Intra (Puerto Rico)","No próximo dia ar Intra (Puerto Rico)",module,Magento_Ups
+"Next Day Air Saver","Protetor de ar no próximo dia",module,Magento_Ups
+"Next Day Air Saver Letter","No próximo dia ar Saver letra",module,Magento_Ups
+"2nd Day Air AM","2º dia ar AM",module,Magento_Ups
+"2nd Day Air AM Letter","2º dia ar AM letra",module,Magento_Ups
+"2nd Day Air","2º dia de ar",module,Magento_Ups
 "2nd Day Air Letter","2º dia ar letra",module,Magento_Ups
 "3 Day Select","Dia 3 Selecione",module,Magento_Ups
 Ground,Terreno,module,Magento_Ups
@@ -4714,7 +4728,9 @@ Delete,Excluir,module,Magento_UrlRewrite
 "Are you sure you want to do this?","Você tem que deseja fazer isso?",module,Magento_UrlRewrite
 Save,Salvar,module,Magento_UrlRewrite
 "Block Information","Informação do Bloco",module,Magento_UrlRewrite
+"URL Rewrite Information","Informação de Reescrita de URL",module,Magento_UrlRewrite
 "Request Path","Caminho da Solicitação",module,Magento_UrlRewrite
+"Target Path","Caminho de Destino",module,Magento_UrlRewrite
 "Redirect Type","Tipo de Redirecionamento",module,Magento_UrlRewrite
 Description,Descrição,module,Magento_UrlRewrite
 Store,Loja,module,Magento_UrlRewrite
@@ -4869,6 +4885,11 @@ Resources,Recursos,module,Magento_User
 "Priority Mail Medium Flat Rate Box Hold For Pickup","Prioridade Mail médio taxa fixa caixa espera Pickup",module,Magento_Usps
 "Priority Mail Small Flat Rate Box Hold For Pickup","Prioridade Mail pequena taxa fixa caixa espera Pickup",module,Magento_Usps
 "Priority Mail Flat Rate Envelope Hold For Pickup","Prioridade correio taxa fixa Envelope Hold para Pickup",module,Magento_Usps
+"Priority Mail Gift Card Flat Rate Envelope","Prioridade Mail presente cartão Envelope de taxa fixa",module,Magento_Usps
+"Priority Mail Gift Card Flat Rate Envelope Hold For Pickup","Prioridade Mail presente cartão taxa fixa Envelope mantenha pressionado para Pickup",module,Magento_Usps
+"Priority Mail Window Flat Rate Envelope","Prioridade Envelope do correio janela taxa fixa",module,Magento_Usps
+"Priority Mail Window Flat Rate Envelope Hold For Pickup","Prioridade correio janela taxa fixa Envelope mantenha pressionado para Pickup",module,Magento_Usps
+"Priority Mail Small Flat Rate Envelope","Envelope de pequena taxa fixa prioritários Mail",module,Magento_Usps
 "Priority Mail Small Flat Rate Envelope Hold For Pickup","Prioridade Mail forfetária pequeno Envelope Hold para Pickup",module,Magento_Usps
 "Priority Mail Legal Flat Rate Envelope","Prioridade Mail Legal forfetária Envelope",module,Magento_Usps
 "Priority Mail Express International","Prioridade correio internacional",module,Magento_Usps
@@ -5150,6 +5171,7 @@ Next,Próximo,module,Magento_Checkout
 "Sorry, no quotes are available for this order at this time","Desculpe-nos, sem cotação disponível para este pedido agora",module,Magento_Checkout
 "Order Summary","Resumo do Pedido",module,Magento_Checkout
 "Item in Cart","Item no Carrinho",module,Magento_Checkout
+"Items in Cart","Itens no Carrinho",module,Magento_Checkout
 "View Details","Visualizar Detalhes",module,Magento_Checkout
 "Contact Form","Formulário de contato",module,Magento_Contact
 "Name: %name","Nome: %name",module,Magento_Contact
@@ -6614,6 +6636,7 @@ Configuration,Configuração,module,Magento_Store
 "Swatches per Product","Amostras por Produto",module,Magento_Swatches
 "Swatch Image","Imagem de amostra",module,Magento_Swatches
 Image,Imagem,module,Magento_Swatches
+"Allowed file types: jpeg, gif, png.","Tipos de arquivo permitidos: jpeg, gif, png.",module,Magento_Swatches
 "Image Opacity","Opacidade da Imagem",module,Magento_Swatches
 "Image Size","Tamanho da imagem",module,Magento_Swatches
 "Example format: 200x300.","Exemplo de formato: 200x300.",module,Magento_Swatches
