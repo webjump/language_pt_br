@@ -2060,6 +2060,7 @@ Order,Pedido,module,Magento_Paypal
 "PayPal Settlement Reports","Relatórios de Liquidação do PayPal",module,Magento_Paypal
 "We are connecting to the PayPal SFTP server to retrieve new reports. Are you sure you want to continue?","Estamos a ligar ao servidor SFTP do PayPal para obter novos relatórios. Tem certeza que deseja continuar?",module,Magento_Paypal
 "Fetch Updates","Buscar Atualizações",module,Magento_Paypal
+button_label,"rótulo do botão",module,Magento_Paypal
 Help,Ajuda,module,Magento_Paypal
 Configure,Configurar,module,Magento_Paypal
 Close,Fechar,module,Magento_Paypal
@@ -2192,6 +2193,7 @@ Unlimited,Ilimitado,module,Magento_Reports
 "Low stock","Estoque Mínimo",module,Magento_Reports
 "Products Ordered","Produtos ordenados",module,Magento_Reports
 "Most Viewed","Mais visitados",module,Magento_Reports
+"Show Report","Mostrar relatório",module,Magento_Reports
 Interval,Intervalo,module,Magento_Reports
 Price,Preço,module,Magento_Reports
 Views,Visões,module,Magento_Reports
@@ -2847,6 +2849,7 @@ Close,Fechar,module,Magento_Sales
 "Invalid Sender Information","Informações inválidas do Remetente",module,Magento_SendFriend
 Name,Nome,module,Magento_SendFriend
 "* Required Fields","* Campos Obrigatórios",module,Magento_SendFriend
+"Maximum %1 email addresses allowed.","São permitidos até %1 endereços de email.",module,Magento_SendFriend
 "Send Email","Enviar e-mail",module,Magento_SendFriend
 Back,Voltar,module,Magento_SendFriend
 "New Shipment for Order #%1","Nova Remessa para o Pedido #%1",module,Magento_Shipping
@@ -3026,9 +3029,11 @@ Name,Nome,module,Magento_Tax
 "Product Tax Class","Taxa de Imposto do Cliente",module,Magento_Tax
 "Tax Rate",Taxa,module,Magento_Tax
 Priority,Prioridade,module,Magento_Tax
+"Tax rates at the same priority are added, others are compounded.","Taxas de imposto na mesma prioridade são adicionadas, outros são agravados.",module,Magento_Tax
 "Calculate Off Subtotal Only","Calcular apenas fora Subtotal",module,Magento_Tax
 "Sort Order",Ordernação,module,Magento_Tax
 "Do you really want to delete this tax class?","Você realmente deseja excluir esta tarifa?",module,Magento_Tax
+"Add New Tax Class","Adicionar a nova classe de imposto",module,Magento_Tax
 "Shipping Incl. Tax (%1)","Frete incl. imposto (%1)",module,Magento_Tax
 "Shipping Excl. Tax (%1)","Frete excl. imposto (%1)",module,Magento_Tax
 "Subtotal (Incl.Tax)","Subtotal (Incluindo Taxas)",module,Magento_Tax
@@ -3134,6 +3139,11 @@ Minute,Minuto,module,Magento_Theme
 "Next Day Air Early AM Letter","No próximo dia ar cedo AM letra",module,Magento_Ups
 "Next Day Air Letter","No próximo dia ar letra",module,Magento_Ups
 "Next Day Air Intra (Puerto Rico)","No próximo dia ar Intra (Puerto Rico)",module,Magento_Ups
+"Next Day Air Saver","Protetor de ar no próximo dia",module,Magento_Ups
+"Next Day Air Saver Letter","No próximo dia ar Saver letra",module,Magento_Ups
+"2nd Day Air AM","2º dia ar AM",module,Magento_Ups
+"2nd Day Air AM Letter","2º dia ar AM letra",module,Magento_Ups
+"2nd Day Air","2º dia de ar",module,Magento_Ups
 "2nd Day Air Letter","2º dia ar letra",module,Magento_Ups
 "3 Day Select","Dia 3 Selecione",module,Magento_Ups
 Ground,Terreno,module,Magento_Ups
@@ -3176,7 +3186,9 @@ Delete,Excluir,module,Magento_UrlRewrite
 "Are you sure you want to do this?","Você tem que deseja fazer isso?",module,Magento_UrlRewrite
 Save,Salvar,module,Magento_UrlRewrite
 "Block Information","Informação do Bloco",module,Magento_UrlRewrite
+"URL Rewrite Information","Informação de Reescrita de URL",module,Magento_UrlRewrite
 "Request Path","Caminho da Solicitação",module,Magento_UrlRewrite
+"Target Path","Caminho de Destino",module,Magento_UrlRewrite
 "Redirect Type","Tipo de Redirecionamento",module,Magento_UrlRewrite
 Description,Descrição,module,Magento_UrlRewrite
 Store,Loja,module,Magento_UrlRewrite
@@ -3303,6 +3315,11 @@ Resources,Recursos,module,Magento_User
 "Priority Mail Medium Flat Rate Box Hold For Pickup","Prioridade Mail médio taxa fixa caixa espera Pickup",module,Magento_Usps
 "Priority Mail Small Flat Rate Box Hold For Pickup","Prioridade Mail pequena taxa fixa caixa espera Pickup",module,Magento_Usps
 "Priority Mail Flat Rate Envelope Hold For Pickup","Prioridade correio taxa fixa Envelope Hold para Pickup",module,Magento_Usps
+"Priority Mail Gift Card Flat Rate Envelope","Prioridade Mail presente cartão Envelope de taxa fixa",module,Magento_Usps
+"Priority Mail Gift Card Flat Rate Envelope Hold For Pickup","Prioridade Mail presente cartão taxa fixa Envelope mantenha pressionado para Pickup",module,Magento_Usps
+"Priority Mail Window Flat Rate Envelope","Prioridade Envelope do correio janela taxa fixa",module,Magento_Usps
+"Priority Mail Window Flat Rate Envelope Hold For Pickup","Prioridade correio janela taxa fixa Envelope mantenha pressionado para Pickup",module,Magento_Usps
+"Priority Mail Small Flat Rate Envelope","Envelope de pequena taxa fixa prioritários Mail",module,Magento_Usps
 "Priority Mail Small Flat Rate Envelope Hold For Pickup","Prioridade Mail forfetária pequeno Envelope Hold para Pickup",module,Magento_Usps
 "Priority Mail Legal Flat Rate Envelope","Prioridade Mail Legal forfetária Envelope",module,Magento_Usps
 "Priority Mail Express International","Prioridade correio internacional",module,Magento_Usps
