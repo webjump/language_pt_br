@@ -1320,7 +1320,7 @@ Email,E-mail,module,Magento_Customer
 "Confirm New Password","Confirmar nova senha",module,Magento_Customer
 Save,Salvar,module,Magento_Customer
 Submit,Enviar,module,Magento_Customer
-"Registered Customers","Clientes registados",module,Magento_Customer
+"Registered Customers","Clientes Registados",module,Magento_Customer
 Password,Senha,module,Magento_Customer
 Login,Entrar,module,Magento_Customer
 "Forgot Your Password?","Esqueceu a sua senha?",module,Magento_Customer
