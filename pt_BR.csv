@@ -1782,6 +1782,7 @@ Active,Ativo,module,Magento_Integration
 "Invalid Callback URL","URL de Callback inválido",module,Magento_Integration
 "Invalid Rejected Callback URL","URL de Callback Inválido Rejeitado",module,Magento_Integration
 "A consumer with ID %1 does not exist","Não existe um consumidor com ID %1",module,Magento_Integration
+"The integration you selected asks you to approve access to the following:","A integração que selecionou pede-lhe para aprovar o acesso a:",module,Magento_Integration
 "Are you sure ?","Você tem certeza ?",module,Magento_Integration
 "Are you sure you want to delete this integration? You can't undo this action.","Você tem certeza que deseja excluir esta integração? Esta ação não pode ser desfeita.",module,Magento_Integration
 "Please setup or sign in into your 3rd party account to complete setup of this integration.","Por favor, configure ou entrar em sua conta ""3rd party"" para concluir a instalação desta integração.",module,Magento_Integration
@@ -2066,15 +2067,18 @@ Configure,Configurar,module,Magento_Paypal
 Close,Fechar,module,Magento_Paypal
 "Learn More","Saiba Mais",module,Magento_Paypal
 "View Demo","Ver Demonstração",module,Magento_Paypal
+"See terms","Veja os termos",module,Magento_Paypal
 "You will be redirected to the PayPal website.","Você será redirecionado para o site do PayPal.",module,Magento_Paypal
 "You will be redirected to the PayPal website when you place an order.","Será redirecionado para o site do PayPal quando confirmar o seu pedido.",module,Magento_Paypal
 "Incl. Tax","Imposto Incl.",module,Magento_Paypal
 "Billing Information","Dados de Cobrança",module,Magento_Paypal
 "Shipping Information","Dados de Entrega",module,Magento_Paypal
 "Please specify the correct billing agreement ID and try again.","Por favor, especificar o ID de acordo de faturamento correto e tente novamente.",module,Magento_Paypal
+"You canceled the billing agreement.","Você cancelou o acordo de pagamento.",module,Magento_Paypal
 "You deleted the billing agreement.","Eliminou o acordo de faturamento.",module,Magento_Paypal
 Reports,Relatórios,module,Magento_Paypal
 Sales,Vendas,module,Magento_Paypal
+"View Transaction","Ver Transação",module,Magento_Paypal
 "We found nothing to fetch because of an empty configuration.","Não encontrámos nada para buscar devido à falta de configuração.",module,Magento_Paypal
 "The billing agreement ""%1"" has been canceled.","O acordo de faturamento ""%1"" foi cancelado.",module,Magento_Paypal
 "PayPal Express Checkout Token does not exist.","O Token do PayPal Checkout Express não existe.",module,Magento_Paypal
@@ -2164,6 +2168,7 @@ Shipping,Frete,module,Magento_Quote
 "Some item options or their combination are not currently available.","Algumas opções de itens ou a sua combinação não estão disponíveis de momento.",module,Magento_Quote
 "Please check the shipping address information. %1","Por favor verifique as informações de envio. %1",module,Magento_Quote
 "Please specify a shipping method.","Por favor, especifique um método de envio.",module,Magento_Quote
+"Please check the billing address information. %1","Por favor verifique as informações do endereço de envio. %1",module,Magento_Quote
 "Please select a valid payment method.","Por favor selecione um método de pagamento válido.",module,Magento_Quote
 "Store Credit","Loja de Crédito",module,Magento_Quote
 Discount,Desconto,module,Magento_Quote
@@ -2199,12 +2204,14 @@ Price,Preço,module,Magento_Reports
 Views,Visões,module,Magento_Reports
 "Refresh Statistics","Atualizar estatísticas",module,Magento_Reports
 "Customers Reviews","Avaliações de Clientes",module,Magento_Reports
+"Reviews for %1","Comentários para %1",module,Magento_Reports
 Customer,Cliente,module,Magento_Reports
 Title,Título,module,Magento_Reports
 Detail,Detalhe,module,Magento_Reports
 Created,Criado,module,Magento_Reports
 "Products Bestsellers Report","Relatório de Produtos Mais Vendidos",module,Magento_Reports
 "Order Quantity","Quantidade de Pedido",module,Magento_Reports
+"Coupons Usage Report","Relatório de uso de cupons",module,Magento_Reports
 "Coupon Code","Código do cupom",module,Magento_Reports
 Uses,Usos,module,Magento_Reports
 "Sales Subtotal","Subtotal de Vendas",module,Magento_Reports
@@ -3036,12 +3043,16 @@ Priority,Prioridade,module,Magento_Tax
 "Add New Tax Class","Adicionar a nova classe de imposto",module,Magento_Tax
 "Shipping Incl. Tax (%1)","Frete incl. imposto (%1)",module,Magento_Tax
 "Shipping Excl. Tax (%1)","Frete excl. imposto (%1)",module,Magento_Tax
+"Subtotal (Excl.Tax)","Subtotal (Sem Impostos)",module,Magento_Tax
 "Subtotal (Incl.Tax)","Subtotal (Incluindo Taxas)",module,Magento_Tax
+"Shipping & Handling (Excl.Tax)","Transporte e Manipulação (Sem Impostos)",module,Magento_Tax
 "Shipping & Handling (Incl.Tax)","Transporte e Manipulação (Incluindo Tarifas)",module,Magento_Tax
+"Grand Total (Excl.Tax)","Preço Final (Sem Impostos)",module,Magento_Tax
 Sales,Vendas,module,Magento_Tax
 Tax,Taxa,module,Magento_Tax
 "Manage Tax Rates","Gerenciar Taxas de Imposto",module,Magento_Tax
 "New Tax Rate","Adicionar Nova Taxa de Imposto",module,Magento_Tax
+"Tax Zones and Rates","Zona de impostos e tarifas",module,Magento_Tax
 "Edit Tax Rate","Editar a taxa de imposto",module,Magento_Tax
 "The tax rule has been deleted.","A regra foi excluída.",module,Magento_Tax
 "This rule no longer exists.","Esta regra não existe mais.",module,Magento_Tax
@@ -3090,7 +3101,9 @@ General,Geral,module,Magento_Theme
 "Max image size %1M","Tamanho máx de imagem %1M",module,Magento_Theme
 "Theme JavaScript","Tema JavaScript",module,Magento_Theme
 "Select JS Files to Upload","Selecione arquivos JS para Upload",module,Magento_Theme
+"Upload JS Files","Upload de arquivos JS",module,Magento_Theme
 "JS Editor","Editor de JS",module,Magento_Theme
+"Allowed file types *.js.","Tipos de arquivos permitidos *.js.",module,Magento_Theme
 Theme,Tema,module,Magento_Theme
 "Media Storage","Armazenamento de Mídia",module,Magento_Theme
 "Delete Folder","Apagar Pasta",module,Magento_Theme
@@ -3148,9 +3161,13 @@ Minute,Minuto,module,Magento_Theme
 "3 Day Select","Dia 3 Selecione",module,Magento_Ups
 Ground,Terreno,module,Magento_Ups
 "Ground Commercial","Terreno comercial",module,Magento_Ups
+"Ground Residential","Terreno Residencial",module,Magento_Ups
 "Canada Standard","Padrão de Canadá",module,Magento_Ups
+"Worldwide Express","Expresso para todo o mundo",module,Magento_Ups
 "Worldwide Express Letter","Carta expressa em todo o mundo",module,Magento_Ups
 "Worldwide Express Plus Letter","Carta expressa em todo o mundo",module,Magento_Ups
+"Worldwide Expedited","Entrega rápida em todo o mundo",module,Magento_Ups
+"Customer Packaging","Embalagem do cliente",module,Magento_Ups
 "UPS Letter Envelope","Envelope de carta de UPS",module,Magento_Ups
 "UPS Tube","Tubo de UPS",module,Magento_Ups
 Pallet,Palete,module,Magento_Ups
@@ -3193,8 +3210,11 @@ Save,Salvar,module,Magento_UrlRewrite
 Description,Descrição,module,Magento_UrlRewrite
 Store,Loja,module,Magento_UrlRewrite
 "URL Rewrite Management","Gerenciamento de Reescrita de URL",module,Magento_UrlRewrite
+"Add URL Rewrite","Adicionar URL Rewrite",module,Magento_UrlRewrite
 Custom,Personalizado,module,Magento_UrlRewrite
+"For category","Por categoria",module,Magento_UrlRewrite
 "For product","Por produto",module,Magento_UrlRewrite
+"For CMS page","Para página do CMS",module,Magento_UrlRewrite
 "URL Rewrites","Reescrita de URLs",module,Magento_UrlRewrite
 "The URL Rewrite has been saved.","A reescrita de URL foi salva.",module,Magento_UrlRewrite
 No,Não,module,Magento_UrlRewrite
@@ -3308,6 +3328,7 @@ Resources,Recursos,module,Magento_User
 "Priority Mail Express Flat Rate Envelope Hold For Pickup","Prioritário Tarifa de Envelo para o Coletor Mail Express",module,Magento_Usps
 "Priority Mail Small Flat Rate Box","Caixa postal prioridade fixa em pequenas",module,Magento_Usps
 "Priority Mail Padded Flat Rate Envelope","Prioridade Mail acolchoado forfetária Envelope",module,Magento_Usps
+"Priority Mail Express Legal Flat Rate Envelope",Todos,module,Magento_Usps
 "Priority Mail Express Legal Flat Rate Envelope Hold For Pickup","Prioritário Tarifa de Envelo para o Coletor Mail Express",module,Magento_Usps
 "Priority Mail Express Sunday/Holiday Delivery Legal Flat Rate Envelope","Priority Mail Express Envelope de taxa fixa de entrega de domingo/feriado",module,Magento_Usps
 "Priority Mail Hold For Pickup","Espera de correio prioridade para o coletor",module,Magento_Usps
@@ -3322,6 +3343,10 @@ Resources,Recursos,module,Magento_User
 "Priority Mail Small Flat Rate Envelope","Envelope de pequena taxa fixa prioritários Mail",module,Magento_Usps
 "Priority Mail Small Flat Rate Envelope Hold For Pickup","Prioridade Mail forfetária pequeno Envelope Hold para Pickup",module,Magento_Usps
 "Priority Mail Legal Flat Rate Envelope","Prioridade Mail Legal forfetária Envelope",module,Magento_Usps
+"Priority Mail Legal Flat Rate Envelope Hold For Pickup","Taxa básica de entrega prioritária de correio esperando para ser entregue em mãos",module,Magento_Usps
+"Priority Mail Padded Flat Rate Envelope Hold For Pickup",Todos,module,Magento_Usps
+"Priority Mail Regional Rate Box A Hold For Pickup","Taxa correio para entrega prioritária",module,Magento_Usps
+"Priority Mail Regional Rate Box B","Taxa de correio prioritário B",module,Magento_Usps
 "Priority Mail Express International","Prioridade correio internacional",module,Magento_Usps
 "Global Express Guaranteed Non-Document Rectangular","Global Express Garantidas não-documento não-retangulares",module,Magento_Usps
 Variable,Variável,module,Magento_Usps
@@ -3468,6 +3493,7 @@ Cancel,Cancelar,module,Magento_Catalog
 "Are you sure you want to delete this address?","Você tem certeza que deseja excluir este endereço?",module,Magento_Customer
 "Add Products to Group","Adicionar Produtos ao Grupo",module,Magento_GroupedProduct
 "Add Selected Products","Adicionar Produtos Selecionados",module,Magento_GroupedProduct
+"Sorry, something went wrong. Please try again later.","Desculpe, algo deu errado. Por favor, tente novamente mais tarde.",module,Magento_Integration
 Allow,Permitir,module,Magento_Integration
 Done,Concluir,module,Magento_Integration
 "Add Products","Adicionar Produtos",module,Magento_Sales
@@ -4044,6 +4070,10 @@ Updated,Atualizado,module,Magento_Indexer
 "Cleanup Settings","Configurações de limpeza",module,Magento_Integration
 "Cleanup Probability","Probabilidade de limpeza",module,Magento_Integration
 "Expiration Period","Período de validade",module,Magento_Integration
+"Consumer Settings","Definições do Consumidor",module,Magento_Integration
+"OAuth consumer credentials HTTP Post maxredirects","Maxredirects de pedidos HTTP Post com as credenciais do consumidor OAuth",module,Magento_Integration
+"OAuth consumer credentials HTTP Post timeout","Timeout dos pedidos HTTP Post com as credenciais do consumidor OAuth",module,Magento_Integration
+"Integrations Configuration","Configuração de Integrações",module,Magento_Integration
 "Integration configuration file.","Arquivo de configuração de integração.",module,Magento_Integration
 "No Integrations Found","Não encontramos integrações",module,Magento_Integration
 "Layered Navigation","Navegação em Camadas",module,Magento_LayeredNavigation
@@ -4056,8 +4086,12 @@ Updated,Atualizado,module,Magento_Indexer
 "This setting will be applied when all prices in the specific price interval are equal.","Esta configuração será aplicada quando todos os preços no intervalo de preço específico forem iguais.",module,Magento_LayeredNavigation
 "Interval Division Limit","Limite de Divisão de Interalo",module,Magento_LayeredNavigation
 "Please specify the number of products, that will not be divided into subintervals.","Por favor, especifique a quantidade de produtos que não serão divididos em sub-intervalos.",module,Magento_LayeredNavigation
+"Multishipping Settings","Definições de Envio para Vários Endereços",module,Magento_Multishipping
 Options,Opções,module,Magento_Multishipping
+"Allow Shipping to Multiple Addresses","Permitir Envio para Vários Endereços",module,Magento_Multishipping
+"Maximum Qty Allowed for Shipping to Multiple Addresses","Qtd Máxima Permitida para Envio para Vários Endereços",module,Magento_Multishipping
 "Review Order","Revisar pedido",module,Magento_Multishipping
+"Select Shipping Method","Selecionar Modo de Envio",module,Magento_Multishipping
 "Subscription Options","Opções de assinaturas",module,Magento_Newsletter
 "Allow Guest Subscription","Permitir Subscrição a Utilizadores Não Registados",module,Magento_Newsletter
 "Need to Confirm","Pedir Confirmação",module,Magento_Newsletter
@@ -4114,6 +4148,7 @@ Title,Título,module,Magento_OfflineShipping
 Type,Tipo,module,Magento_OfflineShipping
 "Ship to Applicable Countries","Envio para Países Aplicáveis",module,Magento_OfflineShipping
 "Ship to Specific Countries","Envio para Países Específicos",module,Magento_OfflineShipping
+"Show Method if Not Applicable","Mostrar método se não aplicável",module,Magento_OfflineShipping
 "Displayed Error Message","Mensagem de Erro Apresentada",module,Magento_OfflineShipping
 "Table Rates","Taxas de imposto",module,Magento_OfflineShipping
 Condition,Condição,module,Magento_OfflineShipping
@@ -4179,8 +4214,11 @@ Frequency,Frequência,module,Magento_ProductAlert
 "Sign up for price alert","Registe-se para se avisado sobre o preço",module,Magento_ProductAlert
 "Sign up to be notified when this product is back in stock.","Registe-se para ser notificado quando este produto estive de volta em stock.",module,Magento_ProductAlert
 "Product Video","Vídeo do Produto",module,Magento_ProductVideo
+"Recently Viewed/Compared Products","Produtos visualizados/comparados recentemente",module,Magento_Reports
 Dashboard,"Painel de Controle",module,Magento_Reports
+"Select day of the month.","Selecione o dia do mês.",module,Magento_Reports
 "Recently Viewed Products","Produtos visualizados recentemente",module,Magento_Reports
+"List of Products Recently Viewed by Visitor","Lista de produtos visualizados recentemente por visitante",module,Magento_Reports
 "Recently Compared Products","Produtos comparados recentemente",module,Magento_Reports
 Average,Média,module,Magento_Reports
 Guest,Visitante,module,Magento_Reports
@@ -4227,6 +4265,7 @@ Enabled,Habilitado,module,Magento_SendFriend
 "Select Email Template","Selecionar Template do Email",module,Magento_SendFriend
 "Allow for Guests","Permitir para Convidados",module,Magento_SendFriend
 "Max Recipients","Adicionar Destinatários",module,Magento_SendFriend
+"Max Products Sent in 1 Hour","Máximo de produtos enviados em 1 hora",module,Magento_SendFriend
 "Limit Sending By","Limite de Envio por",module,Magento_SendFriend
 Origin,Origem,module,Magento_Shipping
 Country,País,module,Magento_Shipping
