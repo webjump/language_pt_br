@@ -1960,6 +1960,7 @@ Paused,Pausado,module,Magento_Newsletter
 "You selected an invalid queue.","Selecionou uma fila inválida.",module,Magento_Newsletter
 "We cannot mark as received subscriber.","Não conseguimos marcar como subscritor.",module,Magento_Newsletter
 "Duplicate template code","Código do template duplicado",module,Magento_Newsletter
+"Choose Store View:","Escolha o visual da Loja:",module,Magento_Newsletter
 "Newsletter Message Preview","Pré-visualização da Mensagem da Newsletter",module,Magento_Newsletter
 "Add to Queue","Adicionar à Fila",module,Magento_Newsletter
 "Are you sure that you want to strip all tags?","Tem a certeza que pretende remover as tags?",module,Magento_Newsletter
@@ -2081,6 +2082,7 @@ Sales,Vendas,module,Magento_Paypal
 "View Transaction","Ver Transação",module,Magento_Paypal
 "We found nothing to fetch because of an empty configuration.","Não encontrámos nada para buscar devido à falta de configuração.",module,Magento_Paypal
 "The billing agreement ""%1"" has been canceled.","O acordo de faturamento ""%1"" foi cancelado.",module,Magento_Paypal
+"The billing agreement ""%1"" has been created.","O acordo de cobrança ""%1"" foi criado.",module,Magento_Paypal
 "PayPal Express Checkout Token does not exist.","O Token do PayPal Checkout Express não existe.",module,Magento_Paypal
 "Please agree to all the terms and conditions before placing the order.","Por favor concorde com todos os termos e condições antes de fazer o pedido.",module,Magento_Paypal
 "Your payment has been declined. Please try again.","Seu pagamento foi recusado. Por favor, tente novamente.",module,Magento_Paypal
@@ -4095,6 +4097,12 @@ Options,Opções,module,Magento_Multishipping
 "Subscription Options","Opções de assinaturas",module,Magento_Newsletter
 "Allow Guest Subscription","Permitir Subscrição a Utilizadores Não Registados",module,Magento_Newsletter
 "Need to Confirm","Pedir Confirmação",module,Magento_Newsletter
+"Confirmation Email Sender","E-mail remetente de confirmação",module,Magento_Newsletter
+"Confirmation Email Template","Confirmação do E-mail template",module,Magento_Newsletter
+"Success Email Sender","E-mail remetente de Sucesso",module,Magento_Newsletter
+"Success Email Template","E-mail template de Sucesso",module,Magento_Newsletter
+"Unsubscription Email Sender","Cancelamento do E-mail remetente",module,Magento_Newsletter
+"Unsubscription Email Template","Cancelamento do E-mail template",module,Magento_Newsletter
 "We found no problems.","Não encontrámos problemas.",module,Magento_Newsletter
 Subscriber,Assinante,module,Magento_Newsletter
 "Queue Start Date","Data de Início da Fila",module,Magento_Newsletter
