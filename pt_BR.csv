@@ -3140,15 +3140,22 @@ Sales,Vendas,module,Magento_Paypal
 "The billing agreement ""%1"" has been created.","O acordo de cobrança ""%1"" foi criado.",module,Magento_Paypal
 "We couldn't finish the billing agreement wizard.","Não conseguimos  terminar o assistente de acordo faturamento.",module,Magento_Paypal
 "We can't start the billing agreement wizard.","Nós Não podemos iniciar o assistente de acordo faturamento.",module,Magento_Paypal
+"Billing Agreement # %1","Acordo de Faturamento # %1",module,Magento_Paypal
 "We can't initialize Express Checkout.","Não foi possível inicializar Express Checkout.",module,Magento_Paypal
 "PayPal Express Checkout Token does not exist.","O Token do PayPal Checkout Express não existe.",module,Magento_Paypal
+"A wrong PayPal Express Checkout Token is specified.","Um token incorreto do PayPal Express Checkout foi especificado.",module,Magento_Paypal
+"Express Checkout and Order have been canceled.","O Express Checkout e o Pedido foram cancelados.",module,Magento_Paypal
+"Express Checkout has been canceled.","O Express Checkout foi cancelado.",module,Magento_Paypal
+"Unable to cancel Express Checkout","Não foi possível cancelar o Express Checkout",module,Magento_Paypal
 "Please agree to all the terms and conditions before placing the order.","Por favor concorde com todos os termos e condições antes de fazer o pedido.",module,Magento_Paypal
 "We can't place the order.","Não foi possível fazer o pedido.",module,Magento_Paypal
 "We can't process Express Checkout approval.","Não podemos processar o pedido de aprovação Express Checkout.",module,Magento_Paypal
 "We can't initialize Express Checkout review.","Não foi possível inicializar o Express Checkout de avaliação.",module,Magento_Paypal
 "We can't update shipping method.","Não é possível atualizar o método de envio.",module,Magento_Paypal
+"To check out, please sign in with your email address.","Para finalizar, por favor, faça o login com seu e-mail.",module,Magento_Paypal
 "We can't start Express Checkout.","Não podemos começar Express Checkout.",module,Magento_Paypal
 "Your payment has been declined. Please try again.","Seu pagamento foi recusado. Por favor, tente novamente.",module,Magento_Paypal
+"Requested payment method does not match with order.","O método de pagamento solicitado não coincide com o do pedido.",module,Magento_Paypal
 "We can't contact the PayPal gateway.","Não podemos entrar em contato com o gateway PayPal.",module,Magento_Paypal
 "I'm sorry - but we were not able to process your payment. Please try another payment method or contact us so we can assist you.","Sinto muito - mas não fomos capazes de processar o pagamento. Por favor, tente outra forma de pagamento ou entre em contato conosco para que possamos ajudá-lo.",module,Magento_Paypal
 "I'm sorry - but we are not able to complete your transaction. Please contact us so we can assist you.","Sinto muito - não foi capaz de concluir a transação. Entre em contato conosco para que possamos ajudá-lo.",module,Magento_Paypal
@@ -3766,9 +3773,18 @@ Capture,Captura,module,Magento_Sales
 "Invalid parent block for this block","O bloco pai é inválido para este bloco",module,Magento_Sales
 "Order Statuses","Status do pedido",module,Magento_Sales
 "Create New Status","Criar novo status",module,Magento_Sales
+"Assign Status to State","Atribuir Status ao estado",module,Magento_Sales
+"Save Status Assignment","Salvar atribuição de status",module,Magento_Sales
+"Assign Order Status to State","Atribuir status do pedido ao estado",module,Magento_Sales
 "Assignment Information","Informações de atribuição",module,Magento_Sales
 "Order Status","Situação do pedido",module,Magento_Sales
+"Order State","Situação do pedido",module,Magento_Sales
+"Use Order Status As Default","Usar status do pedido como padrão",module,Magento_Sales
+"Visible On Storefront","Visível na loja",module,Magento_Sales
+"Edit Order Status","Editar status do pedido",module,Magento_Sales
 "Save Status","Salvar status",module,Magento_Sales
+"New Order Status","Novo status do pedido",module,Magento_Sales
+"Order Status Information","Informações do pedido",module,Magento_Sales
 "Status Code","Código de status",module,Magento_Sales
 "Status Label","Rótulo do status",module,Magento_Sales
 "Total Paid","Total pago",module,Magento_Sales
