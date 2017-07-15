@@ -3371,6 +3371,9 @@ Shipping,Frete,module,Magento_Quote
 "Cannot assign customer to the given cart. The cart belongs to different store.","Não é possível atribuir o carrinho ao cliente. O carrinho pertence a outra loja.",module,Magento_Quote
 "Cannot assign customer to the given cart. The cart is not anonymous.","Não foi possível associar o cliente ao carrinho. O carrinho não é anônimo.",module,Magento_Quote
 "Cannot assign customer to the given cart. Customer already has active cart.","Não foi possível associar o cliente ao carrinho especificado. O cliente já tem um carrinho ativo.",module,Magento_Quote
+"An error occurred on the server. Please try to place the order again.","Ocorreu um erro no servidor. Por favor, tente fazer o pedido novamente.",module,Magento_Quote
+"Only 1 shipping assignment can be set","Apenas 1 transportadora pode ser definida",module,Magento_Quote
+"This item price or quantity is not valid for checkout.","Este preço do item ou quantidade não é válido para efetuar o checkout.",module,Magento_Quote
 "Please check the shipping address information. %1","Por favor verifique as informações de envio. %1",module,Magento_Quote
 "Please specify a shipping method.","Por favor, especifique um método de envio.",module,Magento_Quote
 "Please check the billing address information. %1","Por favor verifique as informações do endereço de envio. %1",module,Magento_Quote
@@ -3379,8 +3382,10 @@ Shipping,Frete,module,Magento_Quote
 Discount,Desconto,module,Magento_Quote
 Tax,Taxa,module,Magento_Quote
 "Cart contains virtual product(s) only. Shipping address is not applicable.","O carrinho contem somente produtos virtuais. Endereço de entrega não se aplica.",module,Magento_Quote
+"Shipping address not set.","Endereço de envio não está definido.",module,Magento_Quote
 "Cannot set shipping method. %1","Não foi possível definir o método de envio. %1",module,Magento_Quote
 "Shipping method is not applicable for empty cart","Método de envio não aplicável para Carrinho de Compras vazio",module,Magento_Quote
+"Cart contains virtual product(s) only. Shipping method is not applicable.","O carrinho contem somente produtos digitais. Endereço de entrega não se aplica.",module,Magento_Quote
 "New Accounts","Nova Conta",module,Magento_Reports
 "Customers by number of orders","Clientes por número de pedidos",module,Magento_Reports
 "Customers by Orders Total","Clientes por Total de Pedidos",module,Magento_Reports
@@ -6612,6 +6617,8 @@ Frequency,Frequência,module,Magento_ProductAlert
 "Autostart base video","Iniciar automaticamente o vídeo base",module,Magento_ProductVideo
 "Show related video","Mostrar vídeos relacionados",module,Magento_ProductVideo
 "Images And Videos","Imagens e Vídeos",module,Magento_ProductVideo
+Carts,Carrinhos,module,Magento_Quote
+"Manage carts","Gerenciar carrinhos",module,Magento_Quote
 "Products in Cart","Produtos no Carrinho",module,Magento_Reports
 "Abandoned Cart","Carrinhos Abandonados",module,Magento_Reports
 "Search Terms","Termos de Pesquisa",module,Magento_Reports
