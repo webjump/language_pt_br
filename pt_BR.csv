@@ -3302,6 +3302,7 @@ Shipping,Frete,module,Magento_Quote
 "Cannot assign customer to the given cart. The cart is not anonymous.","Não foi possível associar o cliente ao carrinho. O carrinho não é anônimo.",module,Magento_Quote
 "Cannot assign customer to the given cart. Customer already has active cart.","Não foi possível associar o cliente ao carrinho especificado. O cliente já tem um carrinho ativo.",module,Magento_Quote
 "Cannot place order.","Não foi possível fechar o pedido.",module,Magento_Quote
+"This item price or quantity is not valid for checkout.","Este preço do item ou quantidade não é válido para efetuar o checkout.",module,Magento_Quote
 "Please check the shipping address information. %1","Por favor verifique as informações de envio. %1",module,Magento_Quote
 "Please specify a shipping method.","Por favor, especifique um método de envio.",module,Magento_Quote
 "Please check the billing address information. %1","Por favor verifique as informações do endereço de envio. %1",module,Magento_Quote
@@ -3310,7 +3311,9 @@ Shipping,Frete,module,Magento_Quote
 Discount,Desconto,module,Magento_Quote
 Tax,Taxa,module,Magento_Quote
 "Cart contains virtual product(s) only. Shipping address is not applicable.","O carrinho contem somente produtos virtuais. Endereço de entrega não se aplica.",module,Magento_Quote
+"Shipping address not set.","Endereço de envio não está definido.",module,Magento_Quote
 "Shipping method is not applicable for empty cart","Método de envio não aplicável para Carrinho de Compras vazio",module,Magento_Quote
+"Cart contains virtual product(s) only. Shipping method is not applicable.","O carrinho contem somente produtos digitais. Endereço de entrega não se aplica.",module,Magento_Quote
 "Carrier with such method not found: %1, %2","Transportador com esse método não encontrado: %1, %2",module,Magento_Quote
 "Cannot set shipping method. %1","Não foi possível definir o método de envio. %1",module,Magento_Quote
 error123,erro123,module,Magento_Quote
