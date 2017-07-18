@@ -3790,12 +3790,18 @@ Capture,Captura,module,Magento_Sales
 "Order Status Information","Informações do pedido",module,Magento_Sales
 "Status Code","Código de status",module,Magento_Sales
 "Status Label","Rótulo do status",module,Magento_Sales
+"Store View Specific Labels","Rótulos Específicos para Visão de Loja",module,Magento_Sales
 "Total Paid","Total pago",module,Magento_Sales
 "Total Refunded","Total reembolsado",module,Magento_Sales
 "Total Due","Total devido",module,Magento_Sales
 Edit,Editar,module,Magento_Sales
 "Are you sure you want to send an order email to customer?","Tem certeza de que deseja enviar um e-mail de pedido para o cliente?",module,Magento_Sales
+"This will create an offline refund. To create an online refund, open an invoice and create credit memo for it. Do you want to continue?","Será criado um reembolso off-line. Para criar um reembolso on-line, abra uma fatura e crie uma nota de crédito. Você deseja continuar?",module,Magento_Sales
 "Are you sure you want to void the payment?","Você tem certeza que deseja anular o pagamento?",module,Magento_Sales
+Hold,"Em Espera",module,Magento_Sales
+hold,"em espera",module,Magento_Sales
+Unhold,Liberar,module,Magento_Sales
+unhold,liberar,module,Magento_Sales
 "Are you sure you want to accept this payment?","Você tem certeza que deseja aceitar este pagamento?",module,Magento_Sales
 "Accept Payment","Aceitar pagamento",module,Magento_Sales
 "Are you sure you want to deny this payment?","Você tem certeza que deseja negar este pagamento?",module,Magento_Sales
@@ -3806,6 +3812,7 @@ Invoice,Fatura,module,Magento_Sales
 Ship,Enviar,module,Magento_Sales
 Reorder,"Refazer pedido",module,Magento_Sales
 "Order # %1 %2 | %3","Pedido # %1 %2 | %3",module,Magento_Sales
+"This order contains (%1) items and therefore cannot be edited through the admin interface. If you wish to continue editing, the (%2) items will be removed,  the order will be canceled and a new order will be placed.","Esta pedido contém os itens (%1) e, portanto, não pode ser editado através da interface de administração. Se você deseja continuar editando, os itens (%2) serão removidos, o pedido será cancelado e um novo pedido será criado.",module,Magento_Sales
 "Are you sure? This order will be canceled and a new one will be created instead.","Você tem certeza? Este pedido será cancelado e um novo será criado.",module,Magento_Sales
 "Save Gift Message","Salvar a mensagem de presente",module,Magento_Sales
 "Order Credit Memos","Memorandos de crédito do pedido",module,Magento_Sales
@@ -3891,6 +3898,8 @@ Sales,Vendas,module,Magento_Sales
 "Edit Order","Editar pedido",module,Magento_Sales
 "You sent the order email.","Você enviou o e-mail do pedido.",module,Magento_Sales
 "We can't send the email order right now.","Não foi possível enviar o e-mail do pedido.",module,Magento_Sales
+"You have not put the order on hold.","Você não colocou o pedido em espera.",module,Magento_Sales
+"You put the order on hold.","Você colocou o pedido em espera.",module,Magento_Sales
 "You canceled the invoice.","Você cancelou a fatura.",module,Magento_Sales
 "Invoice canceling error","Erro ao cancelar a fatura",module,Magento_Sales
 "The invoice has been captured.","A fatura foi capturada.",module,Magento_Sales
@@ -3899,6 +3908,7 @@ Sales,Vendas,module,Magento_Sales
 "You can't create an invoice without products.","Não é possível criar uma fatura sem produtos.",module,Magento_Sales
 "New Invoice","Nova fatura",module,Magento_Sales
 "We can't save the invoice right now.","Não foi possível salvar a fatura.",module,Magento_Sales
+"The invoice and the shipment  have been created. The shipping label cannot be created now.","A fatura e o envio foram criados. A etiqueta de envio não pode ser criada no momento.",module,Magento_Sales
 "You created the invoice and shipment.","Você criou a fatura e a postagem.",module,Magento_Sales
 "The invoice has been created.","A fatura foi criada.",module,Magento_Sales
 "We can't send the invoice email right now.","Não foi possível enviar o e-mail da fatura.",module,Magento_Sales
@@ -3906,8 +3916,12 @@ Sales,Vendas,module,Magento_Sales
 "Cannot update item quantity.","Não foi possível atualizar a quantidade do item.",module,Magento_Sales
 "The invoice has been voided.","A fatura foi anulada.",module,Magento_Sales
 "Invoice voiding error","Ocorreu um erro ao anular a fatura",module,Magento_Sales
+"%1 order(s) cannot be canceled.","%1 pedido(s) não puderam ser cancelados.",module,Magento_Sales
 "You cannot cancel the order(s).","Você não pode cancelar o(s) pedido(s).",module,Magento_Sales
 "We canceled %1 order(s).","Nós cancelamos %1 pedido(s).",module,Magento_Sales
+"%1 order(s) were not put on hold.","%1 pedidos não foram colocados em espera.",module,Magento_Sales
+"No order(s) were put on hold.","Nenhum pedido foi colocado em espera.",module,Magento_Sales
+"You have put %1 order(s) on hold.","Você colocou %1 pedido(s) em espera.",module,Magento_Sales
 "There are no printable documents related to selected orders.","Não ha documentos impressos relacionados aos pedidos selecionados.",module,Magento_Sales
 "The payment has been accepted.","O pagamento foi aceito.",module,Magento_Sales
 "The payment has been denied.","O pagamento foi negado.",module,Magento_Sales
@@ -4357,11 +4371,17 @@ Action,Ação,module,Magento_Shipping
 "Shipping &amp; Handling Information","Informações de Transporte e Manuseio",module,Magento_Shipping
 "Order Total","Total do Pedido",module,Magento_Shipping
 "Qty Shipped","Quantidade enviada",module,Magento_Shipping
+Carrier:,Transportadora:,module,Magento_Shipping
+Error:,Erro:,module,Magento_Shipping
+Track:,Rastrear:,module,Magento_Shipping
 "Delivered on:","Entregue em:",module,Magento_Shipping
 N/A,"Não Disponível",module,Magento_Shipping
 Location,Localização,module,Magento_Shipping
 Date,Data,module,Magento_Shipping
+"Local Time","Hora local",module,Magento_Shipping
 Description,Descrição,module,Magento_Shipping
+"There is no tracking available for this shipment.","Não há nenhum rastreamento disponível para esta expedição.",module,Magento_Shipping
+"There is no tracking available.","Não há nenhum rastreamento disponível.",module,Magento_Shipping
 "Close Window","Fechar Janela",module,Magento_Shipping
 "Save & Generate","Salvar e gerar",module,Magento_Sitemap
 "Edit Sitemap","Editar mapa do site",module,Magento_Sitemap
@@ -6240,6 +6260,7 @@ Enabled,Habilitado,module,Magento_SendFriend
 "Max Recipients","Adicionar Destinatários",module,Magento_SendFriend
 "Max Products Sent in 1 Hour","Máximo de produtos enviados em 1 hora",module,Magento_SendFriend
 "Limit Sending By","Limite de Envio por",module,Magento_SendFriend
+"Shipping Settings","Detalhes do Envio",module,Magento_Shipping
 Origin,Origem,module,Magento_Shipping
 Country,País,module,Magento_Shipping
 Region/State,Região/estado,module,Magento_Shipping
