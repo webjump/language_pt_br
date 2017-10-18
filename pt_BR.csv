@@ -3677,6 +3677,7 @@ Role,Função,module,Magento_ProductVideo
 "YouTube and Vimeo supported.","YouTube e Vimeo suportados.",module,Magento_ProductVideo
 "Vimeo supported.<br />To add YouTube video, please <a href=""%1"">enter YouTube API Key</a> first.","É suportado o serviço Vimeo.<br />Para adicionar um vídeo do YouTube, por favor <a href=""%1""> Insira primeiro a chave de API do YouTube</a>.",module,Magento_ProductVideo
 "Protocol isn't allowed","Protocolo não é permitido",module,Magento_ProductVideo
+"Disallowed file type.","O tipo de arquivo não é permitido.",module,Magento_ProductVideo
 "Could not get preview image information. Please check your connection and try again.","Não foi possível obter informações de visualização da imagem. Por favor verifique sua conexão e tente novamente.",module,Magento_ProductVideo
 "Add Video","Adicionar vídeo",module,Magento_ProductVideo
 "Browse to find or drag image here","Navegue para encontrar ou arraste a imagem aqui",module,Magento_ProductVideo
@@ -5794,10 +5795,12 @@ Password:,Senha:,module,Magento_Customer
 "If you did not make this request, you can ignore this email and your password will remain the same.","Se você não fez esta solicitação, você pode ignorar este e-mail e sua senha permanecerá a mesma.",module,Magento_Customer
 "Your %store_name password has been changed","Mudou sua senha %store_name",module,Magento_Customer
 "We have received a request to change the following information associated with your account at %store_name: password.","Recebemos um pedido para alterar as informações seguintes, associadas à sua conta no %store_name: email, senha.",module,Magento_Customer
+"Checkout out as a new customer","Efetue a compra como um novo cliente",module,Magento_Customer
 "Creating an account has many benefits:","Cria uma conta tem muitos benefícios:",module,Magento_Customer
 "See order and shipping status","Visualize seu pedido e o status da envio",module,Magento_Customer
 "Track order history","Acompanhe o histórico do pedido",module,Magento_Customer
 "Check out faster","Compra rápida",module,Magento_Customer
+"Checkout out using your account","Efetue a compra usando sua conta",module,Magento_Customer
 "Email Address","Endereço de e-mail",module,Magento_Customer
 "Currency Update Warnings","Avisos de Atualização de Moeda",module,Magento_Directory
 Footer,Rodapé,module,Magento_Email
@@ -6818,6 +6821,7 @@ Currency,Moeda,module,Magento_CurrencySymbol
 "Leave empty for default (15 minutes).","Deixe em branco para o padrão (15 minutos).",module,Magento_Customer
 "Customer Notification","Notificação ao Cliente",module,Magento_Customer
 "Assign a Customer Group","Atribuir um grupo de cliente",module,Magento_Customer
+"Are you sure to assign selected customers to new group?","Você tem certeza que deseja atribuir a clientes selecionados para um novo grupo?",module,Magento_Customer
 "Customer Grid","Tabela de Clientes",module,Magento_Customer
 "Rebuild Customer grid index","Reconstrua índice da tabela de clientes",module,Magento_Customer
 Group,Grupo,module,Magento_Customer
